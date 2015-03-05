@@ -2,7 +2,7 @@ import sys
 import re
 from sklearn import svm
 
-AMINO_ACIDS = "_ACDEFGHIKLMNPQRSTVWY"
+AMINO_ACIDS = "ACDEFGHIKLMNPQRSTVWY"
 
 def main():
 	samples_file, predictions_file = get_args()
@@ -35,8 +35,7 @@ def read_samples(samples_file):
 		error("Couldn't find any valid samples")
 	samples, features, labels = zip(*filtered_samples)
 	max_length = max_sequence_length(features)
-	padded_features = map(lambda sequence: pad_sequence(sequence, max_length), list(features))
-	return samples, padded_features, labels, max_length
+	return samples, list(features), labels, max_length
 
 def parse_samples_line(line):
 	if line.startswith('Epitope'):
@@ -62,19 +61,11 @@ def vectorize_sequence(sequence):
 def max_sequence_length(sequences):
 	return reduce(lambda length, sequence: max(length, len(sequence)), sequences, 0)
 
-def pad_sequence(sequence, max_length):
-	sequence_length = len(sequence)
-	if sequence_length < max_length:
-		return sequence + [0] * (max_length - sequence_length)
-	else:
-		return sequence
-
 def read_predictions(predictions_file, max_length):
 	predictions = parse_lines(predictions_file)
 	vectorized_predictions = map(vectorize_sequence, predictions)
-	padded_predictions = map(lambda sequence: pad_sequence(sequence, max_length), vectorized_predictions)
 	prediction_ids = list(range(0, len(predictions)))
-	return prediction_ids, padded_predictions
+	return prediction_ids, vectorized_predictions
 
 def parse_lines(input_file):
 	lines = open(input_file, 'r').readlines()
