@@ -36,7 +36,25 @@ def get_args():
 	args = sys.argv
 	num_args = len(args)
 	if num_args == 6:
-		return args[1:num_args]
+		samples_file, predictions_file, num_samples, num_iterations, use_qualitative = args[1:6]
+		if num_samples == 'all':
+			num_samples = sys.maxint
+		else:
+			try:
+				num_samples = int(num_samples)
+			except:
+				error("The number of samples must be an integer or 'all'")
+		try:
+			num_iterations = int(num_iterations)
+		except:
+			error('The number of iterations must be an integer')
+		if use_qualitative in ['1', 'y', 'yes']:
+			use_qualitative = True
+		elif use_qualitative in ['0', 'n', 'no']:
+			use_qualitative = False
+		else:
+			error("You must specify whether or not to use qualitative data with '0', 'n', or 'no' for false or '1', 'y', or 'yes' for true")
+		return samples_file, predictions_file, num_samples, num_iterations, use_qualitative
 	else:
 		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <use qualitative?>')
 
