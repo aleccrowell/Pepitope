@@ -9,7 +9,7 @@ def main():
 	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
 	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
 	prediction_ids, prediction_features = read_predictions(predictions_file)
-	
+
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
 	classifier = svm.SVC()
 	classifier.fit(nonamer_features, sample_kds)
@@ -46,7 +46,7 @@ def error(message):
 
 def read_samples(samples_file, num_samples):
 	sample_lines = open(samples_file, 'r').readlines()
-	selected_sample_lines = samples[0:min(num_samples, len(sample_lines)]
+	selected_sample_lines = samples[0:min(num_samples), len(sample_lines)]
 	parsed_samples = map(parse_samples_line, selected_sample_lines)
 	filtered_samples = filter(lambda epitope: epitope is not None, parsed_samples)
 	if not filtered_samples:
@@ -67,9 +67,9 @@ def parse_samples_line(line):
 	sanitized_label = sanitize_label(label)
 	if vectorized_sequence is None or len(vectorized_sequence) < 9 or sanitized_label is None:
 		return None
-	if assay_group is not in ['dissociation constant KD (~IC50)','dissociation constant KD (~EC50)','half maximal inhibitory concentration (IC50)','dissociation constant KD','Competition (or equilibrium binding) approximating KD','half maximal effective concentration (EC50)']:
+	if assay_group not in ['dissociation constant KD (~IC50)','dissociation constant KD (~EC50)','half maximal inhibitory concentration (IC50)','dissociation constant KD','Competition (or equilibrium binding) approximating KD','half maximal effective concentration (EC50)']:
 		return None
-	if units is not in ['nM','IC50 nM','KD nM']:
+	if units not in ['nM','IC50 nM','KD nM']:
 		return None
 	return [epitope_id, vectorized_sequence, sanitized_label, kd]
 
