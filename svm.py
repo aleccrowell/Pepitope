@@ -9,10 +9,9 @@ def main():
 	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
 	sample_ids, sample_features, sample_labels = read_samples(samples_file, num_samples)
 	prediction_ids, prediction_features = read_predictions(predictions_file)
-	
-	classifier = svm.SVC()
-	
+		
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
+	classifier = svm.SVC()
 	classifier.fit(nonamer_features, sample_labels)
 	for i in range(0, num_iterations):
 		for j in range(0, len(sample_features)):
