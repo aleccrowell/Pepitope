@@ -1,18 +1,39 @@
 import sys
 import re
+from random import randint
 from sklearn import svm
 
-AMINO_ACIDS = "ACDEFGHIKLMNPQRSTVWY"
+AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
 	samples_file, predictions_file = get_args()
-	sample_ids, sample_features, sample_labels, max_length = read_samples(samples_file)
-	prediction_ids, prediction_features = read_predictions(predictions_file, max_length)
+	sample_ids, sample_features, sample_labels = read_samples(samples_file)
+	prediction_ids, prediction_features = read_predictions(predictions_file)
 	
 	classifier = svm.SVC()
-	classifier.fit(sample_features, sample_labels)
-	predictions = classifier.predict(prediction_features)
 	
+	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
+	classifier.fit(nonamer_features, sample_labels)
+	for i in range(0, 0):
+		for j in range(0, len(sample_features)):
+			combinations = all_combinations(sample_features[j])
+			predictions = classifier.predict(combinations)
+			zipped = zip(combinations, predictions)
+			correct = filter(lambda z: z[1]==sample_labels[j], zipped)
+			if correct:
+				nonamer_features[j] = random_prediction(correct)
+			else:
+				nonamer_features[j] = random_prediction(zipped)
+		classifier.fit(nonamer_features, sample_labels)
+		print i
+	
+	predictions = []
+	for feature in prediction_features:
+		feature_predictions = classifier.predict(all_combinations(feature))
+		if 'Positive' in feature_predictions:
+			predictions.append('Positive')
+		else:
+			predictions.append('Negative')
 	print_predictions(prediction_ids, predictions)
 
 def get_args():
@@ -34,20 +55,22 @@ def read_samples(samples_file):
 	if not filtered_samples:
 		error("Couldn't find any valid samples")
 	samples, features, labels = zip(*filtered_samples)
-	max_length = max_sequence_length(features)
-	return samples, list(features), labels, max_length
+	return samples, list(features), list(labels)
 
 def parse_samples_line(line):
 	if line.startswith('Epitope'):
 		return None
 	cells = line.split(',')
 	if len(cells) < 55:
-		error('There must be at least 55 columns per sample line, except for two lines of headers')
+		return None
 	epitope_id, epitope_type, sequence, label = map(strip_quotes, (cells[0], cells[10], cells[11], cells[54]))
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
 		return None
 	vectorized_sequence = vectorize_sequence(sequence)
-	return [epitope_id, vectorized_sequence, label]
+	sanitized_label = sanitize_label(label)
+	if vectorized_sequence is None or len(vectorized_sequence) < 9 or sanitized_label is None:
+		return None
+	return [epitope_id, vectorized_sequence, sanitized_label]
 
 def strip_quotes(string):
 	if string[0] == '"' and string[-1] == '"':
@@ -56,12 +79,20 @@ def strip_quotes(string):
 		return string
 
 def vectorize_sequence(sequence):
-	return map(lambda amino_acid: AMINO_ACIDS.index(amino_acid), sequence)
+	if len(filter(lambda amino_acid: amino_acid in AMINO_ACIDS, sequence)) == len(sequence):
+		return map(lambda amino_acid: AMINO_ACIDS.index(amino_acid), sequence)
+	else:
+		return None
 
-def max_sequence_length(sequences):
-	return reduce(lambda length, sequence: max(length, len(sequence)), sequences, 0)
+def sanitize_label(label):
+	if label in ['Positive', 'Positive-Intermediate', 'Positive-High', 'Positive-Low']:
+		return 'Positive'
+	elif label in ['Negative']:
+		return 'Negative'
+	else:
+		return None
 
-def read_predictions(predictions_file, max_length):
+def read_predictions(predictions_file):
 	predictions = parse_lines(predictions_file)
 	vectorized_predictions = map(vectorize_sequence, predictions)
 	prediction_ids = list(range(0, len(predictions)))
@@ -72,6 +103,15 @@ def parse_lines(input_file):
 	nonempty_lines = filter(lambda line: line, lines)
 	parsed_lines = map(lambda line: line.strip(), nonempty_lines)
 	return parsed_lines
+
+def take_nine(sequence, start):
+	return sequence[start:start+9]
+
+def all_combinations(sequence):
+	return map(lambda i: sequence[i:i+9], range(0, len(sequence)-8))
+
+def random_prediction(pairs):
+	return pairs[randint(0, len(pairs)-1)][0]
 
 def print_predictions(prediction_ids, predictions):
 	num_predictions = len(prediction_ids)
