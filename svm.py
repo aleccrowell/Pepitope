@@ -7,24 +7,21 @@ AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
 	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
-	sample_ids, sample_features, sample_labels = read_samples(samples_file, num_samples)
+	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
 	prediction_ids, prediction_features = read_predictions(predictions_file)
-		
+	
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
 	classifier = svm.SVC()
-	classifier.fit(nonamer_features, sample_labels)
+	classifier.fit(nonamer_features, sample_kds)
 	for i in range(0, num_iterations):
 		for j in range(0, len(sample_features)):
 			combinations = all_combinations(sample_features[j])
 			predictions = classifier.predict(combinations)
 			zipped = zip(combinations, predictions)
-			correct = filter(lambda z: z[1]==sample_labels[j], zipped)
-			if correct:
-				nonamer_features[j] = random_prediction(correct)
-			else:
-				nonamer_features[j] = random_prediction(zipped)
-		classifier.fit(nonamer_features, sample_labels)
-	
+			best = filter(lambda z: z[1]==min(predictions), zipped)[0]
+			nonamer_features[j] = best
+		classifier.fit(nonamer_features, sample_kds)
+
 		predictions = []
 		for feature in prediction_features:
 			feature_predictions = classifier.predict(all_combinations(feature))
@@ -54,8 +51,8 @@ def read_samples(samples_file, num_samples):
 	filtered_samples = filter(lambda epitope: epitope is not None, parsed_samples)
 	if not filtered_samples:
 		error("Couldn't find any valid samples")
-	samples, features, labels = zip(*filtered_samples)
-	return list(samples), list(features), list(labels)
+	samples, features, labels, kd = zip(*filtered_samples)
+	return list(samples), list(features), list(labels), list(kd)
 
 def parse_samples_line(line):
 	if line.startswith('Epitope'):
@@ -63,14 +60,18 @@ def parse_samples_line(line):
 	cells = line.split(',')
 	if len(cells) < 55:
 		return None
-	epitope_id, epitope_type, sequence, label = map(strip_quotes, (cells[0], cells[10], cells[11], cells[54]))
+	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[10], cells[11], cells[54], cells[51], cells[52], cells[55]))
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
 		return None
 	vectorized_sequence = vectorize_sequence(sequence)
 	sanitized_label = sanitize_label(label)
 	if vectorized_sequence is None or len(vectorized_sequence) < 9 or sanitized_label is None:
 		return None
-	return [epitope_id, vectorized_sequence, sanitized_label]
+	if assay_group is not in ['dissociation constant KD (~IC50)','dissociation constant KD (~EC50)','half maximal inhibitory concentration (IC50)','dissociation constant KD','Competition (or equilibrium binding) approximating KD','half maximal effective concentration (EC50)']:
+		return None
+	if units is not in ['nM','IC50 nM','KD nM']:
+		return None
+	return [epitope_id, vectorized_sequence, sanitized_label, kd]
 
 def strip_quotes(string):
 	if string[0] == '"' and string[-1] == '"':
