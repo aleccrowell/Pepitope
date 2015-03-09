@@ -6,15 +6,15 @@ from sklearn import svm
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
-	samples_file, predictions_file = get_args()
-	sample_ids, sample_features, sample_labels = read_samples(samples_file)
+	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
+	sample_ids, sample_features, sample_labels = read_samples(samples_file, num_samples)
 	prediction_ids, prediction_features = read_predictions(predictions_file)
 	
 	classifier = svm.SVC()
 	
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
 	classifier.fit(nonamer_features, sample_labels)
-	for i in range(0, 0):
+	for i in range(0, num_iterations):
 		for j in range(0, len(sample_features)):
 			combinations = all_combinations(sample_features[j])
 			predictions = classifier.predict(combinations)
@@ -25,37 +25,38 @@ def main():
 			else:
 				nonamer_features[j] = random_prediction(zipped)
 		classifier.fit(nonamer_features, sample_labels)
-		print i
 	
-	predictions = []
-	for feature in prediction_features:
-		feature_predictions = classifier.predict(all_combinations(feature))
-		if 'Positive' in feature_predictions:
-			predictions.append('Positive')
-		else:
-			predictions.append('Negative')
-	print_predictions(prediction_ids, predictions)
+		predictions = []
+		for feature in prediction_features:
+			feature_predictions = classifier.predict(all_combinations(feature))
+			if 'Positive' in feature_predictions:
+				predictions.append('Positive')
+			else:
+				predictions.append('Negative')
+		print_predictions(prediction_ids, predictions)
+		print
 
 def get_args():
 	args = sys.argv
 	num_args = len(args)
-	if num_args == 3:
+	if num_args == 6:
 		return args[1:num_args]
 	else:
-		error('Usage: python svm.py <samples file> <predictions file>')
+		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <use qualitative?>')
 
 def error(message):
 	print(message)
 	exit(1)
 
-def read_samples(samples_file):
-	samples = open(samples_file, 'r').readlines()
-	parsed_samples = map(parse_samples_line, samples)
+def read_samples(samples_file, num_samples):
+	sample_lines = open(samples_file, 'r').readlines()
+	selected_sample_lines = samples[0:min(num_samples, len(sample_lines)]
+	parsed_samples = map(parse_samples_line, selected_sample_lines)
 	filtered_samples = filter(lambda epitope: epitope is not None, parsed_samples)
 	if not filtered_samples:
 		error("Couldn't find any valid samples")
 	samples, features, labels = zip(*filtered_samples)
-	return samples, list(features), list(labels)
+	return list(samples), list(features), list(labels)
 
 def parse_samples_line(line):
 	if line.startswith('Epitope'):
