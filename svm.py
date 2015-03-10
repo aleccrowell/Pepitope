@@ -11,12 +11,11 @@ import numpy as np
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
-	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
-	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
+	train_file, test_file, num_samples, num_iterations, split_pc = get_args()
 
-
-	for iteration in range(0, int(100/(100-split_pc))):
-		training_features, training_kds, test_features, test_kds = split_data(sample_features, sample_kds, split_pc)
+	for iteration in range(0, 5):
+		training_features, training_kds = read_samples(train_file+str(iteration)+'.txt', num_samples)
+		test_features, test_kds = read_samples(test_file+str(iteration)+'.txt', num_samples)
 		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
 		classifier = svm.SVR()
 		print 'fitting zeroeth'
@@ -47,7 +46,7 @@ def get_args():
 	args = sys.argv
 	num_args = len(args)
 	if num_args == 6:
-		samples_file, predictions_file, num_samples, num_iterations, split_pc = args[1:6]
+		train_file, test_file, num_samples, num_iterations, split_pc = args[1:6]
 		if num_samples == 'all':
 			num_samples = sys.maxint
 		else:
@@ -63,7 +62,7 @@ def get_args():
 			num_iterations = int(num_iterations)
 		except:
 			error('The number of iterations must be an integer')
-		return samples_file, predictions_file, num_samples, num_iterations, split_pc
+		return train_file, test_file, num_samples, num_iterations, split_pc
 	else:
 		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <use qualitative?>')
 
@@ -75,36 +74,17 @@ def read_samples(samples_file, num_samples):
 	sample_lines = open(samples_file, 'r').readlines()
 	selected_sample_lines = sample_lines[0:min(num_samples, len(sample_lines))]
 	parsed_samples = map(parse_samples_line, selected_sample_lines)
-	filtered_samples = filter(lambda epitope: epitope is not None, parsed_samples)
-	if not filtered_samples:
-		error("Couldn't find any valid samples")
-	samples, features, labels, kd = map(list, zip(*filtered_samples))
-	return samples, features, labels, kd
+	features, kd = map(list, zip(*parsed_samples))
+	return features, kd
 
 def parse_samples_line(line):
-	if line.startswith('Epitope'):
-		return None
-	if line.startswith('MHC ligand ID'):
-		return None
-	if line.startswith('Reference ID'):
-		return None
-	cells = line.split(',')
-	if len(cells) < 55:
-		return None
-	if not is_floatable(cells[54]):
-		return None
-	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[9], cells[10], cells[53], cells[50], cells[51], cells[54]))
-	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
-		return None
+	if not line.startswith('human'):
+		return none
+	cells = line.split('\t')
+	print cells
+	sequence, kd = map(strip_quotes, (cells[4], cells[6].strip()))
 	vectorized_sequence = vectorize_sequence(sequence)
-	sanitized_label = sanitize_label(label)
-	if vectorized_sequence is None or len(vectorized_sequence) < 9 or sanitized_label is None:
-		return None
-	if assay_group not in ['dissociation constant KD (~IC50)', 'dissociation constant KD (~EC50)', 'half maximal inhibitory concentration (IC50)', 'dissociation constant KD', 'Competition (or equilibrium binding) approximating KD', 'half maximal effective concentration (EC50)']:
-		return None
-	if units not in ['nM', 'IC50 nM', 'KD nM']:
-		return None
-	return [epitope_id, vectorized_sequence, sanitized_label, float(kd)]
+	return [vectorized_sequence, float(kd)]
 
 def is_floatable(value):
   try:
