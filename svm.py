@@ -5,7 +5,6 @@ from sklearn import svm
 from sklearn.metrics import explained_variance_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
 
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
@@ -16,7 +15,7 @@ def main():
 	#prediction_ids, prediction_features = read_predictions(predictions_file)
 	prediction_features = sample_features
 	prediction_ids = sample_ids
-
+	
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
 	classifier = svm.SVC()
 	print len(sample_features)
@@ -37,7 +36,7 @@ def main():
 		print 'fitting '+str(i+1)
 		classifier.fit(nonamer_features, sample_labels)
 		print 'fitted '+str(i+1)
-
+		
 		predictions = []
 		for feature in prediction_features:
 			feature_predictions = classifier.predict(all_combinations(feature))
@@ -47,8 +46,6 @@ def main():
 				predictions.append('Negative')
 		print len(predictions)
 		print len(sample_labels)
-		#print_predictions(prediction_ids, predictions)
-		#print
 		ascore = accuracy_score(sample_labels,predictions)
 		print ascore
 
