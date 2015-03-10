@@ -1,6 +1,6 @@
 import sys
 import re
-from random import randint
+from random import randint, shuffle
 from sklearn import svm
 from sklearn.metrics import explained_variance_score
 from sklearn.metrics import mean_absolute_error
@@ -10,50 +10,46 @@ import numpy as np
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
-	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
+	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
 	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
 	#prediction_ids, prediction_features = read_predictions(predictions_file)
-	prediction_features = sample_features
-	prediction_ids = sample_ids
 	
-	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
-	classifier = svm.SVC()
-	print len(sample_features)
-	print len(prediction_features)
-	print 'fitting zeroeth'
-	classifier.fit(nonamer_features, sample_labels)
-	print 'fitted zeroeth'
-	for i in range(0, num_iterations):
-		for j in range(0, len(sample_features)):
-			combinations = all_combinations(sample_features[j])
-			predictions = classifier.predict(combinations)
-			zipped = zip(combinations, predictions)
-			correct = filter(lambda z: z[1]==sample_labels[j], zipped)
-        	if correct:
-           		nonamer_features[j] = random_prediction(correct)
-           	else:
-           		nonamer_features[j] = random_prediction(zipped)
-		print 'fitting '+str(i+1)
-		classifier.fit(nonamer_features, sample_labels)
-		print 'fitted '+str(i+1)
+	for iteration in range(0, int(100/(100-split_pc))):
+		training_features, training_labels, test_features, test_labels = split_data(sample_features, sample_labels, split_pc)
+		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
+		classifier = svm.SVC()
+		print 'fitting zeroeth'
+		classifier.fit(nonamer_features, training_labels)
+		print 'fitted zeroeth'
+		for i in range(0, num_iterations):
+			for j in range(0, len(training_features)):
+				combinations = all_combinations(training_features[j])
+				predictions = classifier.predict(combinations)
+				zipped = zip(combinations, predictions)
+				correct = filter(lambda z: z[1]==training_labels[j], zipped)
+		    	if correct:
+		       		nonamer_features[j] = random_prediction(correct)
+		       	else:
+		       		nonamer_features[j] = random_prediction(zipped)
+			print 'fitting '+str(i+1)
+			classifier.fit(nonamer_features, training_labels)
+			print 'fitted '+str(i+1)
 		
-		predictions = []
-		for feature in prediction_features:
-			feature_predictions = classifier.predict(all_combinations(feature))
-			if 'Positive' in feature_predictions:
-				predictions.append('Positive')
-			else:
-				predictions.append('Negative')
-		print len(predictions)
-		print len(sample_labels)
-		ascore = accuracy_score(sample_labels,predictions)
-		print ascore
+			predictions = []
+			for feature in test_features:
+				feature_predictions = classifier.predict(all_combinations(feature))
+				if 'Positive' in feature_predictions:
+					predictions.append('Positive')
+				else:
+					predictions.append('Negative')
+			ascore = accuracy_score(test_labels, predictions)
+			print ascore
 
 def get_args():
 	args = sys.argv
 	num_args = len(args)
 	if num_args == 6:
-		samples_file, predictions_file, num_samples, num_iterations, use_qualitative = args[1:6]
+		samples_file, predictions_file, num_samples, num_iterations, split_pc = args[1:6]
 		if num_samples == 'all':
 			num_samples = sys.maxint
 		else:
@@ -65,13 +61,11 @@ def get_args():
 			num_iterations = int(num_iterations)
 		except:
 			error('The number of iterations must be an integer')
-		if use_qualitative in ['1', 'y', 'yes']:
-			use_qualitative = True
-		elif use_qualitative in ['0', 'n', 'no']:
-			use_qualitative = False
-		else:
-			error("You must specify whether or not to use qualitative data with '0', 'n', or 'no' for false or '1', 'y', or 'yes' for true")
-		return samples_file, predictions_file, num_samples, num_iterations, use_qualitative
+		try:
+			split_pc = int(split_pc)
+		except:
+			error('The percentage to split must be an integer')
+		return samples_file, predictions_file, num_samples, num_iterations, split_pc
 	else:
 		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <use qualitative?>')
 
@@ -99,7 +93,7 @@ def parse_samples_line(line):
 	cells = line.split(',')
 	if len(cells) < 55:
 		return None
-	if not isFloatable(cells[54]):
+	if not is_floatable(cells[54]):
 		return None
 	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[9], cells[10], cells[53], cells[50], cells[51], cells[54]))
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
@@ -114,7 +108,7 @@ def parse_samples_line(line):
 		return None
 	return [epitope_id, vectorized_sequence, sanitized_label, float(kd)]
 
-def isFloatable(value):
+def is_floatable(value):
   try:
     float(value)
     return True
@@ -168,5 +162,14 @@ def print_predictions(prediction_ids, predictions):
 		error('There must be the same number of prediction IDs as predictions')
 	for i in range(0, num_predictions):
 		print(str(prediction_ids[i]) + ': ' + str(predictions[i]))
+
+def split_data(sample_features, sample_labels, split_pc):
+	zipped = zip(sample_features, sample_labels)
+	shuffle(zipped)
+	divider = int(split_pc*len(zipped)/100)
+	training, test = zipped[:divider], zipped[divider:]
+	training_features, training_labels = zip(*training)
+	test_features, test_labels = zip(*test)
+	return training_features, training_labels, test_features, test_labels
 
 main()
