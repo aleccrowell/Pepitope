@@ -13,46 +13,44 @@ AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 def main():
 	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
 	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
-	prediction_ids, prediction_features = read_predictions(predictions_file)
+	#prediction_ids, prediction_features = read_predictions(predictions_file)
 	prediction_features = sample_features
+	prediction_ids = sample_ids
 
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
-	classifier = svm.SVR()
+	classifier = svm.SVC()
+	print len(sample_features)
+	print len(prediction_features)
 	print 'fitting zeroeth'
-	classifier.fit(nonamer_features, sample_kds)
+	classifier.fit(nonamer_features, sample_labels)
 	print 'fitted zeroeth'
 	for i in range(0, num_iterations):
 		for j in range(0, len(sample_features)):
 			combinations = all_combinations(sample_features[j])
 			predictions = classifier.predict(combinations)
 			zipped = zip(combinations, predictions)
-			best = filter(lambda z: z[1]==min(predictions), zipped)[0]
-			nonamer_features[j] = best[0]
-		print 'fitting '+str(i)
-		classifier.fit(nonamer_features, sample_kds)
-		print 'fitted '+str(i)
+			correct = filter(lambda z: z[1]==sample_labels[j], zipped)
+        	if correct:
+           		nonamer_features[j] = random_prediction(correct)
+           	else:
+           		nonamer_features[j] = random_prediction(zipped)
+		print 'fitting '+str(i+1)
+		classifier.fit(nonamer_features, sample_labels)
+		print 'fitted '+str(i+1)
 
 		predictions = []
-		non_pred = []
 		for feature in prediction_features:
-			pred_combo = all_combinations(feature)
-			feature_predictions = classifier.predict(pred_combo)
-			pred_zip = zip(pred_combo,feature_predictions)
-			best = filter(lambda z: z[1]==min(feature_predictions), pred_zip)[0]
-			predictions.append(min(feature_predictions))
-			non_pred.append(best[0])
+			feature_predictions = classifier.predict(all_combinations(feature))
+			if 'Positive' in feature_predictions:
+				predictions.append('Positive')
+			else:
+				predictions.append('Negative')
+		print len(predictions)
+		print len(sample_labels)
 		#print_predictions(prediction_ids, predictions)
 		#print
-		evs = explained_variance_score(sample_kds,predictions)
-		mae = mean_absolute_error(sample_kds,predictions)
-		mlb = MultiLabelBinarizer()
-		bnf = mlb.fit_transform(nonamer_features)
-		mlb = MultiLabelBinarizer()
-		bnp = mlb.fit_transform(non_pred)
-		pas = accuracy_score(bnf,bnp)
-		print evs
-		print mae
-		print pas
+		ascore = accuracy_score(sample_labels,predictions)
+		print ascore
 
 def get_args():
 	args = sys.argv
