@@ -2,6 +2,11 @@ import sys
 import re
 from random import randint
 from sklearn import svm
+from sklearn.metrics import explained_variance_score
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import MultiLabelBinarizer
+import numpy as np
 
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
@@ -9,6 +14,7 @@ def main():
 	samples_file, predictions_file, num_samples, num_iterations, use_qualitative = get_args()
 	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
 	prediction_ids, prediction_features = read_predictions(predictions_file)
+	prediction_features = sample_features
 
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
 	classifier = svm.SVR()
@@ -27,11 +33,26 @@ def main():
 		print 'fitted '+str(i)
 
 		predictions = []
+		non_pred = []
 		for feature in prediction_features:
-			feature_predictions = classifier.predict(all_combinations(feature))
+			pred_combo = all_combinations(feature)
+			feature_predictions = classifier.predict(pred_combo)
+			pred_zip = zip(pred_combo,feature_predictions)
+			best = filter(lambda z: z[1]==min(feature_predictions), pred_zip)[0]
 			predictions.append(min(feature_predictions))
-		print_predictions(prediction_ids, predictions)
-		print
+			non_pred.append(best[0])
+		#print_predictions(prediction_ids, predictions)
+		#print
+		evs = explained_variance_score(sample_kds,predictions)
+		mae = mean_absolute_error(sample_kds,predictions)
+		mlb = MultiLabelBinarizer()
+		bnf = mlb.fit_transform(nonamer_features)
+		mlb = MultiLabelBinarizer()
+		bnp = mlb.fit_transform(non_pred)
+		pas = accuracy_score(bnf,bnp)
+		print evs
+		print mae
+		print pas
 
 def get_args():
 	args = sys.argv
@@ -96,7 +117,7 @@ def parse_samples_line(line):
 		return None
 	if units not in ['nM', 'IC50 nM', 'KD nM']:
 		return None
-	return [epitope_id, vectorized_sequence, sanitized_label, kd]
+	return [epitope_id, vectorized_sequence, sanitized_label, float(kd)]
 
 def isFloatable(value):
   try:
