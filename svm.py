@@ -11,24 +11,25 @@ def main():
 	prediction_ids, prediction_features = read_predictions(predictions_file)
 
 	nonamer_features = map(lambda sequence: take_nine(sequence, 0), sample_features)
-	classifier = svm.SVC()
+	classifier = svm.SVR()
+	print 'fitting zeroeth'
 	classifier.fit(nonamer_features, sample_kds)
+	print 'fitted zeroeth'
 	for i in range(0, num_iterations):
 		for j in range(0, len(sample_features)):
 			combinations = all_combinations(sample_features[j])
 			predictions = classifier.predict(combinations)
 			zipped = zip(combinations, predictions)
 			best = filter(lambda z: z[1]==min(predictions), zipped)[0]
-			nonamer_features[j] = best
+			nonamer_features[j] = best[0]
+		print 'fitting '+str(i)
 		classifier.fit(nonamer_features, sample_kds)
+		print 'fitted '+str(i)
 
 		predictions = []
 		for feature in prediction_features:
 			feature_predictions = classifier.predict(all_combinations(feature))
-			if 'Positive' in feature_predictions:
-				predictions.append('Positive')
-			else:
-				predictions.append('Negative')
+			predictions.append(min(feature_predictions))
 		print_predictions(prediction_ids, predictions)
 		print
 
@@ -75,10 +76,16 @@ def read_samples(samples_file, num_samples):
 def parse_samples_line(line):
 	if line.startswith('Epitope'):
 		return None
+	if line.startswith('MHC ligand ID'):
+		return None
+	if line.startswith('Reference ID'):
+		return None
 	cells = line.split(',')
 	if len(cells) < 55:
 		return None
-	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[10], cells[11], cells[54], cells[51], cells[52], cells[55]))
+	if not isFloatable(cells[54]):
+		return None
+	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[9], cells[10], cells[53], cells[50], cells[51], cells[54]))
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
 		return None
 	vectorized_sequence = vectorize_sequence(sequence)
@@ -91,8 +98,15 @@ def parse_samples_line(line):
 		return None
 	return [epitope_id, vectorized_sequence, sanitized_label, kd]
 
+def isFloatable(value):
+  try:
+    float(value)
+    return True
+  except ValueError:
+    return False
+
 def strip_quotes(string):
-	if string[0] == '"' and string[-1] == '"':
+	if type(string) == 'str' and string[0] == '"' and string[-1] == '"':
 		return string[1:-1]
 	else:
 		return string
@@ -137,6 +151,6 @@ def print_predictions(prediction_ids, predictions):
 	if num_predictions != len(predictions):
 		error('There must be the same number of prediction IDs as predictions')
 	for i in range(0, num_predictions):
-		print(str(prediction_ids[i]) + ': ' + predictions[i])
+		print(str(prediction_ids[i]) + ': ' + str(predictions[i]))
 
 main()
