@@ -1,7 +1,7 @@
 import sys
 import re
 from random import randint, shuffle
-from sklearn import svm
+from sklearn import svm, preprocessing
 from sklearn.metrics import explained_variance_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import accuracy_score
@@ -16,25 +16,32 @@ def main():
 	for iteration in range(0, 5):
 		training_features, training_kds = read_samples(train_file+str(iteration)+'.txt', num_samples)
 		test_features, test_kds = read_samples(test_file+str(iteration)+'.txt', num_samples)
-		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
+		scaler = preprocessing.StandardScaler().fit(training_kds)
+		training_kds = scaler.transform(training_kds)
+		test_kds = scaler.transform(test_kds)
 		classifier = svm.SVR()
+		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
+		enc = preprocessing.OneHotEncoder().fit(nonamer_features)
+		nonamer_features = enc.transform(nonamer_features).toarray()
 		print 'fitting zeroeth'
 		classifier.fit(nonamer_features, training_kds)
 		print 'fitted zeroeth'
 		for i in range(0, num_iterations):
 			for j in range(0, len(training_features)):
 				combinations = all_combinations(training_features[j])
+				combinations = enc.transform(combinations).toarray()
 				predictions = classifier.predict(combinations)
 				zipped = zip(combinations, predictions)
-				best = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
-				nonamer_features[j] = best
+				nonamer_features[j] = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
 			print 'fitting '+str(i+1)
 			classifier.fit(nonamer_features, training_kds)
 			print 'fitted '+str(i+1)
 
 			predictions = []
 			for feature in test_features:
-				feature_predictions = classifier.predict(all_combinations(feature))
+				test_comb = all_combinations(feature)
+				test_comb = enc.transform(test_comb).toarray()
+				feature_predictions = classifier.predict(test_comb)
 				predictions.append(min(feature_predictions))
 			evs = explained_variance_score(test_kds, predictions)
 			mae = mean_absolute_error(test_kds, predictions)
@@ -81,17 +88,11 @@ def parse_samples_line(line):
 	if not line.startswith('human'):
 		return none
 	cells = line.split('\t')
-	print cells
 	sequence, kd = map(strip_quotes, (cells[4], cells[6].strip()))
+	if len(sequence) < 9:
+		return none
 	vectorized_sequence = vectorize_sequence(sequence)
 	return [vectorized_sequence, float(kd)]
-
-def is_floatable(value):
-  try:
-    float(value)
-    return True
-  except ValueError:
-    return False
 
 def strip_quotes(string):
 	if type(string) == 'str' and string[0] == '"' and string[-1] == '"':
