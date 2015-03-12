@@ -19,17 +19,23 @@ def main():
 		scaler = preprocessing.StandardScaler().fit(training_kds)
 		training_kds = scaler.transform(training_kds)
 		test_kds = scaler.transform(test_kds)
-		classifier = svm.SVR()
+		print len(training_features)
+		classifier = svm.SVR(C=1.0, degree=5,epsilon=0.0001, gamma=0.002, kernel='rbf')
 		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
-		enc = preprocessing.OneHotEncoder().fit(nonamer_features)
-		nonamer_features = enc.transform(nonamer_features).toarray()
+		lb = preprocessing.MultiLabelBinarizer().fit(nonamer_features)
+		nonamer_features = lb.transform(nonamer_features)
+		#nonamer_features = sp.lil_matrix(nonamer_features)
+		#enc = preprocessing.OneHotEncoder().fit(nonamer_features)
+		#nonamer_features = enc.transform(nonamer_features).toarray()
 		print 'fitting zeroeth'
 		classifier.fit(nonamer_features, training_kds)
 		print 'fitted zeroeth'
 		for i in range(0, num_iterations):
 			for j in range(0, len(training_features)):
 				combinations = all_combinations(training_features[j])
-				combinations = enc.transform(combinations).toarray()
+				#combinations = enc.transform(combinations).toarray()
+				combinations = lb.transform(combinations)
+				#combinations = sp.lil_matrix(combinations)
 				predictions = classifier.predict(combinations)
 				zipped = zip(combinations, predictions)
 				nonamer_features[j] = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
@@ -40,7 +46,9 @@ def main():
 			predictions = []
 			for feature in test_features:
 				test_comb = all_combinations(feature)
-				test_comb = enc.transform(test_comb).toarray()
+				#test_comb = enc.transform(test_comb).toarray()
+				test_comb = lb.transform(test_comb)
+				#test_comb = sp.lil_matrix(test_comb)
 				feature_predictions = classifier.predict(test_comb)
 				predictions.append(min(feature_predictions))
 			evs = explained_variance_score(test_kds, predictions)
