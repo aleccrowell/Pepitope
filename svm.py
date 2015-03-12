@@ -5,7 +5,6 @@ from sklearn import svm
 from sklearn.metrics import explained_variance_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
 
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
@@ -13,15 +12,14 @@ AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 def main():
 	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
 	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
-
-
+	
 	for iteration in range(0, int(100/(100-split_pc))):
 		training_features, training_kds, test_features, test_kds = split_data(sample_features, sample_kds, split_pc)
 		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
 		classifier = svm.SVR()
-		print 'fitting zeroeth'
+		print 'fitting 0'
 		classifier.fit(nonamer_features, training_kds)
-		print 'fitted zeroeth'
+		print 'fitted 0'
 		for i in range(0, num_iterations):
 			for j in range(0, len(training_features)):
 				combinations = all_combinations(training_features[j])
@@ -32,7 +30,7 @@ def main():
 			print 'fitting '+str(i+1)
 			classifier.fit(nonamer_features, training_kds)
 			print 'fitted '+str(i+1)
-
+			
 			predictions = []
 			for feature in test_features:
 				feature_predictions = classifier.predict(all_combinations(feature))
@@ -41,7 +39,6 @@ def main():
 			mae = mean_absolute_error(test_kds, predictions)
 			print evs
 			print mae
-
 
 def get_args():
 	args = sys.argv
@@ -82,16 +79,10 @@ def read_samples(samples_file, num_samples):
 	return samples, features, labels, kd
 
 def parse_samples_line(line):
-	if line.startswith('Epitope'):
-		return None
-	if line.startswith('MHC ligand ID'):
-		return None
-	if line.startswith('Reference ID'):
+	if line.startswith('Epitope') or line.startswith('MHC ligand ID') or line.startswith('Reference ID'):
 		return None
 	cells = line.split(',')
-	if len(cells) < 55:
-		return None
-	if not is_floatable(cells[54]):
+	if len(cells) < 55 or not is_floatable(cells[54]):
 		return None
 	epitope_id, epitope_type, sequence, label, assay_group, units, kd = map(strip_quotes, (cells[0], cells[9], cells[10], cells[53], cells[50], cells[51], cells[54]))
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
@@ -107,11 +98,11 @@ def parse_samples_line(line):
 	return [epitope_id, vectorized_sequence, sanitized_label, float(kd)]
 
 def is_floatable(value):
-  try:
-    float(value)
-    return True
-  except ValueError:
-    return False
+	try:
+		float(value)
+		return True
+	except ValueError:
+		return False
 
 def strip_quotes(string):
 	if type(string) == 'str' and string[0] == '"' and string[-1] == '"':
