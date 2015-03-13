@@ -2,9 +2,7 @@ import sys
 import re
 from random import randint, shuffle
 from sklearn import svm
-from sklearn.metrics import explained_variance_score
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import roc_auc_score
 import numpy as np
 
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
@@ -31,14 +29,13 @@ def main():
 			classifier.fit(nonamer_features, training_kds)
 			print 'fitted '+str(i+1)
 			
-			predictions = []
+			"""predictions = []
 			for feature in test_features:
 				feature_predictions = classifier.predict(all_combinations(feature))
-				predictions.append(min(feature_predictions))
-			evs = explained_variance_score(test_kds, predictions)
-			mae = mean_absolute_error(test_kds, predictions)
-			print evs
-			print mae
+				predictions.append(min(feature_predictions))"""
+			
+			print 'roc score '+str(roc_auc_score(test_kds, classifier.predict_proba(), average='micro'))
+			
 
 def get_args():
 	args = sys.argv
