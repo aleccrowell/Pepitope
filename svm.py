@@ -11,9 +11,9 @@ AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
 	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
-	sample_ids, sample_features, sample_labels, sample_kds = read_samples(samples_file, num_samples)
+	sample_ids, sample_features, sample_kds = read_samples(samples_file, num_samples)
 	
-	for iteration in range(0, int(100/(100-split_pc))):
+	for fold in range(0, int(100/(100-split_pc))):
 		training_features, training_kds, test_features, test_kds = split_data(sample_features, sample_kds, split_pc)
 		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
 		classifier = svm.SVR()
@@ -54,6 +54,8 @@ def get_args():
 				error("The number of samples must be an integer or 'all'")
 		try:
 			split_pc = int(split_pc)
+			if split_pc <= 0 or split_pc >= 100:
+				error('The percentage to split must be an integer greater than 0 and less than 100')
 		except:
 			error('The percentage to split must be an integer')
 		try:
@@ -62,7 +64,7 @@ def get_args():
 			error('The number of iterations must be an integer')
 		return samples_file, predictions_file, num_samples, num_iterations, split_pc
 	else:
-		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <use qualitative?>')
+		error('Usage: python svm.py <samples file> <predictions file> <number of samples> <number of iterations> <percent of data to train>')
 
 def error(message):
 	print(message)
@@ -71,14 +73,17 @@ def error(message):
 def read_samples(samples_file, num_samples):
 	sample_lines = open(samples_file, 'r').readlines()
 	selected_sample_lines = sample_lines[0:min(num_samples, len(sample_lines))]
-	parsed_samples = map(parse_samples_line, selected_sample_lines)
+	if samples_file.endswith(".csv"):
+		parsed_samples = map(parse_iedb_line, selected_sample_lines)
+	elif samples_file.endswith(".tab"):
+		parsed_samples = map(parse_rta_line, selected_sample_lines)
 	filtered_samples = filter(lambda epitope: epitope is not None, parsed_samples)
 	if not filtered_samples:
 		error("Couldn't find any valid samples")
-	samples, features, labels, kd = map(list, zip(*filtered_samples))
-	return samples, features, labels, kd
+	samples, features, kd = map(list, zip(*filtered_samples))
+	return samples, features, kd
 
-def parse_samples_line(line):
+def parse_iedb_line(line):
 	if line.startswith('Epitope') or line.startswith('MHC ligand ID') or line.startswith('Reference ID'):
 		return None
 	cells = line.split(',')
@@ -88,14 +93,14 @@ def parse_samples_line(line):
 	if re.search('.* peptide', epitope_type) is None or not sequence.isalpha():
 		return None
 	vectorized_sequence = vectorize_sequence(sequence)
-	sanitized_label = sanitize_label(label)
+	sanitized_label = sanitize_label(label) # not currently used
 	if vectorized_sequence is None or len(vectorized_sequence) < 9 or sanitized_label is None:
 		return None
 	if assay_group not in ['dissociation constant KD (~IC50)', 'dissociation constant KD (~EC50)', 'half maximal inhibitory concentration (IC50)', 'dissociation constant KD', 'Competition (or equilibrium binding) approximating KD', 'half maximal effective concentration (EC50)']:
 		return None
 	if units not in ['nM', 'IC50 nM', 'KD nM']:
 		return None
-	return [epitope_id, vectorized_sequence, sanitized_label, float(kd)]
+	return [epitope_id, vectorized_sequence, float(kd)]
 
 def is_floatable(value):
 	try:
@@ -121,6 +126,16 @@ def sanitize_label(label):
 		return 'Positive'
 	elif label in ['Negative']:
 		return 'Negative'
+	else:
+		return None
+
+def parse_rta_line(line):
+	cells = line.split("\t")
+	if len(cells) == 5:
+		epitope_id = cells[3]
+		vectorized_sequence = vectorize_sequence(cells[2])
+		kd = float(cells[4])
+		return [epitope_id, vectorized_sequence, kd]
 	else:
 		return None
 
