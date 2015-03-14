@@ -1,0 +1,1940 @@
+MHC ligand ID,Allele Name,Assay Group,Description,Qualitative Measure,Quantitative measurement
+3888,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGPLTVNEKRRLKLI,Positive-Low,6666.0
+3904,HLA-DRB1*11:01,dissociation constant KD (~IC50),RHYLHTLWKAGILYK,Positive-High,42.0
+3934,HLA-DRB1*11:01,dissociation constant KD (~IC50),LQSLTNLLSSNLSWL,Positive-Intermediate,303.0
+3949,HLA-DRB1*11:01,dissociation constant KD (~IC50),SSNLSWLSLDVSAAF,Positive-Low,4923.0
+3964,HLA-DRB1*11:01,dissociation constant KD (~IC50),LHLYSHPIILGFRKI,Positive-Intermediate,492.0
+3979,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQCFRKLPVNRPIDW,Positive-Low,1617.0
+3994,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQAFTFSPTYKAFLC,Positive-High,82.0
+4024,HLA-DRB1*11:01,dissociation constant KD (~IC50),AANWILRGTSFVYVP,Positive-Low,1520.0
+7288,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPIELNATLSAVA,Positive-Low,2000.0
+7296,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PRYISLIPVNVVAD,Positive-Intermediate,400.0
+7304,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VAFRAGLVMEAGSKVT,Positive-Low,1000.0
+7319,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ADLVPTATLLDTY,Negative,100000.0
+7327,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EGVVLLLVGALVL,Positive-Low,18000.0
+200067,HLA-DRB1*11:01,dissociation constant KD (~IC50),APYHFDLSGHAFGSMAKKGE,Positive-Intermediate,1000.0
+200079,HLA-DRB1*11:01,dissociation constant KD (~IC50),DALESIMTTKSVSFR,Positive-Low,5000.0
+200086,HLA-DRB1*11:01,dissociation constant KD (~IC50),DIEKKIAKMEKASSVFNVVNS,Positive-Intermediate,154.0
+200092,HLA-DRB1*11:01,dissociation constant KD (~IC50),DNVLDHLTGRSC,Positive-Low,10000.0
+200098,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTPYLDITYHFVMQRLPL,Positive-Low,10000.0
+200104,HLA-DRB1*11:01,dissociation constant KD (~IC50),EFVVEFDLPGIKA,Negative,20000.0
+200111,HLA-DRB1*11:01,dissociation constant KD (~IC50),ESWGAVWRIDTPDKLTGPFT,Positive-Intermediate,444.0
+200117,HLA-DRB1*11:01,dissociation constant KD (~IC50),EVWREEAYHAADIKD,Positive-Low,10000.0
+200123,HLA-DRB1*11:01,dissociation constant KD (~IC50),FNNFTVSFWLRVPKVSASHLEQY,Positive-High,8.3
+200130,HLA-DRB1*11:01,dissociation constant KD (~IC50),GDVVAVVDIKEKGKDKWIELK,Negative,20000.0
+200145,HLA-DRB1*11:01,dissociation constant KD (~IC50),NGQIGNDPNRDIL,Negative,4000.0
+200158,HLA-DRB1*11:01,dissociation constant KD (~IC50),PHHTALRQAILCWGELMTLA,Positive-Intermediate,263.0
+200164,HLA-DRB1*11:01,dissociation constant KD (~IC50),PKYVKQNTLKLAT,Positive-Intermediate,118.0
+200170,HLA-DRB1*11:01,dissociation constant KD (~IC50),PLGFFPDHQLDPAFGANSNNPDWDFNP,Negative,20000.0
+200176,HLA-DRB1*11:01,dissociation constant KD (~IC50),PLKAEIAQRLEDV,Negative,10000.0
+200202,HLA-DRB1*11:01,dissociation constant KD (~IC50),QYIKANSKFIGITE,Positive-High,20.0
+200236,HLA-DRB1*11:01,dissociation constant KD (~IC50),SCFEIKCTKPESCSGEAVTV,Negative,20000.0
+200243,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDAQGTLSKIFKLGGRDSRS,Positive-High,18.0
+200249,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGSDTITLPCRIKQFINMWQE,Positive-Intermediate,909.0
+200255,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKLNFYDLLRAKL,Negative,3300.0
+200261,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKTIAYDEEARR,Negative,20000.0
+200267,HLA-DRB1*11:01,dissociation constant KD (~IC50),YLDNIKDNVGKMED,Negative,20000.0
+200279,HLA-DRB1*11:01,dissociation constant KD (~IC50),YLLEQKRGRVDNYCRHNYGV,Negative,20000.0
+200285,HLA-DRB1*11:01,dissociation constant KD (~IC50),YTLLQAAPALDKLKLTGDEATGANI,Positive-Intermediate,200.0
+200296,HLA-DRB1*11:01,dissociation constant KD (~IC50),ADLIAYLKQATAK,Negative,19375.0
+200297,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALELFRKDIAAKYKELGY,Negative,20000.0
+200301,HLA-DRB1*11:01,dissociation constant KD (~IC50),ANSKFIGITELKK,Negative,160000.0
+200304,HLA-DRB1*11:01,dissociation constant KD (~IC50),AYLKQATAK,Negative,620000.0
+200305,HLA-DRB1*11:01,dissociation constant KD (~IC50),DIAAKYKELGY,Negative,88000.0
+200309,HLA-DRB1*11:01,dissociation constant KD (~IC50),DLIAYLKQATAK,Negative,13478.3
+200310,HLA-DRB1*11:01,dissociation constant KD (~IC50),ELFRKDIAAKYKELGY,Negative,73333.3
+200315,HLA-DRB1*11:01,dissociation constant KD (~IC50),ERADLIAYLKQATAK,Negative,13777.8
+200316,HLA-DRB1*11:01,dissociation constant KD (~IC50),FLRRIRPKLK,Negative,79090.9
+200318,HLA-DRB1*11:01,dissociation constant KD (~IC50),FRKDIAAKYKELGY,Negative,48888.9
+200322,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQN,Negative,500000.0
+200325,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTL,Negative,500000.0
+200328,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTLK,Negative,500000.0
+200331,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTLKL,Negative,500000.0
+200334,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTLKLA,Positive-Low,5555.56
+200337,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTLKLAT,Positive-Low,1219.51
+200340,HLA-DRB1*11:01,dissociation constant KD (~IC50),GACPKYVKQNTLKLATGMR,Positive-Intermediate,961.54
+200342,HLA-DRB1*11:01,dissociation constant KD (~IC50),GFLRRIRPKLK,Negative,17400.0
+200345,HLA-DRB1*11:01,dissociation constant KD (~IC50),IAYLKQATAK,Negative,206667.0
+200347,HLA-DRB1*11:01,dissociation constant KD (~IC50),IKANSKFIGITELKK,Positive-Low,2711.86
+200350,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANS,Negative,160000.0
+200355,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANSKF,Negative,160000.0
+200360,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANSKFIG,Negative,160000.0
+200363,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANSKFIGI,Positive-Low,2711.86
+200366,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANSKFIGITE,Positive-Low,1142.86
+200369,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILMQYIKANSKFIGITELKK,Positive-Low,2051.28
+200372,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYL,Negative,620000.0
+200374,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLK,Negative,620000.0
+200376,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLKQ,Negative,620000.0
+200378,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLKQA,Negative,620000.0
+200380,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLKQAT,Negative,620000.0
+200382,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLKQATA,Negative,620000.0
+200384,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAERADLIAYLKQATAK,Positive-Low,6200.0
+200388,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQNTLKLATGMR,Negative,500000.0
+200391,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYVKQNTLKLATGMR,Positive-Low,9803.92
+200393,HLA-DRB1*11:01,dissociation constant KD (~IC50),LFRKDIAAKYKELGY,Negative,36666.7
+200397,HLA-DRB1*11:01,dissociation constant KD (~IC50),LIAYLKQATAK,Negative,24800.0
+200398,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRRIRPKLK,Negative,116000.0
+200400,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIA,Negative,48888.9
+200403,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIAAK,Positive-Low,8000.0
+200406,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIAAKY,Positive-Low,5714.29
+200409,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIAAKYK,Positive-Low,9777.78
+200412,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIAAKYKELGY,Positive-Low,8979.59
+200416,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKALELFRKDIAAKYKELGYGK,Positive-Low,4400.0
+200420,HLA-DRB1*11:01,dissociation constant KD (~IC50),NTLKLATGMR,Negative,500000.0
+200424,HLA-DRB1*11:01,dissociation constant KD (~IC50),PKYVKQNTLKLATGMR,Positive-Low,2777.78
+200428,HLA-DRB1*11:01,dissociation constant KD (~IC50),QYIKANSKFIGITE,Positive-Low,1600.0
+200434,HLA-DRB1*11:01,dissociation constant KD (~IC50),QYIKANSKFIGITELKK,Positive-Intermediate,1000.0
+200436,HLA-DRB1*11:01,dissociation constant KD (~IC50),RIRPKLK,Negative,348000.0
+200438,HLA-DRB1*11:01,dissociation constant KD (~IC50),RKDIAAKYKELGY,Negative,73333.3
+200441,HLA-DRB1*11:01,dissociation constant KD (~IC50),RRIRPKLK,Negative,348000.0
+200447,HLA-DRB1*11:01,dissociation constant KD (~IC50),VKQNTLKLATGMR,Negative,33333.3
+200449,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGGFLRRI,Negative,348000.0
+200451,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGGFLRRIR,Negative,348000.0
+200453,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGGFLRRIRP,Negative,348000.0
+200455,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGGFLRRIRPK,Negative,69600.0
+200458,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGGFLRRIRPKLK,Negative,17400.0
+200462,HLA-DRB1*11:01,dissociation constant KD (~IC50),YIKANSKFIGITE,Positive-Low,1230.77
+200465,HLA-DRB1*11:01,dissociation constant KD (~IC50),YLKQATAK,Negative,620000.0
+200467,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVKQNTLKLATGMR,Negative,20833.3
+202285,HLA-DRB1*11:01,dissociation constant KD (~IC50),ACRVKHDSMAEPKTVY,Negative,46000.0
+202291,HLA-DRB1*11:01,dissociation constant KD (~IC50),ACRVNHVTLSQPKIVK,Negative,46000.0
+202299,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASMAEPKTVYWDRDM,Negative,46000.0
+202305,HLA-DRB1*11:01,dissociation constant KD (~IC50),CYVSGFHPSDIEVDLL,Negative,46000.0
+202311,HLA-DRB1*11:01,dissociation constant KD (~IC50),CYVTQFHPPHIEIQML,Negative,46000.0
+202317,HLA-DRB1*11:01,dissociation constant KD (~IC50),GERIEKVEHSDLSFSY,Negative,46000.0
+202323,HLA-DRB1*11:01,dissociation constant KD (~IC50),GKKIPKVEMSDMSFSK,Negative,46000.0
+202329,HLA-DRB1*11:01,dissociation constant KD (~IC50),HPAENGKSNFLNCYVS,Negative,46000.0
+202335,HLA-DRB1*11:01,dissociation constant KD (~IC50),HPPENGKPNILNCYVT,Negative,46000.0
+202341,HLA-DRB1*11:01,dissociation constant KD (~IC50),HPPHIEIQMLKNGKKI,Positive-Intermediate,807.0
+202347,HLA-DRB1*11:01,dissociation constant KD (~IC50),HPSDIEVDLLKDGERI,Negative,46000.0
+202353,HLA-DRB1*11:01,dissociation constant KD (~IC50),HTEFTPTETDTYACRV,Negative,46000.0
+202359,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQKTPQIQVYSRHPPE,Positive-Low,1917.0
+202365,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQMLKNGKKIPKVEMS,Positive-Low,1704.0
+202371,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQRTPKIQVYSRHPAE,Positive-Low,4600.0
+202377,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQVYSRHPAENGKSNF,Positive-Low,9200.0
+202383,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQVYSRHPPENGKPNI,Negative,46000.0
+202389,HLA-DRB1*11:01,dissociation constant KD (~IC50),KPNILNCYVTQFHPPH,Negative,46000.0
+202395,HLA-DRB1*11:01,dissociation constant KD (~IC50),KSNFLNCYVSGFHPSD,Negative,11500.0
+202401,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFSKDWSFYILAHTEF,Positive-Low,6571.0
+202407,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFSNDWSFYLLYYTEF,Negative,46000.0
+202413,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFYILAHTEFTPTETD,Negative,46000.0
+202419,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFYLLYYTEFTPTEKD,Negative,46000.0
+202425,HLA-DRB1*11:01,dissociation constant KD (~IC50),TEKDEYACRVNHVTLS,Negative,46000.0
+202431,HLA-DRB1*11:01,dissociation constant KD (~IC50),TETDTYACRVKHDSMA,Negative,46000.0
+202437,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDLLKDGERIEKVEHS,Negative,46000.0
+202443,HLA-DRB1*11:01,dissociation constant KD (~IC50),VEHSDLSFSNDWSFYL,Negative,46000.0
+202449,HLA-DRB1*11:01,dissociation constant KD (~IC50),VEMSDMSFSKDWSFYI,Negative,46000.0
+202459,HLA-DRB1*11:01,dissociation constant KD (~IC50),YTEFTPTEKDEYACRV,Negative,46000.0
+203634,HLA-DRB1*11:01,dissociation constant KD (~IC50),AKEKPQEGTVVAVGP,Negative,10000.0
+203639,HLA-DRB1*11:01,dissociation constant KD (~IC50),DEDGAKRIPVDVSEG,Negative,10000.0
+203644,HLA-DRB1*11:01,dissociation constant KD (~IC50),DIVIYSKYGGTEIKY,Negative,10000.0
+203649,HLA-DRB1*11:01,dissociation constant KD (~IC50),EAETMTPSGLVIPEN,Negative,10000.0
+203654,HLA-DRB1*11:01,dissociation constant KD (~IC50),EDKILVQAGEAETMT,Negative,10000.0
+203659,HLA-DRB1*11:01,dissociation constant KD (~IC50),EGTVVAVGPGRWDED,Negative,10000.0
+203664,HLA-DRB1*11:01,dissociation constant KD (~IC50),EYLILSARDVLAVVS,Positive-Low,8571.0
+203669,HLA-DRB1*11:01,dissociation constant KD (~IC50),GAKRIPVDVSEGDIV,Negative,10000.0
+203674,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRWDEDGAKRIPVDV,Negative,10000.0
+203679,HLA-DRB1*11:01,dissociation constant KD (~IC50),GTEIKYNGEEYLILS,Negative,10000.0
+203684,HLA-DRB1*11:01,dissociation constant KD (~IC50),IKYNGEEYLILSARD,Positive-Low,3571.0
+203689,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILVQAGEAETMTPSG,Negative,10000.0
+203694,HLA-DRB1*11:01,dissociation constant KD (~IC50),IYSKYGGTEIKYNGE,Negative,10000.0
+203699,HLA-DRB1*11:01,dissociation constant KD (~IC50),KPLEDKILVQAGEAE,Negative,10000.0
+203704,HLA-DRB1*11:01,dissociation constant KD (~IC50),KPQEGTVVAVGPGRW,Negative,10000.0
+203709,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYGGTEIKYNGEEYL,Negative,10000.0
+203714,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVIPENAKEKPQEGT,Negative,10000.0
+203719,HLA-DRB1*11:01,dissociation constant KD (~IC50),NGEEYLILSARDVLA,Positive-Low,5479.0
+203724,HLA-DRB1*11:01,dissociation constant KD (~IC50),PENAKEKPQEGTVVA,Negative,10000.0
+203729,HLA-DRB1*11:01,dissociation constant KD (~IC50),PSGLVIPENAKEKPQ,Negative,10000.0
+203734,HLA-DRB1*11:01,dissociation constant KD (~IC50),QAGEAETMTPSGLVI,Negative,10000.0
+203739,HLA-DRB1*11:01,dissociation constant KD (~IC50),RIPVDVSEGDIVIYS,Negative,10000.0
+203744,HLA-DRB1*11:01,dissociation constant KD (~IC50),SEGDIVIYSKYGGTE,Positive-Low,3478.0
+203749,HLA-DRB1*11:01,dissociation constant KD (~IC50),TMTPSGLVIPENAKE,Negative,10000.0
+203754,HLA-DRB1*11:01,dissociation constant KD (~IC50),VAKVKIKPLEDKILV,Positive-Low,3315.0
+203759,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDVSEGDIVIYSKYG,Negative,10000.0
+203764,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGPGRWDEDGAKRIP,Negative,10000.0
+203769,HLA-DRB1*11:01,dissociation constant KD (~IC50),VKIKPLEDKILVQAG,Positive-Low,2286.0
+203774,HLA-DRB1*11:01,dissociation constant KD (~IC50),VVAVGPGRWDEDGAK,Negative,10000.0
+203779,HLA-DRB1*11:01,dissociation constant KD (~IC50),YLILSARDVLAVVSK,Negative,10000.0
+203817,HLA-DRB1*11:01,dissociation constant KD (~IC50),GYKVLVLNPSVAAT,Positive-High,75.0
+204715,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGLLGNVSTVLLGGV,Negative,10000.0
+204727,HLA-DRB1*11:01,dissociation constant KD (~IC50),EPQGSTYAASSATSVD,Negative,1538.0
+204739,HLA-DRB1*11:01,dissociation constant KD (~IC50),FATCFLIPLTSQFFLP,Negative,10000.0
+204751,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLAYKFVVPGAATPY,Positive-High,11.0
+204763,HLA-DRB1*11:01,dissociation constant KD (~IC50),HNWVNHAVPLAMKLI,Negative,2703.0
+204775,HLA-DRB1*11:01,dissociation constant KD (~IC50),IKLPIILAFATCFLIP,Negative,10000.0
+204787,HLA-DRB1*11:01,dissociation constant KD (~IC50),IPQEWKPAITVKVLPA,Negative,1212.0
+204799,HLA-DRB1*11:01,dissociation constant KD (~IC50),KSKYKLATSVLAGLL,Positive-High,30.0
+204811,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAAIIFLFGPPTALRS,Negative,9524.0
+204823,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTSQFFLPALPVFTWL,Negative,3571.0
+204835,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVNLLIFHINGKIIK,Positive-High,73.0
+204847,HLA-DRB1*11:01,dissociation constant KD (~IC50),LWWSTMYLTHHYFVDL,Negative,10000.0
+204859,HLA-DRB1*11:01,dissociation constant KD (~IC50),MRKLAILSVSSFLFV,Negative,542.0
+204871,HLA-DRB1*11:01,dissociation constant KD (~IC50),NLSNVLATITTGVLDI,Negative,10000.0
+204883,HLA-DRB1*11:01,dissociation constant KD (~IC50),NVKYLVIVFLIFFDL,Negative,6712.0
+204895,HLA-DRB1*11:01,dissociation constant KD (~IC50),QEIDPLSYNYIPVNSN,Negative,4545.0
+204907,HLA-DRB1*11:01,dissociation constant KD (~IC50),RVYQEPQVSPPQRAET,Negative,10000.0
+204919,HLA-DRB1*11:01,dissociation constant KD (~IC50),SSIIFGAFPSLHSGCC,Negative,4000.0
+204931,HLA-DRB1*11:01,dissociation constant KD (~IC50),SSVFNVVNSSIGLIM,Negative,1203.0
+204943,HLA-DRB1*11:01,dissociation constant KD (~IC50),THHYFVDLIGGAMLSL,Negative,4255.0
+204955,HLA-DRB1*11:01,dissociation constant KD (~IC50),VKNVIGPFMKAVCVE,Positive-Intermediate,471.0
+204967,HLA-DRB1*11:01,dissociation constant KD (~IC50),VVFPASFFIKLPIILA,Positive-Intermediate,315.0
+205455,HLA-DRB1*11:01,dissociation constant KD (~IC50),LPKPPKPVSKMRMATPLLMQALPM,Positive-Intermediate,444.0
+205468,HLA-DRB1*11:01,dissociation constant KD (~IC50),QYIKANSKFIGITE,Positive-High,20.0
+205759,HLA-DRB1*11:01,dissociation constant KD (~IC50),FPQPQLPYSQPQPFRPQQPY,Negative,10000.0
+205764,HLA-DRB1*11:01,dissociation constant KD (~IC50),FRPSQQNPQAQGSVQPQQLP,Negative,10000.0
+205769,HLA-DRB1*11:01,dissociation constant KD (~IC50),IPPYCTIAPFGIFGTN,Negative,10000.0
+205774,HLA-DRB1*11:01,dissociation constant KD (~IC50),LGQQQPFPPQQPYPQPQPFP,Negative,10000.0
+205779,HLA-DRB1*11:01,dissociation constant KD (~IC50),LHQQQKQQQQPSSQVSFQQP,Negative,10000.0
+205784,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLQELCCQHLWQIPEQSQCQ,Negative,10000.0
+205790,HLA-DRB1*11:01,dissociation constant KD (~IC50),LQQYPLGQGSFRPSQQNPQA,Positive-Low,2857.0
+205795,HLA-DRB1*11:01,dissociation constant KD (~IC50),PQPFRPQQPYPQPQPQYSQP,Positive-Low,2000.0
+205800,HLA-DRB1*11:01,dissociation constant KD (~IC50),PQPQPQYSQPQQPISQQQQQ,Negative,10000.0
+205805,HLA-DRB1*11:01,dissociation constant KD (~IC50),PSSQVSFQQPLQQYPLGQGS,Negative,10000.0
+205810,HLA-DRB1*11:01,dissociation constant KD (~IC50),QFEEIRNLALQTLPAMCNVY,Positive-Low,1176.0
+205815,HLA-DRB1*11:01,dissociation constant KD (~IC50),QGSVQPQQLPQFEEIRNLAL,Positive-Low,1333.0
+205820,HLA-DRB1*11:01,dissociation constant KD (~IC50),QNPSQQQPQEQVPLVQQQQF,Negative,10000.0
+205825,HLA-DRB1*11:01,dissociation constant KD (~IC50),QPYPQPQPFPSQQPYLQLQP,Negative,10000.0
+205830,HLA-DRB1*11:01,dissociation constant KD (~IC50),QQLIFCMDVVLQQHNIAHGR,Negative,10000.0
+205835,HLA-DRB1*11:01,dissociation constant KD (~IC50),QTLPAMCNVYIPPYCTIAPF,Negative,10000.0
+205841,HLA-DRB1*11:01,dissociation constant KD (~IC50),SQQPYLQLQPFPQPQLPYSQ,Positive-Intermediate,196.0
+205846,HLA-DRB1*11:01,dissociation constant KD (~IC50),VRVPVPQLQPQNPSQQQPQE,Negative,10000.0
+205860,HLA-DRB1*11:01,dissociation constant KD (~IC50),DVKFPGGGQIVGGVYLLPRR,Negative,3607.0
+205867,HLA-DRB1*11:01,dissociation constant KD (~IC50),GEGAVQWMNRLIAFASRGNHV,Positive-High,14.0
+205872,HLA-DRB1*11:01,dissociation constant KD (~IC50),GPGEGAVQWMNRLIAFASRG,Positive-High,88.0
+205878,HLA-DRB1*11:01,dissociation constant KD (~IC50),GYKVLVLNPSVAATLGFGAY,Positive-Intermediate,240.0
+205887,HLA-DRB1*11:01,dissociation constant KD (~IC50),NFISGIQYLAGLSTLPGNPA,Positive-High,74.0
+206168,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGLLGVVSTVLLGGV,Negative,20000.0
+206179,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLAYKFVVPGAATPY,Positive-High,11.0
+206193,HLA-DRB1*11:01,dissociation constant KD (~IC50),HNWVNHAVPLAMKLI,Negative,2703.0
+206207,HLA-DRB1*11:01,dissociation constant KD (~IC50),KSKYKLATSVLAGLL,Positive-High,30.0
+206220,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYKIAGGIAGGLALL,Positive-High,87.0
+206232,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVNLLIFHINGKIIKNS,Positive-Intermediate,408.0
+206245,HLA-DRB1*11:01,dissociation constant KD (~IC50),MNYYGKQENWYSLKK,Positive-Intermediate,351.0
+206255,HLA-DRB1*11:01,dissociation constant KD (~IC50),MRKLAILSVSSFLFV,Negative,541.0
+206266,HLA-DRB1*11:01,dissociation constant KD (~IC50),RHNWVNHAVPLAMKLI,Positive-Intermediate,282.0
+206280,HLA-DRB1*11:01,dissociation constant KD (~IC50),SSVFNVVNSSIGLIM,Negative,1176.0
+206292,HLA-DRB1*11:01,dissociation constant KD (~IC50),VKNVIGPFMKAVCVE,Positive-Intermediate,476.0
+206732,HLA-DRB1*11:01,dissociation constant KD (~IC50),EKVYLAWVPAHKGIG,Positive-High,37.0
+206746,HLA-DRB1*11:01,dissociation constant KD (~IC50),FRKYTAFTIPSINNE,Negative,1818.0
+206760,HLA-DRB1*11:01,dissociation constant KD (~IC50),GEIYKRWIILGLNKI,Positive-Intermediate,213.0
+206774,HLA-DRB1*11:01,dissociation constant KD (~IC50),HSNWRAMASDFNLPP,Positive-High,95.0
+206788,HLA-DRB1*11:01,dissociation constant KD (~IC50),KRWIILGLNKIVRMY,Positive-High,54.0
+206802,HLA-DRB1*11:01,dissociation constant KD (~IC50),KTAVQMAVFIHNFKR,Positive-Intermediate,182.0
+206816,HLA-DRB1*11:01,dissociation constant KD (~IC50),KVYLAWVPAHKGIGG,Positive-High,71.0
+206830,HLA-DRB1*11:01,dissociation constant KD (~IC50),QGQMVHQAISPRTLN,Negative,20000.0
+206844,HLA-DRB1*11:01,dissociation constant KD (~IC50),QKQITKIQNFRVYYR,Positive-High,53.0
+206858,HLA-DRB1*11:01,dissociation constant KD (~IC50),SPAIFQSSMTKILEP,Negative,741.0
+206872,HLA-DRB1*11:01,dissociation constant KD (~IC50),WEFVNTPPLVKLWYQ,Positive-Intermediate,317.0
+208105,HLA-DRB1*11:01,dissociation constant KD (~IC50),HQAISPRTLNSPAIF,Negative,20000.0
+208120,HLA-DRB1*11:01,dissociation constant KD (~IC50),KILEPFRKYTAFTIP,Positive-High,99.0
+208133,HLA-DRB1*11:01,dissociation constant KD (~IC50),KILEPGPGPGFRKYT,Negative,20000.0
+208146,HLA-DRB1*11:01,dissociation constant KD (~IC50),PRTLNGPGPGSPAIF,Negative,20000.0
+208904,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTEVHNVWATQACVPTDPNP,Negative,20000.0
+208916,HLA-DRB1*11:01,dissociation constant KD (~IC50),PKISFEPIPIHYCAPAGFAI,Negative,20000.0
+208928,HLA-DRB1*11:01,dissociation constant KD (~IC50),VWGIKQLQARVLAVERYLKD,Positive-Intermediate,487.0
+208984,HLA-DRB1*11:01,dissociation constant KD (~IC50),ESEFQAALSRKVAKL,Positive-Intermediate,226.0
+208994,HLA-DRB1*11:01,dissociation constant KD (~IC50),IFSKASDSLQLVFGIE,Negative,10000.0
+209012,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTQYFVQENYLEYRQVPG,Negative,10000.0
+209026,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGNWQYFFPVIFSKASDSLQLVFGIELMEVD,Negative,10000.0
+209035,HLA-DRB1*11:01,dissociation constant KD (~IC50),YFFPVIFSKASDSLQL,Negative,3469.0
+1006979,HLA-DRB1*11:01,dissociation constant KD (~IC50),VTLSQPKIVKWDRDM,Negative,46000.0
+1007585,HLA-DRB1*11:01,dissociation constant KD (~IC50),PKYVKQNTLKLAT,Positive-Low,5000.0
+1020737,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASRELERFAVNPGLL,Negative,1830.0
+1020748,HLA-DRB1*11:01,dissociation constant KD (~IC50),ERFAVNPGLLETSEGCR,Positive-Intermediate,463.0
+1020753,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLYNTVATLYCVHQRIEV,Negative,3840.0
+1020764,HLA-DRB1*11:01,dissociation constant KD (~IC50),WIILGLNKIVRMYSPTSI,Positive-High,19.1
+1020769,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVDRFYKTLRAEQASQEV,Positive-High,100.0
+1020780,HLA-DRB1*11:01,dissociation constant KD (~IC50),RQANFLGKIWPSHKGR,Positive-Intermediate,629.0
+1020785,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEKEVLVWKFDSRLAFHH,Positive-Intermediate,144.0
+1020796,HLA-DRB1*11:01,dissociation constant KD (~IC50),KFDSRLAFHHMARELH,Positive-High,47.1
+1020801,HLA-DRB1*11:01,dissociation constant KD (~IC50),LERFAVNPGLL,Negative,7120.0
+1020814,HLA-DRB1*11:01,dissociation constant KD (~IC50),WIILGLNKIVRM,Positive-Intermediate,107.0
+1020817,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILGLNKIVRMY,Negative,2070.0
+1020833,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKIVRMYSPTSI,Positive-High,46.4
+1020840,HLA-DRB1*11:01,dissociation constant KD (~IC50),FYKTLRAEQASQE,Positive-High,65.1
+1020845,HLA-DRB1*11:01,dissociation constant KD (~IC50),FYKTLRAEQASQ,Positive-High,24.0
+1020854,HLA-DRB1*11:01,dissociation constant KD (~IC50),RFYKTLRAEQAS,Positive-Intermediate,790.0
+1020863,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKTLRAEQA,Negative,26800.0
+1021041,HLA-DRB1*11:01,dissociation constant KD (~IC50),QYENLKYTVIITVHT,Positive-Intermediate,305.0
+1021046,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYTVIITVHTGDQHQ,Positive-High,38.3
+1021057,HLA-DRB1*11:01,dissociation constant KD (~IC50),ITVHTGDQHQVGNET,Negative,12500.0
+1021062,HLA-DRB1*11:01,dissociation constant KD (~IC50),VHTGDQHQVGNETQG,Negative,43200.0
+1021073,HLA-DRB1*11:01,dissociation constant KD (~IC50),KENIKYEVAIFVHGP,Positive-Intermediate,297.0
+1021078,HLA-DRB1*11:01,dissociation constant KD (~IC50),YEVAIFVHGPTTVES,Positive-Intermediate,920.0
+1021089,HLA-DRB1*11:01,dissociation constant KD (~IC50),AIFVHGPTTVESHGN,Negative,1910.0
+1021094,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLDFNEMILLTMKNK,Positive-Intermediate,679.0
+1021107,HLA-DRB1*11:01,dissociation constant KD (~IC50),EMILLTMKNKAWMVH,Positive-High,1.17
+1021108,HLA-DRB1*11:01,dissociation constant KD (~IC50),TMKNKAWMVHRQWFF,Positive-High,19.8
+1021122,HLA-DRB1*11:01,dissociation constant KD (~IC50),SGIDTNAYYVMTVGT,Positive-Intermediate,144.0
+1021126,HLA-DRB1*11:01,dissociation constant KD (~IC50),NAYYVMTVGTKTFLV,Positive-High,5.6
+1021137,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVGTKTFLVHREWFM,Positive-High,96.9
+1021141,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFSCIAIGIITLYLG,Negative,5730.0
+1021152,HLA-DRB1*11:01,dissociation constant KD (~IC50),AIGIITLYLGAVVQA,Negative,21500.0
+1021157,HLA-DRB1*11:01,dissociation constant KD (~IC50),DRSIALTFLAVGGVL,Negative,3980.0
+1021170,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTFLAVGGVLLFLSV,Negative,42300.0
+1021173,HLA-DRB1*11:01,dissociation constant KD (~IC50),AVGGVLLFLSVNVHA,Negative,46700.0
+1021186,HLA-DRB1*11:01,dissociation constant KD (~IC50),ANKIVYTVKVEPHTG,Negative,35500.0
+1021189,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVKVEPHTGDYVAAN,Negative,13500.0
+1021202,HLA-DRB1*11:01,dissociation constant KD (~IC50),PTIDVKMMNMEAANL,Positive-Intermediate,372.0
+1021205,HLA-DRB1*11:01,dissociation constant KD (~IC50),KMMNMEAANLAEVRS,Negative,1370.0
+1021218,HLA-DRB1*11:01,dissociation constant KD (~IC50),EAANLAEVRSYCYLA,Negative,5830.0
+1021222,HLA-DRB1*11:01,dissociation constant KD (~IC50),AEVRSYCYLATVSDL,Positive-Intermediate,150.0
+1021229,HLA-DRB1*11:01,dissociation constant KD (~IC50),YCYLATVSDLSTKAA,Positive-Intermediate,255.0
+1021242,HLA-DRB1*11:01,dissociation constant KD (~IC50),WNRKELLVTFKNAHA,Negative,46700.0
+1021246,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLVTFKNAHAKKPEV,Positive-High,52.8
+1021258,HLA-DRB1*11:01,dissociation constant KD (~IC50),TFKNAHAKKPEVVVL,Positive-Intermediate,530.0
+1021261,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLGKMVHQIFGSAYT,Positive-High,89.8
+1021274,HLA-DRB1*11:01,dissociation constant KD (~IC50),VHQIFGSAYTALFSG,Positive-Intermediate,540.0
+1021278,HLA-DRB1*11:01,dissociation constant KD (~IC50),GSAYTALFSGVSWVM,Positive-High,4.38
+1021290,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALFSGVSWVMKIGIG,Positive-Intermediate,237.0
+1021293,HLA-DRB1*11:01,dissociation constant KD (~IC50),VSWVMKIGIGVLLTW,Negative,10300.0
+1021304,HLA-DRB1*11:01,dissociation constant KD (~IC50),KIGIGVLLTWIGLNS,Negative,4910.0
+1021309,HLA-DRB1*11:01,dissociation constant KD (~IC50),TQGLLGALLLWMGIN,Negative,23200.0
+1021318,HLA-DRB1*11:01,dissociation constant KD (~IC50),GALLLWMGINARDRS,Positive-High,22.1
+1021324,HLA-DRB1*11:01,dissociation constant KD (~IC50),WMGINARDRSIALTF,Positive-Intermediate,153.0
+1021337,HLA-DRB1*11:01,dissociation constant KD (~IC50),ARDRSIALTFLAVGG,Negative,2470.0
+1021731,HLA-DRB1*11:01,dissociation constant KD (~IC50),MYVGGVEHRLEAACNWTRGE,Negative,1070.0
+1021740,HLA-DRB1*11:01,dissociation constant KD (~IC50),LGALTGTYVYNHLTPLRDWA,Positive-High,19.4
+1021749,HLA-DRB1*11:01,dissociation constant KD (~IC50),TDATSILGIGTVLDQAETAG,Positive-Intermediate,802.0
+1021758,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIQYLAGLSTLPGNPAIASL,Positive-High,5.31
+1021767,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAGLSTLPGNPAIASL,Positive-High,96.4
+1021776,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTTSQTLLFNILGGWVAAQL,Negative,12300.0
+1021785,HLA-DRB1*11:01,dissociation constant KD (~IC50),SVGLGKVLIDILAGYGAGVA,Negative,8460.0
+1021794,HLA-DRB1*11:01,dissociation constant KD (~IC50),GEVPSTEDLVNLLPAILSPG,Positive-Intermediate,164.0
+1021803,HLA-DRB1*11:01,dissociation constant KD (~IC50),PAEILRKSRRFAQALPVW,Positive-High,6.07
+1021812,HLA-DRB1*11:01,dissociation constant KD (~IC50),SDGSWSTVSSEANAEDVVCC,Negative,35000.0
+1021821,HLA-DRB1*11:01,dissociation constant KD (~IC50),SMSYSWTGALVTPCAAEEQK,Positive-Intermediate,416.0
+1021830,HLA-DRB1*11:01,dissociation constant KD (~IC50),VTPCAAEEQKLPINALSNSL,Negative,24500.0
+1021839,HLA-DRB1*11:01,dissociation constant KD (~IC50),LPINALSNSLLRHHNLVYST,Negative,1380.0
+1021848,HLA-DRB1*11:01,dissociation constant KD (~IC50),KPARLIVFPDLGVRVC,Negative,3260.0
+1021860,HLA-DRB1*11:01,dissociation constant KD (~IC50),PARLIVFPDLGVR,Negative,13900.0
+1021863,HLA-DRB1*11:01,dissociation constant KD (~IC50),QCCDLDPQARVAIKSLTERL,Positive-High,12.6
+1021878,HLA-DRB1*11:01,dissociation constant KD (~IC50),VYYLTRDPTTPLARAAWETA,Positive-Intermediate,372.0
+1021881,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYLFNWAVRTKLKLTPIA,Positive-High,72.2
+1021892,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASRELERFALNPSLL,Negative,5960.0
+1021909,HLA-DRB1*11:01,dissociation constant KD (~IC50),ERFALNPSLLETTEGCQQI,Negative,1710.0
+1021916,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLYNTVATLYCVHQRIDV,Negative,8400.0
+1021932,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVDRFFKTLRAEQATQEV,Positive-High,38.2
+1021941,HLA-DRB1*11:01,dissociation constant KD (~IC50),RQANFLGKIWPSSKGR,Negative,1150.0
+1021956,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASRELERFALNPGLL,Negative,4710.0
+1021965,HLA-DRB1*11:01,dissociation constant KD (~IC50),ERFALNPGLLETSEGCK,Positive-Intermediate,720.0
+1021980,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLYNTVATLYCVHAGIEV,Negative,8120.0
+1021989,HLA-DRB1*11:01,dissociation constant KD (~IC50),WIILGLNKIVRMYSPVSI,Positive-High,8.31
+1022004,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVDRFFKTLRAEQATQDV,Positive-Intermediate,160.0
+1022016,HLA-DRB1*11:01,dissociation constant KD (~IC50),KFDSQLARRHMARELH,Positive-Intermediate,444.0
+1022028,HLA-DRB1*11:01,dissociation constant KD (~IC50),QLQPSLQTGSEELRSLY,Negative,41200.0
+1022037,HLA-DRB1*11:01,dissociation constant KD (~IC50),PVGEIYKRWIILGLNKIV,Positive-Intermediate,694.0
+1022052,HLA-DRB1*11:01,dissociation constant KD (~IC50),NANPDCKTILKALGPAA,Negative,2470.0
+1022061,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRPGNFLQSRPEPTA,Negative,3530.0
+1022076,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKAAVDLSHFLKEKGGL,Negative,4870.0
+1022085,HLA-DRB1*11:01,dissociation constant KD (~IC50),RFYKTLRAEQASQ,Positive-High,28.5
+1022100,HLA-DRB1*11:01,dissociation constant KD (~IC50),EEREVLMWKFDSALARKH,Positive-Intermediate,532.0
+1022109,HLA-DRB1*11:01,dissociation constant KD (~IC50),KFDSALARKHIARELH,Positive-Intermediate,164.0
+1022124,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKIVRMYSPISI,Positive-Intermediate,105.0
+1022133,HLA-DRB1*11:01,dissociation constant KD (~IC50),WIILGLNKIVRMYSPISI,Positive-High,70.4
+1022148,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVDRFFKTLRAEQASQDV,Positive-Intermediate,119.0
+1022156,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEREVLVWKFDSRLAFHH,Positive-Intermediate,320.0
+1068603,HLA-DRB1*11:01,dissociation constant KD (~IC50),EHREVLQWKFDSQLARRH,Positive-Intermediate,458.0
+1068617,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFFELDRWEKIRLRPGGK,Positive-Intermediate,493.0
+1274405,HLA-DRB1*11:01,dissociation constant KD (~IC50),EEYVEIRQVGDFH,Negative,4683.0
+1274451,HLA-DRB1*11:01,dissociation constant KD (~IC50),WTGALVTPCAAEEQK,Negative,10000.0
+1274469,HLA-DRB1*11:01,dissociation constant KD (~IC50),GYKVLVLNPSV,Positive-High,26.0
+1274481,HLA-DRB1*11:01,dissociation constant KD (~IC50),LMAFTAAVTS,Negative,10000.0
+1274492,HLA-DRB1*11:01,dissociation constant KD (~IC50),TFALWRVSAEEY,Positive-Intermediate,342.0
+1274508,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALWRVSAEEY,Positive-Intermediate,243.0
+1313430,HLA-DRB1*11:01,dissociation constant KD (~IC50),AYAAQGYKVLVLNPSVAA,Positive-High,37.0
+1313446,HLA-DRB1*11:01,dissociation constant KD (~IC50),KGGRKPARLIVFPDLGVRVC,Negative,3311.0
+1313461,HLA-DRB1*11:01,dissociation constant KD (~IC50),CGKYLFNWAVRTKLKLTPIA,Positive-Intermediate,138.0
+1313476,HLA-DRB1*11:01,dissociation constant KD (~IC50),TPAETTVRLRAYMNTPGLPV,Positive-Intermediate,277.0
+1313491,HLA-DRB1*11:01,dissociation constant KD (~IC50),ENLPYLVAYQATVCARAQAP,Positive-Intermediate,111.0
+1313506,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIQYLAGLSTLPGNPAIASL,Positive-High,5.0
+1314902,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRHLIFCHSKRKCDELATKL,Negative,17391.0
+1314943,HLA-DRB1*11:01,dissociation constant KD (~IC50),SVIDCNTCVTQTVDFSLDPT,Negative,50000.0
+1314964,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAYAAQGYKVLVLNPSVAAT,Positive-Intermediate,103.0
+1314978,HLA-DRB1*11:01,dissociation constant KD (~IC50),GYKVLVLNPSVAATLGFGAY,Positive-Intermediate,240.0
+1330804,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPNANPNV,Negative,100000.0
+1332615,HLA-DRB1*11:01,dissociation constant KD (~IC50),DYDVVYLKPLAGMYK,Positive-Intermediate,376.0
+1349753,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FNNFTVSFWLRVPKVSASHLE,Positive,1000.0
+1349760,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NFTVSFWLRVPKVSASHLE,Positive,500.0
+1349765,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVSFWLRVPKVSASHLE,Positive,70.0
+1349769,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SFWLRVPKVSASHLE,Positive,150.0
+1349775,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QYIKANSKFIGITE,Positive,70.0
+1349780,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VSIDKFRIFCKALNPK,Positive,2900.0
+1349794,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YDTEYYLIPVASSSKD,Positive,100.0
+1349804,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KFIIKRYTPNNEIDSF,Positive,6100.0
+1353476,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KPGQPPRLLIYDASNRATGIPA,Positive,700.0
+1353481,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GRLLRGHNQFAYDGK,Positive,10000.0
+1353700,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DTQFVRFDSDAASQR,Negative,100000.0
+1353704,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VDDTQFVRFDSDAASQRME,Negative,100000.0
+1353708,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HDYNFVKAINAIQKSW,Positive,100.0
+1353712,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HDYNFVKAINAIQKSWT,Positive,150.0
+1353719,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LIYDASNRAT,Negative,100000.0
+1353721,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KPGQPPRLLI,Negative,100000.0
+1353728,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NFVKAINAIQ,Negative,100000.0
+1353732,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DYNFVKAINA,Negative,100000.0
+1353737,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RFDSDAASQR,Negative,100000.0
+1353742,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MHHWLLFEMSRHSLE,Positive,200.0
+1353746,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TPDFIVPLTDLRIPS,Positive,80000.0
+1353752,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LANIAVDKANLEIMTKR,Positive,9000.0
+1353756,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MGQKDSYVGDEAQSKR,Negative,100000.0
+1353760,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TLKYPIEHGIVTNWDD,Negative,100000.0
+1353764,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YPIEHGIVTNWDDM,Positive,45000.0
+1353768,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VAPEEHPVLLTEAPLNPKA,Negative,100000.0
+1353769,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LANIAVDKAN,Negative,100000.0
+1353778,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VPLTDLRIPS,Negative,100000.0
+1353782,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKANLEIMTKR,Positive,4000.0
+1353830,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QDFLTKHASHTGSWIG,Negative,100000.0
+1353834,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GPDGRLLRGHNQFAYDGK,Positive,200.0
+1353845,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GPDGRLLRGH,Negative,100000.0
+1353872,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HNQFAYDGKD,Negative,100000.0
+1356093,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENITSGFLGPLLVLQ,Positive,70000.0
+1356122,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AGFFLLTRILTIPQS,Positive,16.0
+1356125,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LTRILTIPQSLDSWW,Positive,16000.0
+1356128,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TIPQSLDSWWTSLNF,Negative,100000.0
+1356131,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LDSWWTSLNFLGGSP,Positive,40000.0
+1356134,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TSLNFLGGSPVCLGQ,Negative,100000.0
+1356137,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PICPGYRWMCLRRFI,Positive,14.0
+1356140,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YRWMCLRRFIIFLFI,Positive,2000.0
+1356143,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GMLPVCPLIPGSTTT,Negative,100000.0
+1356146,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SVRFSWLSLLVPFVQ,Positive,15000.0
+1356149,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WLSLLVPFVQWFVGL,Negative,100000.0
+1356152,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VPFVQWFVGLSPTVW,Positive,2500.0
+1356155,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GPSLYSIVSPFIPLL,Positive,16000.0
+1356158,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SIVSPFIPLLPIFFC,Positive,5000.0
+1369594,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKIKLNAKMNILI,Positive,5.0
+1369600,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PIYNVLPTTSLVLGKNQTLAT,Negative,10.0
+1369624,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SLVLGKNQTLAT,Negative,10.0
+1397486,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DGGRRKKGGWFGKHRGQGGSNP,Positive,229.0
+1397487,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NPKFENIAEGLRALLARSHVERTTDE,Positive,447.0
+1397488,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KTSLYNLRRGTALAIPQCRLTPLSRL,Positive,1.0
+1397489,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PQCRLTPLSRLPFGMAPGPGPQPG,Positive,2.0
+1397490,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIFIFRRDLLCPLGAL,Positive,27.0
+1397491,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VSTVVTATGLALSLLL,Positive,4.0
+1397492,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VLVMLVLLILAYRRRWRRLTV,Positive,130.0
+1397493,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGSILQTNFKSLSSTEF,Positive,29.0
+1397494,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RDGVRRPQKRPSCIGCKGT,Negative,10000.0
+1397495,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RPFFHPVGEADYFEYHQEGGPDGEPD,Negative,10000.0
+1397496,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FAEVLKDAIKDLVMTKPAPTCNIR,Negative,1554.0
+1397497,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LPPWFPPMVEGAAAEGDDG,Negative,1095.0
+1397498,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EHDLERGPPGPRRPP,Negative,10000.0
+1397499,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ALWNLHGQALFLGIVL,Negative,10000.0
+1397500,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AILIWMYYHGQRHSDEH,Negative,10000.0
+1397501,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SGHESDSNSNEGRHHLLVSGAGDGPPL,Negative,10000.0
+1397502,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HDPLPHSPSDSAGND,Negative,10000.0
+1397503,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPHLPTLLLGSSGSGGDDDDPHGPVQLSYYD,Negative,10000.0
+1397504,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MGSLEMVPMGAGPPSPGGDP,Negative,4243.0
+1397505,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EDPYWGNGDRHSDYQPLGTQDQSLY,Negative,2258.0
+1397506,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LTEWGSGNRTYGPVFMCL,Negative,10000.0
+1402598,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIYPGTLWCGHGNKSSGP,Negative,100000.0
+1402599,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GTLWCGHGNKSSGPNELG,Negative,100000.0
+1402600,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CGHGNKSSGPNELGRFKH,Negative,100000.0
+1402601,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NKSSGPNELGRFKHTDAC,Negative,8000.0
+1402602,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KHTDACCRTHDMCPDVMS,Negative,100000.0
+1402603,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ACCRTHDMCPDVMSAGES,Negative,100000.0
+1402604,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),THDMCPDVMSAGESKHGL,Negative,100000.0
+1402605,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CPDVMSAGESKHGLTNTA,Negative,100000.0
+1402606,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MSAGESKHGLTNTASHTR,Negative,100000.0
+1402607,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ESKHGLTNTASHTRLSCD,Negative,100000.0
+1402608,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GLTNTASHTRLSCDCDDK,Negative,100000.0
+1402609,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TASHTRLSCDCDDKFYDC,Negative,100000.0
+1402610,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DCLKNSADTISSYFVGKM,Negative,100000.0
+1402611,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NSADTISSYFVGKMYFNL,Negative,100000.0
+1402612,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KLEHPVTGCGERTEGRCL,Negative,100000.0
+1402613,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PVTGCGERTEGRCLHYTV,Negative,100000.0
+1402615,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GPNELGRFKHTDACCRTH,Negative,1300.0
+1402616,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LGRFKHTDACCRTHDMCP,Negative,1500.0
+1402617,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TRLSCDCDDKFYDCLKNS,Negative,70000.0
+1402618,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CDCDDKFYDCLKNSADTI,Negative,67000.0
+1402619,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKFYDCLKNSADTISSYF,Negative,4000.0
+1402620,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TISSYFVGKMYFNLIDTK,Positive,570.0
+1402621,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CGERTEGRCLHYTVDKSK,Negative,30000.0
+1402622,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TEGRCLHYTVDKSKPKVY,Negative,7000.0
+1402623,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CLHYTVDKSKPKVYQWFD,Negative,11000.0
+1402624,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YFVGKMYFNLIDTKCYKL,Positive,530.0
+1402625,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KMYFNLIDTKCYKLEHPV,Positive,850.0
+1402626,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NLIDTKCYKLEHPVTGCG,Positive,600.0
+1402627,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TKCYKLEHPVTGCGERTE,Positive,750.0
+1402628,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVDKSKPKVYQWFDLRKY,Positive,67.0
+1402777,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SSGPNELGRFKHT,Negative,10000.0
+1402784,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SGPNELGRFKHTD,Negative,10000.0
+1402785,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GPNELGRFKHTDA,Negative,10000.0
+1402800,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NELGRFKHTDACC,Negative,10000.0
+1402804,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ELGRFKHTDACCR,Negative,10000.0
+1402808,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LGRFKHTDACCRT,Negative,10000.0
+1402812,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GRFKHTDACCRTH,Negative,10000.0
+1402814,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RFKHTDACCRTHD,Negative,100000.0
+1402819,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FKHTDACCRTHDM,Negative,100000.0
+1402821,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KHTDACCRTHDMC,Negative,100000.0
+1402847,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TISSYFVGKMYFN,Negative,2200.0
+1402887,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISSYFVGKMYFNL,Negative,3000.0
+1402891,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SSYFVGKMYFNLI,Negative,3000.0
+1402895,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SYFVGKMYFNLID,Negative,6000.0
+1402897,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YFVGKMYFNLIDT,Negative,3200.0
+1402901,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FVGKMYFNLIDTK,Negative,4300.0
+1403009,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VGKMYFNLIDTKC,Positive,560.0
+1403016,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GKMYFNLIDTKCY,Negative,1700.0
+1403028,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MYFNLIDTKCYKL,Negative,1800.0
+1403034,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KMYFNLIDTKCYK,Positive,570.0
+1403039,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YFNLIDTKCYKLE,Negative,45000.0
+1403045,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FNLIDTKCYKLEH,Negative,100000.0
+1403054,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NLIDTKCYKLEHP,Negative,100000.0
+1403062,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LIDTKCYKLEHPV,Negative,18000.0
+1403070,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IDTKCYKLEHPVT,Negative,3500.0
+1403075,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DTKCYKLEHPVTG,Negative,7700.0
+1403080,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TKCYKLEHPVTGC,Negative,1200.0
+1403082,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KCYKLEHPVTGCG,Positive,1000.0
+1403087,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CYKLEHPVTGCGE,Negative,100000.0
+1403092,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YKLEHPVTGCGER,Negative,100000.0
+1403152,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LHYTVDKSKPKVY,Negative,10000.0
+1403155,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HYTVDKSKPKVYQ,Negative,100000.0
+1403166,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YTVDKSKPKVYQW,Negative,100000.0
+1403171,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVDKSKPKVYQWF,Negative,100000.0
+1403172,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VDKSKPKVYQWFD,Negative,100000.0
+1403177,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKSKPKVYQWFDL,Negative,100000.0
+1403183,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KSKPKVYQWFDLR,Negative,1000.0
+1403189,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SKPKVYQWFDLRK,Positive,1000.0
+1403194,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KPKVYQWFDLRKY,Positive,100.0
+1404257,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KMYFNLIDTKAYK,Positive,70.0
+1419672,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISKISGEWYSIFLASD,Positive,496.0
+1419684,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EKIEENGSMRVFVDVI,Positive,16.0
+1419696,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENGSMRVFVDVIRALD,Positive,16.0
+1419762,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FENDEHIILYLVNFDK,Positive,1456.0
+1419774,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DRPFQLFEFYAREPDV,Positive,240.0
+1419786,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SPEIKEEFVKIVQKRG,Positive,16.0
+1419798,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EFVKIVQKRGIVKENI,Positive,1616.0
+1419810,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VKIVQKRGIVKENIID,Positive,2624.0
+1419822,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IVQKRGIVKENIIDLT,Positive,304.0
+1419834,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QKRGIVKENIIDLTKI,Positive,464.0
+1419846,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RGIVKENIIDLTKIDR,Positive,80.0
+1419858,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KENIIDLTKIDRCFQL,Negative,10000.0
+1419870,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IDLTKIDRCFQLRGNG,Positive,304.0
+1420893,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKFKIFEAAFSES,Positive,1600.0
+1420903,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DAFVTALTEALRV,Positive,100000.0
+1420909,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VKYAVFEAALTKA,Positive,1600.0
+1420915,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AVFEAALTKAITA,Positive,900.0
+1420921,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PKYVKQNTLKLAT,Positive,600.0
+1435305,HLA-DRB1*11:01,dissociation constant KD (~IC50),SRTIYRGVSPSTTRLES,Positive-Intermediate,737.0
+1435313,HLA-DRB1*11:01,dissociation constant KD (~IC50),TESHVKISRTIYRGVSP,Positive-Intermediate,198.0
+1435321,HLA-DRB1*11:01,dissociation constant KD (~IC50),LDGALKAKQSAESKLEG,Negative,3039.0
+1435331,HLA-DRB1*11:01,dissociation constant KD (~IC50),LDSQLNRLKSLTDDLQR,Negative,1985.0
+1435339,HLA-DRB1*11:01,dissociation constant KD (~IC50),YEAQILNYSKAKSSLES,Positive-High,23.0
+1435348,HLA-DRB1*11:01,dissociation constant KD (~IC50),NSELIRRAKAAESLASD,Positive-High,75.0
+1435356,HLA-DRB1*11:01,dissociation constant KD (~IC50),RLKSLVNDLTDKNNLLE,Negative,30000.0
+1435364,HLA-DRB1*11:01,dissociation constant KD (~IC50),AENNLQITEHKRLQLAN,Positive-High,43.0
+1435372,HLA-DRB1*11:01,dissociation constant KD (~IC50),NNEVLRLADELRQEQGN,Negative,4940.0
+1435380,HLA-DRB1*11:01,dissociation constant KD (~IC50),FERQYKELQTQAEDDRR,Positive-High,89.0
+1435388,HLA-DRB1*11:01,dissociation constant KD (~IC50),AERTVTVRRVGPGGRAV,Negative,9153.0
+1460471,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TPALGKDTVAVSGKWY,Negative,5005.0
+1460483,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DTVAVSGKWYLKAMTA,Positive,481.0
+1460495,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GKWYLKAMTADQEVPE,Positive,195.0
+1460507,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LKAMTADQEVPEKPDS,Negative,100000.0
+1460519,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DQEVPEKPDSVTPMIL,Negative,100000.0
+1460531,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DSVTPMILKAQKGGNL,Negative,104.0
+1460543,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGNLEAKITMLTNGQC,Negative,15054.0
+1460555,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EAKITMLTNGQCQNIT,Negative,1794.0
+1460567,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KITMLTNGQCQNITVV,Negative,2249.0
+1460579,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNITVVLHKTSEPGKY,Negative,91.0
+1460591,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ITVVLHKTSEPGKYTA,Negative,6630.0
+1460603,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PGKYTAYEGQRVVFIQ,Positive,611.0
+1460615,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TAYEGQRVVFIQPSPV,Negative,10725.0
+1460627,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GQRVVFIQPSPVRDHY,Negative,3835.0
+1460639,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PSPVRDHYILYCEGEL,Negative,41054.0
+1460651,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RDHYILYCEGELHGRQ,Positive,1300.0
+1460663,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EGELHGRQIRMAKLLG,Positive,182.0
+1460675,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RQIRMAKLLGRDPEQS,Positive,104.0
+1460687,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MAKLLGRDPEQSQEAL,Negative,27365.0
+1460699,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QEALEDFREFSRAKGL,Positive,13.0
+1460711,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EDFREFSRAKGLNQEI,Positive,13.0
+1460723,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FREFSRAKGLNQEILE,Positive,26.0
+1460735,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AKGLNQEILELAQSET,Negative,15054.0
+1460747,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NQEILELAQSETCSPG,Negative,13689.0
+1460759,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EILELAQSETCSPGGQ,Negative,95784.0
+1473046,HLA-DRB1*11:01,dissociation constant KD (~IC50),IGGWLLLEPWISPSV,Positive-Low,1349.0
+1473055,HLA-DRB1*11:01,dissociation constant KD (~IC50),TEDDFKNIAAAGLNHV,Negative,17790.0
+1473064,HLA-DRB1*11:01,dissociation constant KD (~IC50),LNHVRIPIGYWAVNP,Positive-Low,1852.0
+1473073,HLA-DRB1*11:01,dissociation constant KD (~IC50),IDQHVKLACSLPHGRL,Positive-Intermediate,106.0
+1473082,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQTLIAIHTLAIRYA,Positive-High,4.8
+1473121,HLA-DRB1*11:01,dissociation constant KD (~IC50),VNPIEGEPYVQGQLD,Positive-Intermediate,724.0
+1473131,HLA-DRB1*11:01,dissociation constant KD (~IC50),GHRGAINWQKGDTIK,Negative,12477.0
+1473147,HLA-DRB1*11:01,dissociation constant KD (~IC50),KTYKNVYIDTYHN,Negative,16257.0
+1473161,HLA-DRB1*11:01,dissociation constant KD (~IC50),SKGSSSELSAQQKK,Negative,12983.0
+1473178,HLA-DRB1*11:01,dissociation constant KD (~IC50),LIAIHTLAIRYANRT,Positive-High,5.1
+1473194,HLA-DRB1*11:01,dissociation constant KD (~IC50),IKQTLIAIHTLAIRYANRTDV,Positive-High,12.0
+1473206,HLA-DRB1*11:01,dissociation constant KD (~IC50),QTLIAIHTLAIRYAN,Positive-High,11.0
+1493436,HLA-DRB1*11:01,dissociation constant KD (~IC50),QLQPFPQPELPYP,Negative,70000.0
+1493443,HLA-DRB1*11:01,dissociation constant KD (~IC50),PQPELPYPQPQLPY,Negative,70000.0
+1493451,HLA-DRB1*11:01,dissociation constant KD (~IC50),PQPQLPYPQPELPY,Negative,70000.0
+1493458,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEQPQQSFPEQERP,Negative,70000.0
+1493465,HLA-DRB1*11:01,dissociation constant KD (~IC50),FPEQPEQPYPEQ,Negative,70000.0
+1493472,HLA-DRB1*11:01,dissociation constant KD (~IC50),FSQPEQEFPQPQ,Negative,70000.0
+1493479,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEQPFPEQPEQ,Negative,70000.0
+1493490,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIIQPEQPAQL,Negative,70000.0
+1493497,HLA-DRB1*11:01,dissociation constant KD (~IC50),KPLLIIAEDVEGE,Positive-Low,48782.0
+1493504,HLA-DRB1*11:01,dissociation constant KD (~IC50),KTIAYDEEARR,Negative,70000.0
+1497018,HLA-DRB1*11:01,dissociation constant KD (~IC50),LQSLTNLLSSNLSWL,Positive,303.0
+1497032,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQAFTFSPTYKAFLC,Positive,82.0
+1497049,HLA-DRB1*11:01,dissociation constant KD (~IC50),GTSFVYVPSALNPAD,Positive,443.0
+1497059,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGFFLLTRILTIPQS,Positive,6.0
+1497075,HLA-DRB1*11:01,dissociation constant KD (~IC50),VSFGVWIRTPPAYRPPNAPI,Positive,11.0
+1497088,HLA-DRB1*11:01,dissociation constant KD (~IC50),RHYLHTLWKAGILYK,Positive,42.0
+1497101,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVPFVQWFVGLSPTV,Positive,54.0
+1497114,HLA-DRB1*11:01,dissociation constant KD (~IC50),LHLYSHPIILGFRKI,Positive,492.0
+1497127,HLA-DRB1*11:01,dissociation constant KD (~IC50),PFLLAQFTSAICSVV,Negative,1749.0
+1497140,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQCFRKLPVNRPIDW,Negative,1617.0
+1497156,HLA-DRB1*11:01,dissociation constant KD (~IC50),AANWILRGTSFVYVP,Negative,1520.0
+1497169,HLA-DRB1*11:01,dissociation constant KD (~IC50),PHHTALRQAILCWGELMTLA,Positive,458.0
+1497291,HLA-DRB1*11:01,dissociation constant KD (~IC50),SSNLSWLSLDVSAAF,Negative,4923.0
+1497304,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGPLTVNEKRRLKLI,Negative,6666.0
+1503853,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KCIEWEKAQHGA,Positive,5.0
+1557690,HLA-DRB1*11:01,dissociation constant KD (~IC50),KKTFDHTLMSIVSSL,Positive-High,10.8
+1557703,HLA-DRB1*11:01,dissociation constant KD (~IC50),HTLMSIVSSLHLSIR,Positive-High,12.0
+1557764,HLA-DRB1*11:01,dissociation constant KD (~IC50),CDMLRLIDYNKAALS,Positive-High,68.8
+1557783,HLA-DRB1*11:01,dissociation constant KD (~IC50),HLFKTTVNSLISDQL,Positive-Intermediate,118.0
+1557811,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRKDYIKRQGSTPLA,Positive-Intermediate,250.0
+1557854,HLA-DRB1*11:01,dissociation constant KD (~IC50),IIPDGYKLIDNSLIL,Positive-Intermediate,591.0
+1557867,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKLIDNSLILLECFV,Positive-Low,5530.0
+1557916,HLA-DRB1*11:01,dissociation constant KD (~IC50),RNFQKVNPEGLIKEF,Positive-Low,2510.0
+1557943,HLA-DRB1*11:01,dissociation constant KD (~IC50),KVKSLKLLNTRRRQL,Positive-High,8.97
+1558023,HLA-DRB1*11:01,dissociation constant KD (~IC50),LITPAEKVVYKLLRF,Positive-High,79.3
+1558070,HLA-DRB1*11:01,dissociation constant KD (~IC50),EYDFNKLLVSAVSQI,Positive-High,10.4
+1558088,HLA-DRB1*11:01,dissociation constant KD (~IC50),DYEYKVSKLVSRLVI,Positive-High,31.3
+1558118,HLA-DRB1*11:01,dissociation constant KD (~IC50),HLRKVILSEISFHLV,Positive-Intermediate,133.0
+1558180,HLA-DRB1*11:01,dissociation constant KD (~IC50),LMFLQNLKLGDDQYV,Positive-High,43.5
+1558224,HLA-DRB1*11:01,dissociation constant KD (~IC50),LNKFISPKSVAGRFA,Positive-High,19.5
+1558286,HLA-DRB1*11:01,dissociation constant KD (~IC50),GFIGLCKTLGSRCVR,Positive-High,4.01
+1558310,HLA-DRB1*11:01,dissociation constant KD (~IC50),RDHICLLRPLLWDYI,Positive-High,64.0
+1558349,HLA-DRB1*11:01,dissociation constant KD (~IC50),EHYTVLFSDLANSHQ,Positive-High,16.7
+1558452,HLA-DRB1*11:01,dissociation constant KD (~IC50),EVKSFQWTQALRREL,Positive-High,10.6
+1558506,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLLNNQFGTMPSLTM,Positive-Intermediate,407.0
+1558519,HLA-DRB1*11:01,dissociation constant KD (~IC50),QFGTMPSLTMACMAK,Positive-Low,3870.0
+1558551,HLA-DRB1*11:01,dissociation constant KD (~IC50),NISGYNFSLGAAVKA,Positive-Low,1060.0
+1558565,HLA-DRB1*11:01,dissociation constant KD (~IC50),NFSLGAAVKAGAALL,Positive-High,39.9
+1558660,HLA-DRB1*11:01,dissociation constant KD (~IC50),MDCIIFESASKARLP,Positive-Intermediate,277.0
+1567702,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AFKIGLHTEFQTVSF,Positive-Low,1130.0
+1567722,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ASLFLHLVGIPTHRH,Positive-Intermediate,341.0
+1567742,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CPLDHVNTLHFLTRG,Positive-High,6.59
+1567758,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DCIMTSYQYLIIQNT,Positive-Intermediate,604.0
+1567778,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DIYISRRLLGTFTWT,Positive-High,0.9
+1567797,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EEVMNIVLIALSILA,Positive-Intermediate,206.0
+1567821,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FFVFLALAGRSCTEE,Positive-High,5.71
+1567838,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FMRMAWGGSYIALDS,Positive-Low,2770.0
+1567865,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GTVANGVLQTFMRMA,Positive-Intermediate,412.0
+1567882,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GVLQTFMRMAWGGSY,Positive-High,21.1
+1567906,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IISTFHLSIPNFNQY,Positive-High,31.4
+1567922,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IPTFLQEALNIALVA,Positive-Low,7390.0
+1567948,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KIPTHRHIVGKPCPK,Positive-Low,5430.0
+1567965,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLCLMKAQPTSWPLQ,Positive-Intermediate,121.0
+1567982,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KNLYDHALMSIISTF,Positive-High,36.3
+1567999,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KTLNDETKKQVNLMG,Positive-Low,5260.0
+1568030,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKAEAQMSIQLINKA,Positive-Low,1180.0
+1568042,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LRLFDYNKNAIKTLN,Positive-Intermediate,486.0
+1568060,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LYKGVYELQTLELNM,Positive-Intermediate,276.0
+1568075,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MGQFISFMQEIPTFL,Positive-High,12.5
+1568107,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSPIGYLGLLSQRTR,Positive-High,12.1
+1568123,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QEALNIALVAVSLIA,Positive-Low,5720.0
+1568140,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QKEYMERQGKTPLGL,Positive-Low,3290.0
+1568156,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QMSIQLINKAVNALI,Positive-High,7.34
+1568173,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QVNTSKTGINENYAK,Negative,28900.0
+1568195,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RHIVGKPCPKPHRLN,Positive-Intermediate,282.0
+1568212,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SCGLYKQPGVPVRWK,Positive-Intermediate,336.0
+1568228,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SCLDGKLCLMKAQPT,Positive-Intermediate,971.0
+1568246,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGLFQFFVFLALAGR,Positive-Intermediate,594.0
+1568261,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SHHYIRVGNETGLEL,Positive-High,14.8
+1568276,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SIINHKFCNLSDAHK,Positive-High,90.6
+1568291,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKSDDQIWLSQWFMN,Positive-Intermediate,845.0
+1568307,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SMVGLFSNNPHDLPL,Positive-Low,3360.0
+1568327,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TAVAKCNEKHDEEFC,Positive-Intermediate,133.0
+1568352,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VDLFVFSTSFYLISI,Negative,46700.0
+1568380,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YLGLLSQRTRDIYIS,Positive-Intermediate,158.0
+1568404,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CFKYLLIQGHYDQKL,Positive-Intermediate,304.0
+1568426,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EIDSADKSGCIHNHD,Negative,19200.0
+1568459,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,INSMKTSFSSRLLIN,Positive-Low,2100.0
+1568485,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSAFQSSVASGFIGF,Positive-Intermediate,274.0
+1568500,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KTLILLETFVRVNPE,Positive-Intermediate,322.0
+1568515,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KVFNTRRNTLLFLDL,Positive-High,70.2
+1568527,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LCHLITKETPDRLTD,Positive-Low,4180.0
+1568545,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LECFVRSTPASFEKK,Positive-High,14.5
+1568572,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKSAFQSSVASGFIG,Positive-Intermediate,225.0
+1568588,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSHIMSVLDMGQGIL,Positive-Intermediate,832.0
+1568612,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SDANTEYERLLSMLN,Positive-Intermediate,164.0
+1568631,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SHIMSVLDMGQGILH,Positive-Low,1660.0
+1568643,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SLINSMKTSFSSRLL,Positive-Intermediate,137.0
+1568672,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLRTKLMTSRRVLER,Positive-High,43.7
+1568721,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CMTVQGGETMNSVIQ,Negative,27400.0
+1568741,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DGDLKRLRDLNQAVN,Positive-Intermediate,464.0
+1568757,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DQYKDLCHMHTGVVV,Positive-High,41.6
+1568776,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DVEMTKEASREYEDK,Positive-Low,3770.0
+1568797,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EEDLNKLRDLNKEVD,Negative,25600.0
+1568813,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EIPSFRWTQSLRRGL,Positive-High,22.2
+1568826,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EKPGNRNPYENLLYK,Positive-Low,5950.0
+1568850,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FGSMPALTIACMTVQ,Positive-Intermediate,395.0
+1568873,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FGTMPSLTLACLTKQ,Positive-Intermediate,586.0
+1568891,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GLDFSEVSNVQRLMR,Positive-Intermediate,320.0
+1568908,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GLLYTVKYPNLSDLD,Positive-High,39.2
+1568935,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GWPYIGSRSQIIGRS,Positive-High,9.82
+1568950,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GWPYIGSRSQILGRS,Positive-High,8.27
+1568984,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ISGYNFSLGAAVKAG,Positive-High,86.8
+1568999,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ISGYNFSLSAAVKAG,Positive-High,3.02
+1569017,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLIADSIDFNQVAQV,Positive-Intermediate,372.0
+1569036,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLNNQFGSMPALTIA,Positive-High,5.51
+1569049,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLNNQFGSVPALTIA,Positive-High,24.4
+1569099,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLNNQFGTMPSLTLA,Positive-Intermediate,128.0
+1569116,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LQMVGMRRPQQGASG,Positive-High,1.36
+1569142,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LWTQSLRRELSGYCS,Positive-High,23.3
+1569161,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MFISDTPGERNPYEN,Negative,46700.0
+1569189,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKEVDRLMSMKSIQK,Positive-High,17.6
+1569208,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NNVVQALTSLGLLYT,Positive-Intermediate,384.0
+1569227,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NSVIQALTSLGLLYT,Positive-High,91.1
+1569242,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NSVVQALTSLGLLYT,Positive-Intermediate,383.0
+1569260,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSSGCYIHFFREPTD,Positive-Intermediate,143.0
+1569282,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QGVYMGNLSQSQLAK,Negative,41700.0
+1569313,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLTQSHPILNMIDTK,Positive-Intermediate,576.0
+1569333,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RSVQRNTVFKAGDLG,Positive-Intermediate,943.0
+1569395,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLSYVIGLLPPDMVV,Positive-Intermediate,210.0
+1569410,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLSYVIGLLPQDMVI,Positive-Intermediate,306.0
+1569429,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VRVWDVKNAELLNNQ,Positive-Low,8420.0
+1569443,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VSDPSKLNNQFGSMP,Positive-Low,5780.0
+1569459,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VTDLFAAQPGLTSAV,Positive-High,31.2
+1569481,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GRYNCKCCWFADKNL,Positive-Low,1610.0
+1569513,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AGYLVGRKPLAFFSW,Positive-High,11.3
+1569546,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CSNSHVNTLRFLVKN,Positive-High,41.9
+1569572,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DLGKKRFLLIRNSTW,Positive-High,5.22
+1569587,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DMLKLFEFNKKAIET,Positive-High,81.0
+1569605,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DSKHQLDMIITAVNS,Positive-Low,5920.0
+1569621,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EEALNVALAVVTLLA,Positive-Low,3810.0
+1569637,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EFRNDWILESDHLIS,Positive-Low,1470.0
+1569656,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ELQHIILNASYITPY,Positive-Intermediate,202.0
+1569692,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FEFNKKAIETLNDNT,Positive-Low,3250.0
+1569702,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FIFFLLLAGRSCSDG,Positive-Intermediate,592.0
+1569719,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FIVFLLLAGRSCSYK,Positive-High,4.01
+1569734,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FLHLVGFPTHRHIRG,Positive-High,15.3
+1569752,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FRNQWLLESDHLISE,Positive-High,55.6
+1569768,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FTTTLFLHLVGFPTH,Positive-High,9.59
+1569783,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FWYVNHTGFNVHSLP,Positive-Intermediate,552.0
+1569806,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GIRHLFGNYITNDSY,Positive-Intermediate,641.0
+1569827,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GQHTLPRCWLIRNGS,Positive-Low,1050.0
+1569845,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GVFHELPSLCRVNNS,Positive-High,5.24
+1569862,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,HEAINIALIAVSLIA,Positive-Intermediate,311.0
+1569876,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,HEALNIALIAVSIIS,Positive-Low,4600.0
+1569892,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,HFLLRGPFEASWAIK,Positive-Intermediate,950.0
+1569935,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ILKGLYNFATCGLIG,Positive-High,66.9
+1569950,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ILKGVINIWGSGLLQ,Positive-Intermediate,453.0
+1569980,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IPSIIHEALNIALIA,Positive-Low,5020.0
+1569988,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IPVFLQEALNIALVA,Negative,22300.0
+1570006,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ITDAVGNDMPGGYCL,Negative,46700.0
+1570024,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IVQNAYKQMIKSRTL,Positive-High,3.97
+1570038,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IYEPEDLGNCLNKSD,Negative,46700.0
+1570061,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KGSPEFDWILGWTIK,Positive-Low,1330.0
+1570077,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KISVQYNLSHSYAVD,Positive-Intermediate,132.0
+1570093,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLFEFNRNAIKTLQN,Positive-High,8.27
+1570110,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KNKVNLLTHSINALI,Positive-Intermediate,327.0
+1570131,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSRTLKSFFAWSLSD,Positive-Intermediate,566.0
+1570160,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LANAGRSSGSRRPLG,Negative,21600.0
+1570169,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LDMIITAVNSLISDN,Positive-Intermediate,1000.0
+1570192,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LFLHLVGFPTHRHIQ,Positive-High,6.34
+1570233,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LSILAILKGLYNFAT,Positive-High,5.67
+1570254,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LVSFLLLAGRSCGMY,Positive-High,7.92
+1570271,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MGQLISFFGEIPSII,Positive-Low,3680.0
+1570313,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NMLTHSINSLISDNL,Positive-Low,4910.0
+1570331,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NSFYYMKGGVNTFLI,Positive-Low,1330.0
+1570357,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PRCWLIRNGSYLNTS,Positive-High,63.9
+1570372,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PTHRHLKGEACPLPH,Positive-Intermediate,396.0
+1570394,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QYDVIIQHPADMSWC,Positive-Intermediate,268.0
+1570416,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RICCEPKKTTNAEFT,Positive-Intermediate,143.0
+1570432,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RNEWILESDHLIAEM,Positive-Intermediate,594.0
+1570448,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RRIFGVFKNPCTSHG,Positive-High,25.1
+1570465,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RVNNSYSLIRLSHNS,Positive-High,2.07
+1570480,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RVSDVSVLMKEYDVS,Positive-Intermediate,283.0
+1570503,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SFFEEVPNIIHEAIN,Positive-Intermediate,345.0
+1570521,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGILQLFVFLVLAGR,Positive-Intermediate,692.0
+1570536,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGLFQFIFFLLLAGR,Positive-Low,2780.0
+1570551,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGLFQLIFFLTLAGR,Positive-Intermediate,540.0
+1570569,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SIKAVYNFATCGIFA,Positive-Intermediate,221.0
+1570586,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKMSVVMRNTTWEGQ,Positive-High,8.85
+1570600,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKTHLNFERSLKAFF,Positive-High,10.5
+1570618,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SMHLMLANAGRSSGS,Positive-High,45.3
+1570635,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SSMHLIVQNAYKQMI,Positive-High,63.1
+1570662,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TGSDGKTTWCSQTDY,Negative,12000.0
+1570677,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,THRHIIGEGCPKPHR,Positive-Low,1390.0
+1570695,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TILQRLGVLFGSRIA,Positive-High,68.6
+1570716,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TNHLSKCQFDHVNTL,Negative,14600.0
+1570731,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TPLTLVDICFWSTLF,Negative,46700.0
+1570770,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VNTLRFLVKNAGYLV,Positive-High,3.25
+1570789,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VSIISILKGVINIWG,Positive-High,37.5
+1570805,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VSLIAALKGMINLWK,Positive-High,10.3
+1570819,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VSLIAIIKGIVNLYK,Positive-High,30.8
+1570842,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VSLIAVIKGIINLYK,Positive-Intermediate,769.0
+1570872,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YNFATCGLIGLVTFL,Positive-Low,5280.0
+1570900,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ADSEITETYKEGDAV,Negative,14700.0
+1570959,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AMFVEDIAMGYVVSS,Positive-Intermediate,228.0
+1570982,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AQLGLRKKTKQSITE,Positive-Intermediate,199.0
+1571007,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ATERFRWLLIDLLRE,Positive-Intermediate,167.0
+1571023,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AVGLFIRLLGGESDA,Positive-High,25.1
+1571046,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AYTSSDDQISLFDQS,Positive-Low,1430.0
+1571070,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CDPKRYFVPIFSEAV,Positive-Intermediate,602.0
+1571091,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CFHEFLSSKLNKFVS,Positive-High,28.7
+1571114,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CFKYILIQAGFDQRL,Positive-Intermediate,305.0
+1571123,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CHFITKETPDRLTDQ,Positive-Low,1310.0
+1571139,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CHTGVGPNMSCDDVV,Negative,36200.0
+1571162,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CIALDMMNENLGIIS,Positive-Low,9830.0
+1571169,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CIANGVSTKIVTRIS,Positive-High,89.9
+1571197,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CQFLKVEKSQLLNEF,Positive-Intermediate,108.0
+1571226,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CTGMLKRRLGLMSLS,Positive-High,1.07
+1571241,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,CTNFKTQLVLSSMVN,Positive-High,84.9
+1571272,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DASFKESFAIHLDYT,Positive-Intermediate,366.0
+1571289,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DCCMEILGAVLEAVD,Negative,12200.0
+1571316,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DEFFECFKYLLIQGH,Positive-Intermediate,163.0
+1571370,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DKYNKQLMVSSCVTS,Positive-Intermediate,320.0
+1571389,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DLLIEALSAMMLDRL,Positive-Intermediate,321.0
+1571424,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DQEYHRLIHSLSKTS,Positive-High,0.858
+1571448,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DRTELLEMVCFHEFL,Positive-Low,3040.0
+1571465,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DRVLDILEAVKLIRK,Positive-Intermediate,114.0
+1571489,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DSTVIRNLKNAGLIV,Positive-High,10.1
+1571516,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,DYLILKNLTGLVSAG,Positive-High,6.44
+1571545,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ECYVQRFHLIKNTFG,Positive-High,10.4
+1571579,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EEIITLNSYGSFQEF,Positive-High,92.9
+1571606,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EFENFMKAGAHPIMH,Positive-High,15.8
+1571622,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EFESLFKCLSHISLS,Positive-High,7.31
+1571643,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EFSNFKVAFSRSLND,Positive-High,39.3
+1571666,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EHLSSLRNLCELLGV,Positive-Intermediate,277.0
+1571683,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EIESCRKNSCECNFE,Negative,46700.0
+1571729,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ELGEWVFSAIKSPQA,Positive-High,64.1
+1571748,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ELLDQSDVKEPGVSR,Positive-Low,1900.0
+1571764,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ELLEFHYYLSSKLNK,Positive-High,6.2
+1571833,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ETVEKIVDQYREPVK,Positive-Low,6270.0
+1571848,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EVFCQTIKLDSEEYH,Positive-Intermediate,355.0
+1571888,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FDHDILPDKFYEEFC,Positive-Low,6780.0
+1571935,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FIMAYVNQAHHIDLM,Positive-Intermediate,120.0
+1571952,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FIRINNLKVKMAQED,Positive-High,21.1
+1571974,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FKIMLKALSHLSLGL,Positive-High,1.8
+1571996,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FKVQFLFSSMIDPLI,Positive-High,33.0
+1572022,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FLIMRNLTNLLSARK,Positive-High,0.6940000000000001
+1572037,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FLLMYEMHRESLLKS,Positive-Low,8970.0
+1572053,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FLVKCQLQNPGVADL,Positive-Intermediate,459.0
+1572074,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FNSLISIAQHLVSDR,Positive-High,14.8
+1572094,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FQKTILKATTALKDV,Positive-High,9.77
+1572110,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FRILSSISLALVNSM,Positive-Intermediate,746.0
+1572131,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FSLECIMDVGEIQNK,Positive-Intermediate,283.0
+1572155,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FTNFKVAYSKSLKEL,Positive-High,45.5
+1572208,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GFIGFCKSMGSKCVR,Positive-High,14.5
+1572229,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GFTRRFKFLLNISYL,Positive-High,0.165
+1572243,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GFVGLCRTLGSKCVR,Positive-High,5.42
+1572265,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GILHNLSDLYALITE,Positive-Intermediate,239.0
+1572286,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GKNERELATLHHLNP,Positive-Low,1860.0
+1572316,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GPDNPGEPLVLKEGI,Negative,46700.0
+1572348,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GSLIVNPSLNGFLSK,Positive-High,48.6
+1572367,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GSRGYRLQRKIEAIF,Positive-High,2.91
+1572392,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GVWAPFNVLKVIRSE,Positive-High,15.0
+1572407,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GVWVLAEPTKGKNER,Positive-Intermediate,172.0
+1572489,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IAYQEDEFFECFKYL,Positive-Low,1220.0
+1572529,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IGHLLRGRNHFIYIV,Positive-High,69.0
+1572548,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IHSLRRLYPSVFEKH,Positive-High,11.1
+1572567,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IKCFEKFLEPKVKFG,Positive-Intermediate,385.0
+1572584,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IKDVLKYRWLNLSAN,Positive-High,26.2
+1572607,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ILDLCYQLSMRIANQ,Positive-High,4.46
+1572633,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ILSHVKFNFGDFYSE,Positive-Low,2690.0
+1572662,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,ILVLILAHPSKRSQK,Positive-High,14.9
+1572673,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,INLIGRGGDEALTGF,Positive-Low,1470.0
+1572704,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IQLVFSSMINPLVIT,Positive-High,54.3
+1572801,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KGGFMYLKELYNNVN,Positive-High,6.69
+1572816,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KGKSAWYVDTEIINE,Positive-Intermediate,248.0
+1572831,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KGLHHLQIILSGKMA,Positive-High,25.6
+1572850,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KHDDAIVRLRNAGIV,Positive-Intermediate,351.0
+1572883,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLAFLVQTEPRMLLM,Positive-High,25.8
+1572898,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLKFNSVIVNPSLNG,Positive-High,30.2
+1572924,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KLNKFVSPKSVVGNF,Positive-High,37.7
+1572949,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KNLTGLVSAGPKAKS,Positive-Intermediate,147.0
+1572975,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KRFFLPVFSDEVLAG,Positive-Intermediate,504.0
+1572999,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSAFQSSIASGFVGL,Positive-High,27.4
+1573014,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSEVYEKGLGKFVKT,Positive-High,25.7
+1573030,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSILLIMNANTLMGR,Positive-High,8.31
+1573046,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSLFFLDEPLKSVPL,Positive-High,6.43
+1573062,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSRFFIWSQEVPLLT,Positive-Intermediate,182.0
+1573075,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSVPLEMLLINLTTI,Positive-Intermediate,1000.0
+1573092,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KSYVKSKLKLLKGSE,Positive-High,89.6
+1573112,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KTLILLETFVRVNPD,Positive-Intermediate,909.0
+1573145,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KVEFTGDLVVKALGA,Positive-Intermediate,203.0
+1573150,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KVGEVCSFYADPKRY,Positive-Low,1250.0
+1573165,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KVKFGHVSINPADIA,Positive-Low,1180.0
+1573184,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KVTFLSQVHPSPLLT,Positive-High,9.18
+1573202,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KWVQMCSRTLKNSHQ,Positive-High,16.6
+1573217,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KYNLNRAMMLDDLTM,Positive-Intermediate,144.0
+1573232,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,KYRWLNLSANGDLRL,Positive-High,67.3
+1573251,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LAQILMDNDLAATND,Positive-Low,2500.0
+1573267,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LASFTPVIQDQDLEM,Positive-Low,2210.0
+1573298,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LDGVNLVASQPIFTG,Positive-Low,1340.0
+1573358,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LFKEKEVKKEIKDPL,Positive-Low,1650.0
+1573380,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LGAWVLGEPKMTKAL,Positive-Intermediate,223.0
+1573394,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LGFSSEVLKLKDEVR,Positive-Low,1490.0
+1573409,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LGIISHLLKTRDNSV,Positive-Intermediate,137.0
+1573428,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LGMNHVLQSIRRNYP,Positive-High,14.7
+1573463,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LHRVVLLESIAQFGD,Positive-High,48.0
+1573477,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LIEDYFEALSLQLSG,Positive-High,53.3
+1573501,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LIKTLQSKLSRNFTK,Positive-High,4.77
+1573521,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LIRKKLMTSPKWVQM,Positive-High,4.18
+1573546,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKDLWDYMLNSTGGI,Positive-Intermediate,104.0
+1573565,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKGIQSLRKLSSVCL,Positive-High,2.8
+1573576,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKGSETTVTERIFRE,Positive-Low,6400.0
+1573598,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKSDLLRAGITLVPV,Positive-Intermediate,395.0
+1573620,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLDNRSNHYEEVIAS,Negative,10600.0
+1573641,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLESLSSLGAHLDSD,Positive-Intermediate,147.0
+1573660,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLKILVLSILSSPTK,Positive-High,8.26
+1573675,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLNEFNNLYADKVSV,Positive-Intermediate,588.0
+1573700,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLTKFVAAALHNIKC,Positive-High,65.7
+1573713,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLWDYMCISLSTAIE,Positive-Intermediate,122.0
+1573731,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LMDVVYSIALHPIDE,Positive-Intermediate,252.0
+1573759,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LMSTRRVLEREQIPT,Positive-Intermediate,190.0
+1573768,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LMTSPKWVQMCSRTL,Positive-High,20.7
+1573787,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LNKFVSPKSVIGRFV,Positive-High,5.45
+1573813,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LQFNQMMNPSHVKFL,Positive-High,37.7
+1573834,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LQGLRYFIMAYVNQA,Positive-Low,1460.0
+1573845,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LQIILSGKMAHLRKV,Positive-High,1.33
+1573876,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LRNVACQEAVKLKLI,Positive-Low,1090.0
+1573887,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LRTKLMTSRRVLEKE,Positive-High,6.04
+1573920,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LSKDGCTSAKGPDYK,Negative,24500.0
+1573932,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LSLCNKIKGLKVFNT,Positive-High,51.6
+1573954,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LSSKFNKFVSPKSVS,Positive-High,80.7
+1574029,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MFIRNCARKVFNDIK,Positive-High,6.63
+1574055,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MLIESNLAGSNDNFL,Positive-Low,1100.0
+1574106,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NCEALSLVSHIVKWK,Positive-Intermediate,198.0
+1574147,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NHVIQSVRRLYPKIF,Positive-High,9.83
+1574165,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NIRYLVMAIVSDFSS,Positive-Intermediate,205.0
+1574183,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKFVSPKSVIGTFVA,Positive-Intermediate,104.0
+1574192,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKFVSPKSVSGTFVA,Positive-Low,1130.0
+1574214,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKNFFWAVKPKAVRQ,Positive-High,7.17
+1574225,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NKVKSLRILNTRRKL,Positive-High,1.97
+1574258,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NLMGKTLILLETFVR,Positive-Intermediate,151.0
+1574267,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NLRLKGVTCRLFRQQ,Positive-High,26.7
+1574284,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NLTNLLSARKLDSSK,Positive-High,5.74
+1574302,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NLYIKSIQSLISDTQ,Positive-High,22.1
+1574327,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NNQNFFWAVKPKVVR,Positive-High,24.4
+1574372,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NVKCKTPTQLAETID,Positive-Low,2790.0
+1574391,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PALFFTFLANLNLTE,Positive-High,100.0
+1574412,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PDTIDFLIMRNLTNL,Positive-High,9.71
+1574430,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PEIWHHLSTLIKQPD,Positive-High,16.4
+1574471,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PKLEFGSLIVNPSLN,Positive-Low,1970.0
+1574481,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PLGLLLKNLTTSSYV,Positive-High,10.5
+1574517,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSINDLDEVISNKFH,Positive-Intermediate,319.0
+1574537,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSLIKTLQSRMSKNF,Positive-High,5.9
+1574579,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QEYHRLIHSLAKTNN,Positive-High,1.03
+1574594,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QFKRASPILRFLYAN,Positive-High,38.1
+1574612,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QGLRYFIMAYVNQAH,Positive-High,9.58
+1574637,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QIYFESYVRPFVATT,Positive-High,24.1
+1574656,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QKFVDTILSENGVVA,Positive-Intermediate,736.0
+1574673,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QKLLLEEGVPSHIMS,Positive-Low,1390.0
+1574685,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QKRTLSLLQYARYPI,Positive-High,7.33
+1574704,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QLALHKMKSSDAREE,Positive-High,85.7
+1574734,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QSKLSRNFTKGVKKI,Positive-Intermediate,114.0
+1574757,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QVCYNFKVQFLFSSM,Positive-Intermediate,751.0
+1574779,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QVVLSSMINPLVMST,Positive-Intermediate,429.0
+1574796,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RAMFVEDIAMGYVVS,Positive-Intermediate,128.0
+1574809,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RCYSLYIAENGELTE,Negative,10300.0
+1574826,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RDIFLSQHHPSSLLL,Positive-High,85.8
+1574850,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,REEHYIVLSSELRLS,Positive-Intermediate,103.0
+1574872,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RESLESLWAPFGVLR,Positive-Intermediate,728.0
+1574892,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RFFLPIFSEFVLLAT,Positive-High,64.1
+1574905,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RFFVWGDEVPLLTKF,Positive-Low,1020.0
+1574924,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RFHLIKNTFGLLFYQ,Positive-Intermediate,137.0
+1574940,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RFKYLLNVSYLCHLV,Positive-High,26.5
+1574968,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLCFSKSKNTLMYEI,Positive-High,93.5
+1574988,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLIHSLSNVKNQSLG,Positive-Intermediate,114.0
+1575004,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLKGKSCDDWLGGSV,Positive-Low,1980.0
+1575019,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLKGVTCRPLKHKVE,Positive-High,68.7
+1575038,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLLDILEAIKLIRKK,Positive-High,20.8
+1575070,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RNLKNAGLIVGQMIL,Positive-Intermediate,711.0
+1575087,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RNTLLFLDLIILNFV,Positive-Low,5600.0
+1575104,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RPGVSKKFLSLLTSS,Positive-Intermediate,183.0
+1575121,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RQCCHKAMENFTDDD,Negative,29100.0
+1575136,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RQKIIYSGAVNLDDE,Negative,14400.0
+1575162,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RRRVMIQSSGGKLRL,Positive-Intermediate,474.0
+1575191,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RTLILLMLTNPTKRN,Positive-High,11.9
+1575208,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RVLDILVARRLLLKK,Positive-High,0.614
+1575223,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RVNQLIRYSGYRETP,Positive-High,8.33
+1575245,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RWLLIEILKASKSML,Positive-High,5.41
+1575263,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RYFLMAFANQIHHID,Positive-High,21.8
+1575297,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SDDQISIMKLPLSTK,Positive-High,9.79
+1575313,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SDFYALISERFINYA,Positive-High,24.2
+1575328,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SDFYGLISERFINYC,Positive-High,99.8
+1575373,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGDVIVKAIGALEDI,Positive-High,33.9
+1575392,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGFIGFCKSMGSKCV,Positive-High,8.63
+1575403,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGGNHMLLDGVSVVA,Positive-Low,1300.0
+1575425,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SGRLKFLDVCVALDM,Positive-High,19.1
+1575440,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SHELMTMTRPILRLL,Positive-High,2.71
+1575455,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SIAQHLVSDRPIMRY,Positive-Intermediate,215.0
+1575474,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SILKWHLHKVVEVPI,Positive-High,47.4
+1575493,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKFMQEINIEEQEYQ,Positive-Low,2190.0
+1575511,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKLKLLKGSETTVTE,Positive-Intermediate,697.0
+1575539,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SLELELIGSKRILDE,Positive-Low,1310.0
+1575562,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SLFIGLKGDIRESTV,Positive-Intermediate,336.0
+1575587,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SLPLFTGQASFDLAA,Positive-Intermediate,207.0
+1575603,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SLRKLSSVCLALTNS,Positive-Intermediate,140.0
+1575625,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SNKFHIRLIKGELSN,Positive-High,51.4
+1575652,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SPALFLSFLYTLELK,Positive-High,80.5
+1575667,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SPILRFLYANVGEEA,Positive-High,27.7
+1575683,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SPLLTEGFKLLSSLV,Positive-High,47.2
+1575703,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SPTEFTSISSNSGNL,Positive-Intermediate,440.0
+1575724,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SRCYSIYLSINGVLE,Positive-Intermediate,693.0
+1575741,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SRFFVMGEETPLLTK,Positive-Intermediate,979.0
+1575764,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SRVLNYDFNKLTALA,Positive-High,91.8
+1575777,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SSDDQVSLIKIPCLS,Positive-Low,1560.0
+1575800,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SSKLNKFISPKSVIG,Positive-Intermediate,115.0
+1575812,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SSLGVDDVGTPELEL,Negative,46700.0
+1575835,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SSTVKLRQNEFGPAR,Negative,11400.0
+1575866,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SVCNKVKGLKVFNTR,Positive-High,9.56
+1575886,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SVYLSDNGVMSEQGS,Positive-Low,4060.0
+1575901,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SWIRSCPDLKDCLID,Negative,46700.0
+1575922,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SWLNLAAHHPLRMVL,Positive-High,100.0
+1575939,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SYTIVSSLGVDDVGT,Positive-Intermediate,118.0
+1575957,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TASKLLEDRVGLNHI,Positive-Low,1510.0
+1575976,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TCEICALKPKIIYCN,Positive-Intermediate,618.0
+1576012,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TGLWPFIRINNLKVK,Positive-High,5.4
+1576034,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TIIKALGALDSPREI,Positive-High,25.9
+1576047,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TILIKKYNLNRAMML,Positive-High,11.9
+1576077,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TKIMSSKRILERESV,Positive-High,45.2
+1576093,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TLMGRYTHYKSRNLN,Positive-High,89.6
+1576120,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TMTRPILRLLVLAVL,Positive-High,7.15
+1576140,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TQLVLSSMVNPLVLS,Positive-Low,2020.0
+1576155,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TRRKLLLIFDALILL,Positive-Low,9130.0
+1576177,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TSFIRNCARKVFNDI,Positive-High,5.29
+1576197,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TSSDDQITLIKTPSL,Positive-High,82.7
+1576236,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VDGRGNYNTDLLPDW,Negative,46700.0
+1576261,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VEKSQLLNEFNNLYA,Positive-High,32.7
+1576291,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VGLVVQIDHVRMSTK,Positive-High,1.35
+1576311,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VGQMLMLVNDRLLDI,Positive-High,72.4
+1576342,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLDILTANKLIRQKL,Positive-High,25.2
+1576364,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLKWHLHKAVEVPIS,Positive-High,79.6
+1576388,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VLRTKLMSTRRVLER,Positive-High,4.92
+1576408,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VMRYTIDKEFEKICR,Positive-Intermediate,637.0
+1576437,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VPFNVAQAYCIGKLK,Positive-High,68.9
+1576455,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VPILLNNPNLFWAVK,Positive-High,16.5
+1576480,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VRKTIPDVIELAYQK,Positive-Low,4850.0
+1576528,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VVPDGYKLTGNVLIL,Positive-Intermediate,672.0
+1576550,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WAVKPKAVRQIEDQL,Positive-Low,1150.0
+1576565,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WELGLSPQQICTNFK,Positive-Low,6260.0
+1576585,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WKSDMSKLLNLKSDL,Positive-High,10.5
+1576606,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WLLIEVLKGMKTTSE,Positive-High,15.8
+1576629,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WRSFLNKVKSLRILN,Positive-High,5.89
+1576643,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WVFSSVQPPKVPILL,Positive-Intermediate,722.0
+1576667,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YDFNKLTALAVSQLT,Positive-High,32.6
+1576686,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YEEFCDAVYENDKLK,Negative,34300.0
+1576702,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YEYKVQQAMSNLVLG,Positive-Intermediate,448.0
+1576722,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YFESFVREFVATART,Positive-Intermediate,544.0
+1576730,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YFIMAYVNQAHHIQL,Positive-High,16.9
+1576745,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YFLMAYANQIHHVDL,Positive-Intermediate,228.0
+1576760,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YFQCFKSILLIMNAN,Positive-Intermediate,142.0
+1576786,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YLILKNLTGLVSTGS,Positive-High,3.36
+1576820,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YQRSEEEKFPYIMGD,Negative,46700.0
+1576836,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YREEIYRKGLGNFVQ,Positive-Intermediate,151.0
+1576851,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YRKGLGNFVQTDRKS,Positive-High,15.1
+1576884,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,YVVSSFDNIKVFLEG,Positive-Low,1330.0
+1576904,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,AGDLGRDELMELASD,Negative,46700.0
+1576962,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EKDSPFKLSSSEPHC,Positive-Low,1240.0
+1576976,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EKMFVSPTPGQRNPY,Positive-Intermediate,488.0
+1576996,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,EQARKFEEPIWSDFG,Negative,46700.0
+1577027,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,FSLSAAVKAGASLID,Positive-High,5.39
+1577050,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GLLSYVIGLLPQNMV,Positive-Intermediate,148.0
+1577077,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,HKGIVIKSKKKGSTP,Positive-High,3.97
+1577114,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,INISGYNLSLSAAVK,Positive-Intermediate,107.0
+1577129,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,IPIQLLPNTLVFQAK,Positive-High,7.06
+1577182,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LAVFQPSSGNYVHCF,Positive-Intermediate,311.0
+1577199,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LDSSDTIWMDIEGPP,Negative,46700.0
+1577222,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LKALTTKHPSLNIIT,Positive-Intermediate,183.0
+1577242,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LLSYVIGLLPQGSVI,Positive-High,32.7
+1577259,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LMIMKSNQKNMFLKV,Positive-Intermediate,407.0
+1577277,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LQLVGIQRAGLAPTG,Positive-High,2.7
+1577318,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NISGYNYSLSAAVKA,Positive-High,21.8
+1577338,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NQFGSVPAVTISCMT,Positive-Intermediate,881.0
+1577361,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,NYSLSAAVKAGATLL,Positive-High,55.2
+1577396,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QGSVITVQGADDIKK,Negative,39600.0
+1577416,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,QRILRKSKRNDGDLD,Positive-Intermediate,532.0
+1577445,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RLMSMKSVQNNTVLK,Positive-Intermediate,166.0
+1577516,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,TYSQLMTLKDAKMLQ,Positive-High,55.3
+1577534,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VIGLLPQNMVLTTQG,Positive-Low,1530.0
+1577556,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,VPKKKKDKDIPQSSE,Negative,46700.0
+1577581,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,WTQSLRRGLSAWTTS,Positive-High,1.5
+1577619,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,GKSSFCDICGEELPT,Negative,46700.0
+1577649,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,LCHICWKPLPTSITV,Positive-Intermediate,334.0
+1577664,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,MGNSKSKSNPSSSSE,Negative,46700.0
+1577687,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,PSAEFRRTAPPSLYG,Positive-Intermediate,105.0
+1577707,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,RQAEPSLYGRHNCRC,Positive-Low,7450.0
+1577727,HLA-DRB1*11:01,Competition (or equilibrium binding) approximating KD,SKEEKDTNGTDRAEI,Positive-Low,9970.0
+1581583,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DLPVLDQLTDPPGVRRVYHIQAGLPDPFQPPS,Positive,25.0
+1581584,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ITQFILEHRAKGSCKYALPLRIPPSACLSPQ,Positive,5.0
+1581585,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SACLSPQAYQQGVTVDSIGMLPRFIPENQRTVAVY,Positive,44.0
+1581586,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QRTVAVYSLKIAGWHGPKAPYTSTLLPPEL,Positive,39.0
+1581587,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ICGIVYWMRRHTQKAPKRIRLPHIRED,Positive,5.0
+1581625,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SKYALVDASLKMADPNRFRGKDLPVLDQL,Negative,648.0
+1581638,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QPPSLPITVYYAVLERACRSVLLNAPSEAPQIVR,Negative,120.0
+1581778,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),APQIVRGASEDVRKQPYNLTIAWFRMGG,Negative,300.0
+1581783,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TIAWFRMGGNCAIPITVMEYTECSYNKS,Negative,598.0
+1581790,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NKSLGACPIRTQPRWNYYDSFSAVSEDNLGF,Negative,289.0
+1581800,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EDNLGFLMHAPAFETAGTYLRLVKINDWTEITQF,Negative,175.0
+1581823,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),APQIPPNWHIPSIQDAATPYHPPATPNNMGL,Negative,25000.0
+1605567,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ATMYYKDVTVSQVWF,Positive-High,85.0
+1605623,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISVKNAEKVQTAGIVTPYDI,Positive,4336.54
+1617686,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KDVTVSQVWFGHRYS,Negative,1690.0
+1617692,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RADITTVSTFIDLNI,Positive-Intermediate,254.0
+1617697,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVSTFIDLNITMLED,Positive-High,131.0
+1617703,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LLSAKVTDMVMRKRR,Negative,1690.0
+1617709,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NTNYTQVPNKDGDAD,Positive-Low,1265.0
+1617721,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TQVPNKDGDADEDDL,Negative,1690.0
+1655588,HLA-DRB1*11:01,dissociation constant KD (~IC50),AALLVVAVGLRVVCAKYALA,Negative,5000.0
+1655597,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAYQQGVTVDSIGMLPRFTP,Positive,3562.0
+1655606,HLA-DRB1*11:01,dissociation constant KD (~IC50),PELVPEDPEDSALLEDPAGT,Negative,5000.0
+1655616,HLA-DRB1*11:01,dissociation constant KD (~IC50),HAPAAPANPGLIIGALAGST,Negative,5000.0
+1655625,HLA-DRB1*11:01,dissociation constant KD (~IC50),AALLVVAVGLRV,Negative,5000.0
+1655661,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALLVVAVGLRVV,Negative,5000.0
+1655670,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLVVAVGLRVVC,Negative,5000.0
+1655679,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVVAVGLRVVCA,Negative,5000.0
+1655688,HLA-DRB1*11:01,dissociation constant KD (~IC50),VVAVGLRVVCAK,Negative,5000.0
+1655697,HLA-DRB1*11:01,dissociation constant KD (~IC50),VAVGLRVVCAKY,Negative,5000.0
+1655706,HLA-DRB1*11:01,dissociation constant KD (~IC50),AVGLRVVCAKYA,Negative,5000.0
+1655715,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGLRVVCAKYAL,Negative,5000.0
+1655724,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLRVVCAKYALA,Positive,4461.0
+1655735,HLA-DRB1*11:01,dissociation constant KD (~IC50),KAYQQGVTVDSI,Negative,5000.0
+1655743,HLA-DRB1*11:01,dissociation constant KD (~IC50),AYQQGVTVDSIG,Negative,5000.0
+1655752,HLA-DRB1*11:01,dissociation constant KD (~IC50),YQQGVTVDSIGM,Negative,5000.0
+1655761,HLA-DRB1*11:01,dissociation constant KD (~IC50),QQGVTVDSIGML,Negative,5000.0
+1655770,HLA-DRB1*11:01,dissociation constant KD (~IC50),QGVTVDSIGMLP,Negative,5000.0
+1655779,HLA-DRB1*11:01,dissociation constant KD (~IC50),GVTVDSIGMLPR,Negative,5000.0
+1655789,HLA-DRB1*11:01,dissociation constant KD (~IC50),VTVDSIGMLPRF,Negative,5000.0
+1655798,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVDSIGMLPRFT,Negative,5000.0
+1655807,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDSIGMLPRFTP,Negative,5000.0
+1655817,HLA-DRB1*11:01,dissociation constant KD (~IC50),ELVPEDPEDSAL,Negative,5000.0
+1655826,HLA-DRB1*11:01,dissociation constant KD (~IC50),LVPEDPEDSALL,Negative,5000.0
+1655835,HLA-DRB1*11:01,dissociation constant KD (~IC50),VPEDPEDSALLE,Negative,5000.0
+1655844,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEDPEDSALLED,Negative,5000.0
+1655853,HLA-DRB1*11:01,dissociation constant KD (~IC50),EDPEDSALLEDP,Negative,5000.0
+1655862,HLA-DRB1*11:01,dissociation constant KD (~IC50),EDSALLEDPAGT,Negative,5000.0
+1655871,HLA-DRB1*11:01,dissociation constant KD (~IC50),PELVPEDPEDSA,Negative,5000.0
+1655880,HLA-DRB1*11:01,dissociation constant KD (~IC50),DPEDSALLEDPA,Negative,5000.0
+1655889,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEDSALLEDPAG,Negative,5000.0
+1655898,HLA-DRB1*11:01,dissociation constant KD (~IC50),HAPAAPANPGLI,Negative,5000.0
+1655907,HLA-DRB1*11:01,dissociation constant KD (~IC50),APAAPANPGLII,Negative,5000.0
+1655918,HLA-DRB1*11:01,dissociation constant KD (~IC50),PAAPANPGLIIG,Negative,5000.0
+1655929,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAPANPGLIIGA,Negative,5000.0
+1655939,HLA-DRB1*11:01,dissociation constant KD (~IC50),APANPGLIIGAL,Negative,5000.0
+1655948,HLA-DRB1*11:01,dissociation constant KD (~IC50),PANPGLIIGALA,Negative,5000.0
+1655957,HLA-DRB1*11:01,dissociation constant KD (~IC50),ANPGLIIGALAG,Negative,5000.0
+1655966,HLA-DRB1*11:01,dissociation constant KD (~IC50),NPGLIIGALAGS,Negative,5000.0
+1655975,HLA-DRB1*11:01,dissociation constant KD (~IC50),PGLIIGALAGST,Negative,5000.0
+1667818,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASQKRPSQRHGSKYLATAST + ACET(A1),Negative,20000.0
+1667828,HLA-DRB1*11:01,dissociation constant KD (~IC50),KYLATASTMDHARHGFLPRH,Positive,5000.0
+1667838,HLA-DRB1*11:01,dissociation constant KD (~IC50),HARHGFLPRHRDTGILDSIG,Positive,4000.0
+1667848,HLA-DRB1*11:01,dissociation constant KD (~IC50),RDTGILDSIGRFFGGDRGAP,Positive,169.0
+1667858,HLA-DRB1*11:01,dissociation constant KD (~IC50),RFFGGDRGAPKRGSGKDSHH,Negative,20000.0
+1667868,HLA-DRB1*11:01,dissociation constant KD (~IC50),GSGKDSHHPARTAHYGSLPQ,Negative,20000.0
+1667878,HLA-DRB1*11:01,dissociation constant KD (~IC50),RTAHYGSLPQKSHGRTQDEN,Positive,3333.0
+1667888,HLA-DRB1*11:01,dissociation constant KD (~IC50),QKSHGRTQDENPVVHFFKNI,Negative,20000.0
+1667898,HLA-DRB1*11:01,dissociation constant KD (~IC50),NPVVHFFKNIVTPRTPPPSQ,Positive,17.0
+1667908,HLA-DRB1*11:01,dissociation constant KD (~IC50),VTPRTPPPSQGKGRGLSLSR,Positive,10000.0
+1667918,HLA-DRB1*11:01,dissociation constant KD (~IC50),GKGRGLSLSRFSWGAEGQRP,Positive,1667.0
+1667928,HLA-DRB1*11:01,dissociation constant KD (~IC50),FSWGAEGQRPGFGYGGRASD,Negative,20000.0
+1667938,HLA-DRB1*11:01,dissociation constant KD (~IC50),GFGYGGRASDYKSAHKGFKG,Positive,139.0
+1667948,HLA-DRB1*11:01,dissociation constant KD (~IC50),YKSAHKGFKGVDAQGTLSKI,Positive,2000.0
+1667958,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDAQGTLSKIFKLGGRDSRS,Positive,18.0
+1667968,HLA-DRB1*11:01,dissociation constant KD (~IC50),IFKLGGRDSRSGSPMARR,Positive,10000.0
+1685572,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIRMAKLLGRDPE,Positive-High,2.5
+1685799,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIKMAKLLGRDPE,Positive-High,10.0
+1685834,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIRMARLLGRDPE,Positive-High,1.0
+1685835,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIRMARILGRDPE,Positive-High,5.0
+1685836,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIRMAKLFGRDPE,Positive-High,5.0
+1685837,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HGRQIRMAKLLTRDPE,Positive,90.0
+1705230,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GEALSTLVVNKIRGT,Positive,977.0
+1705231,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GEALSTLVLNRLKVG,Positive,79.0
+1705232,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PYILLVSSKVSTVKD,Positive,112.0
+1705233,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AYVLLSEKKISSIQS,Positive,51.0
+1705234,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EAVLEDPYILLVSSK,Negative,4376.0
+1705235,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KCEFQDAYVLLSEKK,Negative,1078.0
+1705236,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IAGLFLTTEAVVADK,Positive,867.0
+1705237,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VASLLTTAEVVVTEI,Negative,10000.0
+1770530,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PKYVKQNTLKLAT,Positive-High,18.3
+1775816,HLA-DRB1*11:01,dissociation constant KD (~IC50),FTVQKGSDPKKLVLN,Positive,3763.0
+1775824,HLA-DRB1*11:01,dissociation constant KD (~IC50),KLVLNIKYTRPGDSL,Positive,31.0
+1775826,HLA-DRB1*11:01,dissociation constant KD (~IC50),EEWEPLTKKGNVWEV,Positive,257.0
+1775827,HLA-DRB1*11:01,dissociation constant KD (~IC50),NVWEVKSSKPLVGPF,Positive,409.0
+1775828,HLA-DRB1*11:01,dissociation constant KD (~IC50),NFRFMSKGGMRNVFD,Positive,81.0
+1775831,HLA-DRB1*11:01,dissociation constant KD (~IC50),NRNNTFKPFAEYKSD,Positive,759.0
+1775873,HLA-DRB1*11:01,dissociation constant KD (~IC50),AVWGKNSCAKNYNCK,Positive,1795.0
+1775880,HLA-DRB1*11:01,dissociation constant KD (~IC50),GELELQFRRVKCKYP,Positive,444.0
+1775883,HLA-DRB1*11:01,dissociation constant KD (~IC50),NYLALLVKYVNGDGD,Positive,243.0
+1775885,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALKESWGAIWRIDTP,Positive,186.0
+1775888,HLA-DRB1*11:01,dissociation constant KD (~IC50),EHGSDEWVAMTKGEG,Positive,654.0
+1775889,HLA-DRB1*11:01,dissociation constant KD (~IC50),EWVAMTKGEGGVWTF,Positive,217.0
+1799609,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GDTRPRFLWQLKFECHFFNG,Positive-Low,90000.0
+1799613,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TERVRLLERCIYNQEESVRFDS,Positive-Low,90000.0
+1799617,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DVGEYRAVTELGRPDAEYWN,Positive,10000.0
+1799621,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DLLEQRRAAVDTYCRHNYGVGESFT,Positive-Low,400000.0
+1831496,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MAYTDETFKTREAIQHESGI,Positive,8900.0
+1831497,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LYGEVGDTLLIIFKNQASRP,Positive,200.0
+1831498,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ASRPYNIYPHGITDVRPLYS,Negative,100000.0
+1831499,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FPILPGEIFKYKWTVTVEDG,Negative,100000.0
+1831500,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LTRYYSSFVNMERDLASGLI,Positive,200.0
+1831501,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RDLASGLIGPLLICYKESVD,Positive,25000.0
+1831502,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENRSWYLTENIQRFLPNPAG,Positive,500.0
+1831503,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENRSWYLTENIQCFLPNPAG,Negative,100000.0
+1831504,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENIQRFLPNPAGVQLEDPEF,Positive,500.0
+1831505,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ENIQCFLPNPAGVQLEDPEF,Positive,1500.0
+1831506,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPEFQASNIMHSINGYVFDS,Positive,8900.0
+1831507,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ASNIMHSINGYVFDSLQLSV,Negative,100000.0
+1831508,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WYILSIGAQTDFLSVFFSGY,Positive,300.0
+1831509,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FSGYTFKHKMVYEDTLTLFP,Positive,20000.0
+1831510,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KMVYEDTLTLFPFSGETVFM,Positive,20000.0
+1831511,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVFMSMENPGLWILGCHNSD,Negative,100000.0
+1831512,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PGLWILGCHNSDFRNRGMTA,Negative,100000.0
+1831635,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QRFLPNPAGVQL,Positive,500.0
+1831636,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RFLPNPAGVQL,Positive,5700.0
+1831637,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FLPNPAGVQL,Positive,12800.0
+1845266,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AGQISVQPTFSVQRN,Positive-Low,3744.0
+1845277,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AMEVASQARQMVQAM,Positive-Low,1406.0
+1845288,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DFALIVNAPNHEGIQ,Positive-Intermediate,153.0
+1845302,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DLIFLARSALILRGS,Positive-Intermediate,321.0
+1845321,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPLWAASIIGILHL,Positive-Low,1804.0
+1845322,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DPLWAASIIGILHL,Positive-Low,1804.0
+1845337,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EGAIVGEISPLPSLPGHTD,Positive-High,88.0
+1845351,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EPFLKTTPRPLRLPD,Positive-Intermediate,131.0
+1845370,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EYIMKGVYINTALLN,Positive-Low,2732.0
+1845381,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FEQITFMQALQLLLE,Positive-Intermediate,765.0
+1845386,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FLAMITYITRNQPEW,Positive-High,59.0
+1845405,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FRNVLSIAPIMFSNKM,Positive-High,68.0
+1845420,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GARILTSESQLTITK,Positive-Low,4800.0
+1845432,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GRFYIQMCTELKLSDYEG,Positive-Intermediate,236.0
+1845448,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GVTVIKNNMINNDLGP,Negative,10000.0
+1845456,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IAPIMFSNKMARLGK,Positive-Intermediate,140.0
+1845471,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IGRFYIQMCTELKLSDYEG,Positive-Intermediate,236.0
+1845485,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IKAVRGDLNFVNRAN,Positive-Low,1914.0
+1845493,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IRWLIEEVRHRLRIT,Positive-Intermediate,703.0
+1845509,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISSMVEAMVSRARID,Positive-Low,1108.0
+1845525,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ITFMQALQLLLEVEQ,Positive-Low,1375.0
+1845537,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KAAMGLRISSSFSFG,Positive-Intermediate,398.0
+1845549,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KGILGFVFTLTVPSE,Positive-High,37.0
+1845559,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KGYMFESKSMKLRTQI,Positive-High,33.0
+1845568,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KWMMAMKYPITADKR,Positive-High,19.0
+1845590,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LFTIRQEMASRGLWD,Positive-Intermediate,890.0
+1845597,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LRHFQKDAKVLFQNW,Positive-Intermediate,318.0
+1845618,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MGTVTTEVALGLVCA,Negative,10000.0
+1845622,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MMGMFNMLSTVLGVS,Positive-High,13.0
+1845636,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NPLIRHENRMVLAST,Positive-High,32.0
+1845655,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PNLYNIRNLHIPEVC,Positive-Low,1535.0
+1845663,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PTLLFLKVPAQNAIST,Positive-High,49.0
+1845691,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNSITIERMVLSAFD,Positive-Low,4231.0
+1845692,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNSITIERMVLSAFD,Positive-Low,4231.0
+1845705,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QPEWFRNVLSIAPIMF,Positive-Intermediate,288.0
+1845720,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QWIIRNWETVKIQWS,Positive-Intermediate,729.0
+1845731,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RMQFSSLTVNVRGSG,Positive-Intermediate,437.0
+1845741,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RPMFLYVRTNGTSKI,Positive-High,8.0
+1845756,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RREVHIYYLEKANKI,Positive-High,96.0
+1845769,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RSALILRGSVAHKSC,Positive-Intermediate,265.0
+1845782,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RSKFLLMDALKLSIED,Positive-High,49.0
+1845798,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SLKLYRDSLGEAVMR,Negative,10000.0
+1845811,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SQLVWMACHSMFE,Positive-Intermediate,472.0
+1845823,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SYLIRALTLNTMTKD,Positive-Intermediate,280.0
+1845829,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VAPIEHIASMRRNYF,Positive-High,70.0
+1845845,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VGTMVMELIRMIKRG,Positive-High,32.0
+1845861,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YGFVANFSMELPSFG,Positive-Intermediate,700.0
+1845869,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YRKLKREITFHGAKE,Positive-High,28.0
+1855398,HLA-DRB1*11:01,dissociation constant KD (~IC50),ICDSRVLERYLLEAK,Positive-Low,2945.0
+1855414,HLA-DRB1*11:01,dissociation constant KD (~IC50),VLERYLLEAKEAENI,Positive-Low,6368.0
+1855462,HLA-DRB1*11:01,dissociation constant KD (~IC50),TTGCAEHCSLNENIT,Negative,23945.0
+1855494,HLA-DRB1*11:01,dissociation constant KD (~IC50),NENITVPDTKVNFYA,Negative,17921.0
+1855510,HLA-DRB1*11:01,dissociation constant KD (~IC50),VPDTKVNFYAWKRME,Positive-Low,8861.0
+1855526,HLA-DRB1*11:01,dissociation constant KD (~IC50),VNFYAWKRMEVGQQA,Positive-High,50.0
+1855542,HLA-DRB1*11:01,dissociation constant KD (~IC50),WKRMEVGQQAVEVWQ,Positive-Intermediate,512.0
+1855574,HLA-DRB1*11:01,dissociation constant KD (~IC50),VEVWQGLALLSEAVL,Positive-Low,5157.0
+1855590,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLALLSEAVLRGQAL,Positive-Low,2578.0
+1855606,HLA-DRB1*11:01,dissociation constant KD (~IC50),SEAVLRGQALLVNSS,Positive-Low,3484.0
+1855622,HLA-DRB1*11:01,dissociation constant KD (~IC50),RGQALLVNSSQPWEP,Positive-Low,1976.0
+1855654,HLA-DRB1*11:01,dissociation constant KD (~IC50),QPWEPLQLHVDKAVS,Positive-Low,4026.0
+1855670,HLA-DRB1*11:01,dissociation constant KD (~IC50),LQLHVDKAVSGLRSL,Positive-Intermediate,910.0
+1855686,HLA-DRB1*11:01,dissociation constant KD (~IC50),DKAVSGLRSLTTLLR,Positive-High,52.0
+1855702,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLRSLTTLLRALGAQ,Positive-High,3.7
+1855718,HLA-DRB1*11:01,dissociation constant KD (~IC50),TTLLRALGAQKEAIS,Positive-Intermediate,860.0
+1855734,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALGAQKEAISPPDAA,Positive-Low,4212.0
+1855750,HLA-DRB1*11:01,dissociation constant KD (~IC50),KEAISPPDAASAAPL,Positive-Intermediate,601.0
+1855766,HLA-DRB1*11:01,dissociation constant KD (~IC50),PPDAASAAPLRTITA,Positive-Low,2582.0
+1855782,HLA-DRB1*11:01,dissociation constant KD (~IC50),SAAPLRTITADTFRK,Positive-Low,3883.0
+1855798,HLA-DRB1*11:01,dissociation constant KD (~IC50),RTITADTFRKLFRVY,Positive-Intermediate,166.0
+1855814,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRVYSNFLR,Positive-High,11.0
+1855830,HLA-DRB1*11:01,dissociation constant KD (~IC50),LFRVYSNFLRGKLKL,Positive-Intermediate,173.0
+1855846,HLA-DRB1*11:01,dissociation constant KD (~IC50),SNFLRGKLKLYTGEA,Positive-Intermediate,192.0
+1855878,HLA-DRB1*11:01,dissociation constant KD (~IC50),CSNLSTCVLGKLSQE,Positive-Low,2440.0
+1855894,HLA-DRB1*11:01,dissociation constant KD (~IC50),TCVLGKLSQELHKLQ,Positive-Low,1398.0
+1855910,HLA-DRB1*11:01,dissociation constant KD (~IC50),KLSQELHKLQTYPRT,Positive-Low,2375.0
+1855926,HLA-DRB1*11:01,dissociation constant KD (~IC50),LHKLQTYPRTNTGSG,Positive-Low,6091.0
+1855942,HLA-DRB1*11:01,dissociation constant KD (~IC50),KLQTYPRTNTGSGTP,Positive-Low,8210.0
+1855974,HLA-DRB1*11:01,dissociation constant KD (~IC50),FPTIPLSRLFDNAML,Positive-Low,4600.0
+1855990,HLA-DRB1*11:01,dissociation constant KD (~IC50),RLFDNAMLRAHRLHQ,Positive-Low,2583.0
+1856006,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRAHRLHQLAFDTYQ,Positive-Low,3208.0
+1856038,HLA-DRB1*11:01,dissociation constant KD (~IC50),QEFEEAYIPKEQKYS,Negative,12821.0
+1856134,HLA-DRB1*11:01,dissociation constant KD (~IC50),SNLELLRISLLLIQS,Positive-Low,1263.0
+1856150,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISLLLIQSWLEPVQF,Positive-Low,2675.3
+1856166,HLA-DRB1*11:01,dissociation constant KD (~IC50),SWLEPVQFLRSVFAN,Positive-Low,2715.0
+1856182,HLA-DRB1*11:01,dissociation constant KD (~IC50),FLRSVFANSLVYGAS,Positive-Intermediate,973.0
+1856230,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLKDLEEGIQTLMGR,Negative,13671.0
+1856246,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIQTLMGRLEDGSPR,Positive-Low,4474.0
+1856262,HLA-DRB1*11:01,dissociation constant KD (~IC50),RLEDGSPRTGQIFKQ,Positive-Low,7896.0
+1856278,HLA-DRB1*11:01,dissociation constant KD (~IC50),RTGQIFKQTYSKFDT,Positive-Low,2382.0
+1856342,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLYCFRKDMDKVETF,Positive-Low,4507.0
+1856358,HLA-DRB1*11:01,dissociation constant KD (~IC50),DMDKVETFLRIVQCR,Positive-Intermediate,885.0
+1856374,HLA-DRB1*11:01,dissociation constant KD (~IC50),FLRIVQCRSVEGSCG,Positive-Low,2706.0
+1856390,HLA-DRB1*11:01,dissociation constant KD (~IC50),MSYNLLGFLQRSSNF,Positive-Low,3628.0
+1856406,HLA-DRB1*11:01,dissociation constant KD (~IC50),LGFLQRSSNFQCQKL,Positive-Low,6025.0
+1856438,HLA-DRB1*11:01,dissociation constant KD (~IC50),QCQKLLWQLNGRLEY,Positive-Low,1644.0
+1856454,HLA-DRB1*11:01,dissociation constant KD (~IC50),LWQLNGRLEYCLKDR,Positive-Low,4215.0
+1856470,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRLEYCLKDRMNFDI,Positive-Low,1707.0
+1856486,HLA-DRB1*11:01,dissociation constant KD (~IC50),CLKDRMNFDIPEEIK,Positive-Low,6796.0
+1856502,HLA-DRB1*11:01,dissociation constant KD (~IC50),MNFDIPEEIKQLQQF,Positive-Low,7326.0
+1856518,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEEIKQLQQFQKEDA,Positive-Low,1953.0
+1856566,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALTIYEMLQNIFAIF,Negative,29718.0
+1856598,HLA-DRB1*11:01,dissociation constant KD (~IC50),IFAIFRQDSSSTGWN,Positive-Low,4558.0
+1856630,HLA-DRB1*11:01,dissociation constant KD (~IC50),STGWNETIVENLLAN,Negative,20576.0
+1856662,HLA-DRB1*11:01,dissociation constant KD (~IC50),NLLANVYHQINHLKT,Positive-Low,8258.0
+1856678,HLA-DRB1*11:01,dissociation constant KD (~IC50),VYHQINHLKTVLEEK,Negative,22002.0
+1856694,HLA-DRB1*11:01,dissociation constant KD (~IC50),NHLKTVLEEKLEKED,Negative,19342.0
+1856726,HLA-DRB1*11:01,dissociation constant KD (~IC50),LEKEDFTRGKLMSSL,Positive-Intermediate,698.0
+1856742,HLA-DRB1*11:01,dissociation constant KD (~IC50),FTRGKLMSSLHLKRY,Positive-High,81.0
+1856758,HLA-DRB1*11:01,dissociation constant KD (~IC50),LMSSLHLKRYYGRIL,Positive-Low,1035.0
+1856774,HLA-DRB1*11:01,dissociation constant KD (~IC50),HLKRYYGRILHYLKA,Positive-Low,2721.0
+1856790,HLA-DRB1*11:01,dissociation constant KD (~IC50),YGRILHYLKAKEYSH,Positive-Intermediate,812.0
+1856822,HLA-DRB1*11:01,dissociation constant KD (~IC50),KEYSHCAWTIVRVEI,Positive-Low,9320.0
+1856838,HLA-DRB1*11:01,dissociation constant KD (~IC50),CAWTIVRVEILRNFY,Positive-Low,4167.0
+1856854,HLA-DRB1*11:01,dissociation constant KD (~IC50),VRVEILRNFYFINRL,Positive-Intermediate,504.0
+1856870,HLA-DRB1*11:01,dissociation constant KD (~IC50),RNFYFINRLTGYLRN,Positive-High,55.0
+1856886,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIVEQCCTSICSLYQ,Positive-Low,7940.0
+1856902,HLA-DRB1*11:01,dissociation constant KD (~IC50),EQCCTSICSLYQLEN,Positive-Low,8117.0
+1856982,HLA-DRB1*11:01,dissociation constant KD (~IC50),VEALYLVCGERGFFY,Positive-Low,3563.0
+1858553,HLA-DRB1*11:01,dissociation constant KD (~IC50),GARSLTTLLRALGAQ,Positive-High,3.7
+1858567,HLA-DRB1*11:01,dissociation constant KD (~IC50),GERSLTTLLRALGAQ,Positive-High,1.1
+1858584,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGRSLTTLLRALGAQ,Positive-High,6.2
+1858599,HLA-DRB1*11:01,dissociation constant KD (~IC50),GPRSLTTLLRALGAQ,Positive-High,47.0
+1858614,HLA-DRB1*11:01,dissociation constant KD (~IC50),GSRSLTTLLRALGAQ,Positive-High,4.5
+1858629,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLDSLTTLLRALGAQ,Positive-High,4.8
+1858644,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLGSLTTLLRALGAQ,Positive-High,3.8
+1858659,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLRRLTTLLRALGAQ,Positive-High,5.8
+1858674,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLRSDTTLLRALGAQ,Positive-High,38.0
+1858689,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLRSLTDLLRALGAQ,Positive-High,17.0
+1858704,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGRSLTDLLRALGAQ,Positive-High,80.0
+1858719,HLA-DRB1*11:01,dissociation constant KD (~IC50),GSRSLTDLLRALGAQ,Positive-High,85.0
+1858764,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKDFRVYSNFLR,Positive-High,56.0
+1858795,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFDVYSNFLR,Positive-Intermediate,118.0
+1858810,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFGVYSNFLR,Positive-High,25.0
+1858825,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRDYSNFLR,Positive-High,28.0
+1858840,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRGYSNFLR,Positive-High,1.7
+1858855,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRRYSNFLR,Positive-High,4.5
+1858870,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRVYDNFLR,Positive-High,4.2
+1858885,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKLFRVYSDFLR,Positive-High,4.2
+1858900,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTFRKDFRVYDNFLR,Positive-Low,5908.0
+1884266,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EYLNKIQNSLSTEWSPCSVT,Positive,100000.0
+1884295,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NANPNANPNANP,Negative,100000.0
+1884314,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PKYVKQNTLKLAT,Positive,1000.0
+1894164,HLA-DRB1*11:01,dissociation constant KD (~IC50),RPSFNMLKRARNRVS,Positive-High,1.19
+1894165,HLA-DRB1*11:01,dissociation constant KD (~IC50),MLNIMNRRKRSVTML,Positive-High,1.81
+1894166,HLA-DRB1*11:01,dissociation constant KD (~IC50),AKFKCVTKLEGKIVQ,Positive-High,23.7
+1894167,HLA-DRB1*11:01,dissociation constant KD (~IC50),FAVGLLFRRLTSREV,Positive-High,1.33
+1894168,HLA-DRB1*11:01,dissociation constant KD (~IC50),WYFWQKKKQRSGVLW,Positive-High,11.0
+1894169,HLA-DRB1*11:01,dissociation constant KD (~IC50),VLDDGIYRILQRGLL,Positive-High,4.22
+1894170,HLA-DRB1*11:01,dissociation constant KD (~IC50),AIVREAIKRKLRTLI,Positive-High,18.2
+1894171,HLA-DRB1*11:01,dissociation constant KD (~IC50),NCLRKNGKRVIQLSR,Positive-High,26.9
+1894172,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVVIGLLFMILTVAA,Positive-Low,2700.0
+1894173,HLA-DRB1*11:01,dissociation constant KD (~IC50),WLWGFLSRNKKPRIC,Positive-High,62.5
+1894174,HLA-DRB1*11:01,dissociation constant KD (~IC50),CVYNMMGKREKKLGE,Positive-High,9.13
+1894175,HLA-DRB1*11:01,dissociation constant KD (~IC50),NENYLDYMTSMKRFK,Positive-High,34.8
+1894176,HLA-DRB1*11:01,dissociation constant KD (~IC50),RVSTVQQLTKRFSLG,Positive-High,6.48
+1894177,HLA-DRB1*11:01,dissociation constant KD (~IC50),MALVAFLRFLTIPPT,Positive-High,8.59
+1894178,HLA-DRB1*11:01,dissociation constant KD (~IC50),RGFRKEIGRMLNILN,Positive-High,44.9
+1894179,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRHPGFTIMAAILAY,Positive-High,3.67
+1894180,HLA-DRB1*11:01,dissociation constant KD (~IC50),LIFILLTAVAPSMTM,Positive-Intermediate,121.0
+1894181,HLA-DRB1*11:01,dissociation constant KD (~IC50),FAAGLLLRKLTSKEL,Positive-High,5.67
+1894182,HLA-DRB1*11:01,dissociation constant KD (~IC50),AIFLTTLSRTSKKRS,Positive-High,2.2
+1894183,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVTGGIFLFLMSGKG,Positive-High,49.9
+1894184,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGAGLLFSIMKNTTN,Positive-High,5.2
+1894185,HLA-DRB1*11:01,dissociation constant KD (~IC50),VSSVNMISRMLINRF,Positive-High,2.18
+1894186,HLA-DRB1*11:01,dissociation constant KD (~IC50),MLINRFTMKHKKATY,Positive-High,1.29
+1894187,HLA-DRB1*11:01,dissociation constant KD (~IC50),CETCVYNMMGKREKK,Positive-High,8.65
+1894188,HLA-DRB1*11:01,dissociation constant KD (~IC50),MEGEGIFKSIQHLTA,Positive-High,47.5
+1894189,HLA-DRB1*11:01,dissociation constant KD (~IC50),SINMLKRVRNRVSTG,Positive-High,2.03
+1894190,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISNMLSIINKRKKTS,Positive-High,6.88
+1894191,HLA-DRB1*11:01,dissociation constant KD (~IC50),VVIFILLMLVTPSMT,Positive-Low,1320.0
+1894192,HLA-DRB1*11:01,dissociation constant KD (~IC50),DFNEMILLTMKNKAW,Positive-High,11.0
+1894193,HLA-DRB1*11:01,dissociation constant KD (~IC50),FTFVLLLSGQITWRD,Positive-High,100.0
+1894194,HLA-DRB1*11:01,dissociation constant KD (~IC50),LGFFLRKLTSRENLL,Positive-High,4.47
+1894195,HLA-DRB1*11:01,dissociation constant KD (~IC50),IFSLKDTLKRRSWPL,Positive-High,12.1
+1894196,HLA-DRB1*11:01,dissociation constant KD (~IC50),VIEHLERLQRKHGGM,Positive-High,9.54
+1894197,HLA-DRB1*11:01,dissociation constant KD (~IC50),VNMVSRLLLNRFTMT,Positive-High,12.8
+1894198,HLA-DRB1*11:01,dissociation constant KD (~IC50),NRFTMTHRRPTIEKD,Positive-High,1.21
+1894199,HLA-DRB1*11:01,dissociation constant KD (~IC50),WLWRTLGRNKKPRLC,Positive-High,5.81
+1894200,HLA-DRB1*11:01,dissociation constant KD (~IC50),KGVERLKRMAISGDD,Positive-High,6.2
+1894201,HLA-DRB1*11:01,dissociation constant KD (~IC50),RMVLAFITFLRVLSI,Positive-High,1.14
+1894202,HLA-DRB1*11:01,dissociation constant KD (~IC50),FFVLMMLVAPSYGMR,Positive-Intermediate,672.0
+1894203,HLA-DRB1*11:01,dissociation constant KD (~IC50),FNEMILMKMKKKTWL,Positive-High,12.6
+1894204,HLA-DRB1*11:01,dissociation constant KD (~IC50),ESTYRGAKRMAILGE,Positive-High,3.42
+1894205,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGLFTSLGKAVHQVF,Positive-High,1.82
+1894206,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLTWMDLLRALIMLG,Positive-High,97.4
+1894207,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVLGVFLRKLTSRET,Positive-High,0.741
+1894208,HLA-DRB1*11:01,dissociation constant KD (~IC50),VYLMTLMKGASRRSW,Positive-High,0.552
+1894209,HLA-DRB1*11:01,dissociation constant KD (~IC50),TNMITLLVKLALITV,Positive-High,39.0
+1894210,HLA-DRB1*11:01,dissociation constant KD (~IC50),EGVYRIMQRGLFGKT,Positive-High,0.287
+1894211,HLA-DRB1*11:01,dissociation constant KD (~IC50),SIVREALKRRLRTLI,Positive-High,4.85
+1894212,HLA-DRB1*11:01,dissociation constant KD (~IC50),DNQLIYVILTILTII,Positive-Intermediate,193.0
+1894213,HLA-DRB1*11:01,dissociation constant KD (~IC50),NWLWALLGKKKNPRL,Positive-High,8.66
+1894214,HLA-DRB1*11:01,dissociation constant KD (~IC50),LWCGSLIGLSSRATW,Positive-High,43.8
+1894215,HLA-DRB1*11:01,dissociation constant KD (~IC50),EEYVDYMPVMKRYSA,Positive-High,30.8
+1894216,HLA-DRB1*11:01,dissociation constant KD (~IC50),TGRPSFNMLKRARNR,Positive-High,1.06
+1894217,HLA-DRB1*11:01,dissociation constant KD (~IC50),NDIANCLRKNGKRVI,Positive-High,20.8
+1894218,HLA-DRB1*11:01,dissociation constant KD (~IC50),NYLDYMTSMKRFKNE,Positive-High,3.06
+1894219,HLA-DRB1*11:01,dissociation constant KD (~IC50),IGRMLNILNRRRRTA,Positive-High,1.14
+1894220,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVTGGIFLFLMSGRG,Positive-High,42.9
+1894221,HLA-DRB1*11:01,dissociation constant KD (~IC50),MEGEGVFKSIQHLTV,Positive-High,13.2
+1894222,HLA-DRB1*11:01,dissociation constant KD (~IC50),PLFIFSLKDTLKRRS,Positive-High,9.12
+1894223,HLA-DRB1*11:01,dissociation constant KD (~IC50),RTVFFVLMMLVAPSY,Positive-Intermediate,904.0
+1894224,HLA-DRB1*11:01,dissociation constant KD (~IC50),PVYLMTLMKGASKRS,Positive-High,2.11
+1894225,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDYMPVMKRYSAPSE,Positive-High,3.19
+1894226,HLA-DRB1*11:01,dissociation constant KD (~IC50),SFNMLKRARNRVSTG,Positive-High,1.53
+1894227,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGVFTSVGKLVHQVF,Positive-High,3.22
+1894228,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLLFMILTVAANEMG,Positive-Intermediate,703.0
+1894229,HLA-DRB1*11:01,dissociation constant KD (~IC50),LKLFMALVAFLRFLT,Positive-Intermediate,230.0
+1894230,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRMLNILNRRRRTAG,Positive-High,1.59
+1894231,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGIFLFLMSGKGIGK,Positive-High,4.85
+1894232,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTQKVVIFILLMLVT,Positive-Intermediate,540.0
+1894233,HLA-DRB1*11:01,dissociation constant KD (~IC50),GVLFTFVLLLSGQIT,Positive-Low,1420.0
+1894234,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLNRFTMTHRRPTIE,Positive-High,1.67
+1894235,HLA-DRB1*11:01,dissociation constant KD (~IC50),VFFVLMMLVAPSYGM,Positive-Intermediate,437.0
+1894236,HLA-DRB1*11:01,dissociation constant KD (~IC50),TEGVYRIMQRGLFGK,Positive-High,2.54
+1894237,HLA-DRB1*11:01,dissociation constant KD (~IC50),DYMPVMKRYSAPSES,Positive-High,6.55
+1894238,HLA-DRB1*11:01,dissociation constant KD (~IC50),KEISNMLNIMNRRKR,Positive-High,15.7
+1894239,HLA-DRB1*11:01,dissociation constant KD (~IC50),FVWYFWQKKKQRSGV,Positive-High,1.88
+1894240,HLA-DRB1*11:01,dissociation constant KD (~IC50),AKWLWGFLSRNKKPR,Positive-High,11.9
+1894241,HLA-DRB1*11:01,dissociation constant KD (~IC50),FMALVAFLRFLTIPP,Positive-High,58.0
+1894242,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGIFLFLMSGRGIGK,Positive-High,9.73
+1894243,HLA-DRB1*11:01,dissociation constant KD (~IC50),EMILLTMKNKAWMVH,Positive-High,9.99
+1894244,HLA-DRB1*11:01,dissociation constant KD (~IC50),VFFTFVLLLSGQITW,Positive-Intermediate,518.0
+1894245,HLA-DRB1*11:01,dissociation constant KD (~IC50),ETKGVERLKRMAISG,Positive-High,37.1
+1894246,HLA-DRB1*11:01,dissociation constant KD (~IC50),KMFESTYRGAKRMAI,Positive-High,5.31
+1894247,HLA-DRB1*11:01,dissociation constant KD (~IC50),NQLIYVILTILTIIG,Positive-Intermediate,597.0
+1894248,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISSMLNIMNRRKRSV,Positive-High,12.7
+1894249,HLA-DRB1*11:01,dissociation constant KD (~IC50),LDDGIYRIMQRGLLG,Positive-High,2.95
+1894250,HLA-DRB1*11:01,dissociation constant KD (~IC50),RWLWGFLSRNKKPRI,Positive-High,1.63
+1894251,HLA-DRB1*11:01,dissociation constant KD (~IC50),KEIGRMLNILNRRRR,Positive-High,2.29
+1894252,HLA-DRB1*11:01,dissociation constant KD (~IC50),HFQRALIFILLTAVA,Positive-High,84.4
+1894253,HLA-DRB1*11:01,dissociation constant KD (~IC50),GAGLLFSIMKNTTNT,Positive-High,11.0
+1894254,HLA-DRB1*11:01,dissociation constant KD (~IC50),HMIAGVFFTFVLLLS,Positive-Low,1550.0
+1894255,HLA-DRB1*11:01,dissociation constant KD (~IC50),LFTFVLLLSGQITWR,Positive-Low,2080.0
+1894256,HLA-DRB1*11:01,dissociation constant KD (~IC50),LESTYRGAKRMAILG,Positive-High,1.01
+1894257,HLA-DRB1*11:01,dissociation constant KD (~IC50),EYVDYMPVMKRYSAP,Positive-High,2.12
+1894258,HLA-DRB1*11:01,dissociation constant KD (~IC50),NMLNIMNRRKRSVTM,Positive-High,2.32
+1894259,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIYRILQRGLLGRSQ,Positive-High,1.58
+1894260,HLA-DRB1*11:01,dissociation constant KD (~IC50),ALIFILLTAVAPSMT,Positive-Intermediate,133.0
+1894261,HLA-DRB1*11:01,dissociation constant KD (~IC50),VNMISRMLINRFTMR,Positive-High,5.63
+1894262,HLA-DRB1*11:01,dissociation constant KD (~IC50),LALGFFLRKLTSREN,Positive-High,1.3
+1894263,HLA-DRB1*11:01,dissociation constant KD (~IC50),YVLGIFLRKLTSRET,Positive-High,0.107
+1894264,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDYMPVMKRYSAPFE,Positive-High,4.18
+1894265,HLA-DRB1*11:01,dissociation constant KD (~IC50),VMAFIAFLRFLAIPP,Positive-High,8.66
+1894266,HLA-DRB1*11:01,dissociation constant KD (~IC50),SCVYNMMGKREKKLG,Positive-High,8.98
+1894267,HLA-DRB1*11:01,dissociation constant KD (~IC50),TCVYNMMGKREKKLG,Positive-High,0.905
+1894938,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGVFTSVGKLVHQIF,Positive-High,1.4
+1894939,HLA-DRB1*11:01,dissociation constant KD (~IC50),MMVLKIVRKMERYQL,Positive-High,6.74
+1894940,HLA-DRB1*11:01,dissociation constant KD (~IC50),GGLFTSVGKLIHQVF,Positive-High,2.9
+1894941,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLLFRRLTSREVPLL,Positive-High,5.96
+1894942,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRLFMALVAFLRFLT,Positive-Intermediate,295.0
+1894943,HLA-DRB1*11:01,dissociation constant KD (~IC50),NMLKRVRNRVSTGPQ,Positive-High,22.2
+1894944,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGVLFMFVLLLSGQI,Positive-Low,1340.0
+1894945,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLLFRKLTSREVLLL,Positive-High,13.1
+1894946,HLA-DRB1*11:01,dissociation constant KD (~IC50),GIFRSIQHLTATEEI,Positive-High,8.83
+1894947,HLA-DRB1*11:01,dissociation constant KD (~IC50),FAVGLLFRRLTSREI,Positive-High,1.17
+1894948,HLA-DRB1*11:01,dissociation constant KD (~IC50),PGFIIMAAILAYTIG,Positive-Intermediate,384.0
+1894949,HLA-DRB1*11:01,dissociation constant KD (~IC50),GLFKSIQHLTSQEEI,Positive-High,16.3
+1894950,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAVGLLFRRLTSREV,Positive-High,1.62
+1894951,HLA-DRB1*11:01,dissociation constant KD (~IC50),MGLLFRRLTSREVLL,Positive-High,10.9
+1894952,HLA-DRB1*11:01,dissociation constant KD (~IC50),ENYLDYMISMKRFKN,Positive-High,9.86
+1894953,HLA-DRB1*11:01,dissociation constant KD (~IC50),IGRMLNILSRRRRTA,Positive-High,1.52
+1894954,HLA-DRB1*11:01,dissociation constant KD (~IC50),HMIAGILFMFVLLLS,Positive-Intermediate,607.0
+1895117,HLA-DRB1*11:01,dissociation constant KD (~IC50),MTEQQWNFAGIEAAA,Positive-Low,1180.0
+1895144,HLA-DRB1*11:01,dissociation constant KD (~IC50),WNFAGIEAAASAIQG,Positive-Intermediate,155.0
+1895171,HLA-DRB1*11:01,dissociation constant KD (~IC50),IEAAASAIQGNVTSI,Positive-Low,4700.0
+1895198,HLA-DRB1*11:01,dissociation constant KD (~IC50),SAIQGNVTSIHSLLD,Positive-Low,8090.0
+1895225,HLA-DRB1*11:01,dissociation constant KD (~IC50),NVTSIHSLLDEGKQS,Positive-Low,2300.0
+1895252,HLA-DRB1*11:01,dissociation constant KD (~IC50),HSLLDEGKQSLTKLA,Negative,32600.0
+1895279,HLA-DRB1*11:01,dissociation constant KD (~IC50),EGKQSLTKLAAAWGG,Positive-Intermediate,254.0
+1895306,HLA-DRB1*11:01,dissociation constant KD (~IC50),LTKLAAAWGGSGSEA,Positive-Low,6110.0
+1895333,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAWGGSGSEAYQGVQ,Negative,32700.0
+1895360,HLA-DRB1*11:01,dissociation constant KD (~IC50),SGSEAYQGVQQKWDA,Negative,33400.0
+1895387,HLA-DRB1*11:01,dissociation constant KD (~IC50),YQGVQQKWDATATEL,Positive-Low,4060.0
+1895414,HLA-DRB1*11:01,dissociation constant KD (~IC50),QKWDATATELNNALQ,Negative,23000.0
+1895441,HLA-DRB1*11:01,dissociation constant KD (~IC50),TATELNNALQNLART,Negative,25700.0
+1895468,HLA-DRB1*11:01,dissociation constant KD (~IC50),NNALQNLARTISEAG,Positive-High,55.2
+1895495,HLA-DRB1*11:01,dissociation constant KD (~IC50),NLARTISEAGQAMAS,Positive-Low,6730.0
+1895522,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISEAGQAMASTEGNV,Negative,46700.0
+1895549,HLA-DRB1*11:01,dissociation constant KD (~IC50),QAMASTEGNVTGMFA,Negative,37900.0
+1895576,HLA-DRB1*11:01,dissociation constant KD (~IC50),MAEMKTDAATLAQEA,Positive-Intermediate,583.0
+1895603,HLA-DRB1*11:01,dissociation constant KD (~IC50),TDAATLAQEAGNFER,Negative,46700.0
+1895630,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAQEAGNFERISGDL,Negative,41400.0
+1895657,HLA-DRB1*11:01,dissociation constant KD (~IC50),GNFERISGDLKTQID,Positive-Intermediate,899.0
+1895684,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISGDLKTQIDQVEST,Positive-Low,7730.0
+1895711,HLA-DRB1*11:01,dissociation constant KD (~IC50),KTQIDQVESTAGSLQ,Positive-Low,7610.0
+1895738,HLA-DRB1*11:01,dissociation constant KD (~IC50),QVESTAGSLQGQWRG,Negative,21200.0
+1895765,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGSLQGQWRGAAGTA,Positive-Intermediate,259.0
+1895792,HLA-DRB1*11:01,dissociation constant KD (~IC50),GQWRGAAGTAAQAAV,Positive-High,73.8
+1895819,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAGTAAQAAVVRFQE,Positive-Low,8560.0
+1895846,HLA-DRB1*11:01,dissociation constant KD (~IC50),AQAAVVRFQEAANKQ,Negative,30900.0
+1895873,HLA-DRB1*11:01,dissociation constant KD (~IC50),VRFQEAANKQKQELD,Positive-Low,6530.0
+1895900,HLA-DRB1*11:01,dissociation constant KD (~IC50),AANKQKQELDEISTN,Negative,39400.0
+1895927,HLA-DRB1*11:01,dissociation constant KD (~IC50),KQELDEISTNIRQAG,Positive-Low,6530.0
+1895954,HLA-DRB1*11:01,dissociation constant KD (~IC50),EISTNIRQAGVQYSR,Positive-Low,1060.0
+1895981,HLA-DRB1*11:01,dissociation constant KD (~IC50),IRQAGVQYSRADEEQ,Negative,38500.0
+1896008,HLA-DRB1*11:01,dissociation constant KD (~IC50),VQYSRADEEQQQALS,Negative,12500.0
+1896035,HLA-DRB1*11:01,dissociation constant KD (~IC50),ADEEQQQALSSQMGF,Negative,46700.0
+1896062,HLA-DRB1*11:01,dissociation constant KD (~IC50),MSGHALAARTLLAAA,Positive-High,55.1
+1896089,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAARTLLAAADELVG,Positive-Low,5700.0
+1896116,HLA-DRB1*11:01,dissociation constant KD (~IC50),LLAAADELVGGPPVE,Negative,15700.0
+1896143,HLA-DRB1*11:01,dissociation constant KD (~IC50),DELVGGPPVEASAAA,Negative,46700.0
+1896170,HLA-DRB1*11:01,dissociation constant KD (~IC50),GPPVEASAAALAGDA,Negative,46700.0
+1896197,HLA-DRB1*11:01,dissociation constant KD (~IC50),ASAAALAGDAAGAWR,Negative,25900.0
+1896224,HLA-DRB1*11:01,dissociation constant KD (~IC50),LAGDAAGAWRTAAVE,Positive-Low,6840.0
+1896251,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGAWRTAAVELARAL,Positive-High,15.7
+1896278,HLA-DRB1*11:01,dissociation constant KD (~IC50),TAAVELARALVRAVA,Positive-Intermediate,109.0
+1896305,HLA-DRB1*11:01,dissociation constant KD (~IC50),LARALVRAVAESHGV,Positive-High,26.3
+1896332,HLA-DRB1*11:01,dissociation constant KD (~IC50),VRAVAESHGVAAVLF,Positive-Low,3230.0
+1896359,HLA-DRB1*11:01,dissociation constant KD (~IC50),ESHGVAAVLFAATAA,Negative,14700.0
+1896386,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAVLFAATAAAAAAV,Positive-Intermediate,404.0
+1896413,HLA-DRB1*11:01,dissociation constant KD (~IC50),AATAAAAAAVDRGDP,Negative,46700.0
+1896440,HLA-DRB1*11:01,dissociation constant KD (~IC50),ATAAAAAAVDRGDPP,Negative,46700.0
+1896467,HLA-DRB1*11:01,dissociation constant KD (~IC50),MATTLPVQRHPRSLF,Positive-Low,2780.0
+1896494,HLA-DRB1*11:01,dissociation constant KD (~IC50),PVQRHPRSLFPEFSE,Negative,12900.0
+1896521,HLA-DRB1*11:01,dissociation constant KD (~IC50),PRSLFPEFSELFAAF,Negative,17000.0
+1896548,HLA-DRB1*11:01,dissociation constant KD (~IC50),PEFSELFAAFPSFAG,Positive-Intermediate,316.0
+1896575,HLA-DRB1*11:01,dissociation constant KD (~IC50),LFAAFPSFAGLRPTF,Positive-Low,5540.0
+1896602,HLA-DRB1*11:01,dissociation constant KD (~IC50),PSFAGLRPTFDTRLM,Positive-Low,6550.0
+1896629,HLA-DRB1*11:01,dissociation constant KD (~IC50),LRPTFDTRLMRLEDE,Positive-Low,5730.0
+1896656,HLA-DRB1*11:01,dissociation constant KD (~IC50),DTRLMRLEDEMKEGR,Positive-Low,6540.0
+1896683,HLA-DRB1*11:01,dissociation constant KD (~IC50),RLEDEMKEGRYEVRA,Negative,25100.0
+1896710,HLA-DRB1*11:01,dissociation constant KD (~IC50),MKEGRYEVRAELPGV,Positive-Low,3910.0
+1896737,HLA-DRB1*11:01,dissociation constant KD (~IC50),YEVRAELPGVDPDKD,Negative,11000.0
+1896764,HLA-DRB1*11:01,dissociation constant KD (~IC50),ELPGVDPDKDVDIMV,Negative,46700.0
+1896791,HLA-DRB1*11:01,dissociation constant KD (~IC50),DPDKDVDIMVRDGQL,Positive-Intermediate,542.0
+1896818,HLA-DRB1*11:01,dissociation constant KD (~IC50),VDIMVRDGQLTIKAE,Positive-Low,3000.0
+1896845,HLA-DRB1*11:01,dissociation constant KD (~IC50),RDGQLTIKAERTEQK,Positive-Intermediate,918.0
+1896872,HLA-DRB1*11:01,dissociation constant KD (~IC50),TIKAERTEQKDFDGR,Negative,11500.0
+1896899,HLA-DRB1*11:01,dissociation constant KD (~IC50),RTEQKDFDGRSEFAY,Negative,46700.0
+1896926,HLA-DRB1*11:01,dissociation constant KD (~IC50),DFDGRSEFAYGSFVR,Positive-Low,3770.0
+1896953,HLA-DRB1*11:01,dissociation constant KD (~IC50),SEFAYGSFVRTVSLP,Positive-High,15.9
+1896980,HLA-DRB1*11:01,dissociation constant KD (~IC50),GSFVRTVSLPVGADE,Positive-High,11.9
+1897007,HLA-DRB1*11:01,dissociation constant KD (~IC50),TVSLPVGADEDDIKA,Negative,46700.0
+1897034,HLA-DRB1*11:01,dissociation constant KD (~IC50),VGADEDDIKATYDKG,Positive-Low,8120.0
+1897061,HLA-DRB1*11:01,dissociation constant KD (~IC50),DDIKATYDKGILTVS,Positive-Low,2100.0
+1897088,HLA-DRB1*11:01,dissociation constant KD (~IC50),TYDKGILTVSVAVSE,Positive-Intermediate,799.0
+1897115,HLA-DRB1*11:01,dissociation constant KD (~IC50),ILTVSVAVSEGKPTE,Positive-Low,2500.0
+1897142,HLA-DRB1*11:01,dissociation constant KD (~IC50),VAVSEGKPTEKHIQI,Positive-Low,2880.0
+1897169,HLA-DRB1*11:01,dissociation constant KD (~IC50),EGKPTEKHIQIRSTN,Positive-Low,9320.0
+1897196,HLA-DRB1*11:01,dissociation constant KD (~IC50),MASRFMTDPHAMRDM,Positive-Low,3590.0
+1897223,HLA-DRB1*11:01,dissociation constant KD (~IC50),MTDPHAMRDMAGRFE,Positive-Low,6330.0
+1897250,HLA-DRB1*11:01,dissociation constant KD (~IC50),AMRDMAGRFEVHAQT,Positive-Intermediate,468.0
+1897277,HLA-DRB1*11:01,dissociation constant KD (~IC50),AGRFEVHAQTVEDEA,Positive-Low,6330.0
+1897304,HLA-DRB1*11:01,dissociation constant KD (~IC50),VHAQTVEDEARRMWA,Negative,24800.0
+1897331,HLA-DRB1*11:01,dissociation constant KD (~IC50),VEDEARRMWASAQNI,Positive-Low,3520.0
+1897358,HLA-DRB1*11:01,dissociation constant KD (~IC50),RRMWASAQNISGAGW,Positive-High,90.2
+1897385,HLA-DRB1*11:01,dissociation constant KD (~IC50),SAQNISGAGWSGMAE,Negative,35600.0
+1897412,HLA-DRB1*11:01,dissociation constant KD (~IC50),SGAGWSGMAEATSLD,Positive-Low,3590.0
+1897439,HLA-DRB1*11:01,dissociation constant KD (~IC50),SGMAEATSLDTMTQM,Positive-Low,3740.0
+1897466,HLA-DRB1*11:01,dissociation constant KD (~IC50),ATSLDTMTQMNQAFR,Positive-Low,6710.0
+1897493,HLA-DRB1*11:01,dissociation constant KD (~IC50),TMTQMNQAFRNIVNM,Negative,32800.0
+1897520,HLA-DRB1*11:01,dissociation constant KD (~IC50),NQAFRNIVNMLHGVR,Positive-Intermediate,161.0
+1897547,HLA-DRB1*11:01,dissociation constant KD (~IC50),NIVNMLHGVRDGLVR,Positive-Low,5990.0
+1897574,HLA-DRB1*11:01,dissociation constant KD (~IC50),LHGVRDGLVRDANNY,Negative,46700.0
+1897601,HLA-DRB1*11:01,dissociation constant KD (~IC50),DGLVRDANNYEQQEQ,Negative,46700.0
+1897628,HLA-DRB1*11:01,dissociation constant KD (~IC50),DANNYEQQEQASQQI,Positive-Low,7710.0
+1897655,HLA-DRB1*11:01,dissociation constant KD (~IC50),NYEQQEQASQQILSS,Negative,22000.0
+1897682,HLA-DRB1*11:01,dissociation constant KD (~IC50),SGMAEATSLDTMAQM,Positive-Low,7840.0
+1897709,HLA-DRB1*11:01,dissociation constant KD (~IC50),ATSLDTMAQMNQAFR,Positive-Low,2310.0
+1897736,HLA-DRB1*11:01,dissociation constant KD (~IC50),TMAQMNQAFRNIVNM,Negative,28700.0
+1897763,HLA-DRB1*11:01,dissociation constant KD (~IC50),MATRFMTDPHAMRDM,Positive-Low,4210.0
+1897790,HLA-DRB1*11:01,dissociation constant KD (~IC50),MTSRFMTDPHAMRDM,Positive-Low,4170.0
+1897817,HLA-DRB1*11:01,dissociation constant KD (~IC50),MLWHAMPPELNTARL,Positive-Intermediate,133.0
+1897844,HLA-DRB1*11:01,dissociation constant KD (~IC50),MPPELNTARLMAGAG,Positive-High,36.6
+1897871,HLA-DRB1*11:01,dissociation constant KD (~IC50),NTARLMAGAGPAPML,Positive-Low,2290.0
+1897898,HLA-DRB1*11:01,dissociation constant KD (~IC50),MAGAGPAPMLAAAAG,Positive-Low,7330.0
+1897925,HLA-DRB1*11:01,dissociation constant KD (~IC50),PAPMLAAAAGWQTLS,Positive-High,90.8
+1897952,HLA-DRB1*11:01,dissociation constant KD (~IC50),AAAAGWQTLSAALDA,Positive-Intermediate,868.0
+1897979,HLA-DRB1*11:01,dissociation constant KD (~IC50),WQTLSAALDAQAVEL,Positive-Intermediate,650.0
+1898006,HLA-DRB1*11:01,dissociation constant KD (~IC50),AALDAQAVELTARLN,Positive-Low,2930.0
+1898033,HLA-DRB1*11:01,dissociation constant KD (~IC50),QAVELTARLNSLGEA,Positive-High,34.0
+1898060,HLA-DRB1*11:01,dissociation constant KD (~IC50),TARLNSLGEAWTGGG,Positive-Low,1770.0
+1898087,HLA-DRB1*11:01,dissociation constant KD (~IC50),SLGEAWTGGGSDKAL,Negative,10100.0
+1898114,HLA-DRB1*11:01,dissociation constant KD (~IC50),WTGGGSDKALAAATP,Negative,15700.0
+1898133,HLA-DRB1*11:01,dissociation constant KD (~IC50),EQQWNFAGIEAAASA,Positive-Intermediate,413.0
+1898165,HLA-DRB1*11:01,dissociation constant KD (~IC50),IQGNVTSIHSLLDEG,Positive-Low,4520.0
+1898197,HLA-DRB1*11:01,dissociation constant KD (~IC50),ELNNALQNLARTISE,Negative,46700.0
+1898229,HLA-DRB1*11:01,dissociation constant KD (~IC50),QNLARTISEAGQAMA,Positive-Low,6130.0
+1898261,HLA-DRB1*11:01,dissociation constant KD (~IC50),ARTISEAGQAMASTE,Positive-Low,7730.0
+1898294,HLA-DRB1*11:01,dissociation constant KD (~IC50),QGQWRGAAGTAAQAA,Positive-Intermediate,774.0
+1898326,HLA-DRB1*11:01,dissociation constant KD (~IC50),QAAVVRFQEAANKQK,Positive-Low,3970.0
+1898358,HLA-DRB1*11:01,dissociation constant KD (~IC50),ISTNIRQAGVQYSRA,Positive-Intermediate,576.0
+1898390,HLA-DRB1*11:01,dissociation constant KD (~IC50),GRSEFAYGSFVRTVS,Positive-Intermediate,749.0
+1898421,HLA-DRB1*11:01,dissociation constant KD (~IC50),AYGSFVRTVSLPVGA,Positive-High,4.69
+1898454,HLA-DRB1*11:01,dissociation constant KD (~IC50),DEARRMWASAQNISG,Negative,46700.0
+1911220,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AARLFKAFILDGDKL,Positive-Low,3820.0
+1911255,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PSVIPAARLFKAFIL,Positive-High,29.8
+1911290,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGSILKISNKFHTKG,Positive-High,10.5
+1911325,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QGVADAYITLVTLPK,Positive-High,90.2
+1911360,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KVSDDITYVATATLP,Positive-Intermediate,883.0
+1911395,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ITYVATATLPNYCRA,Positive-High,16.2
+1911430,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IASLFAAAGLAAAAP,Positive-Low,1260.0
+1911465,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VADAYITLVTLPKSS,Positive-High,16.4
+1911500,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AAAGLAAAAPLESRQ,Positive-Intermediate,923.0
+1911535,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),INELIASGSEKLASV,Positive-Low,1310.0
+1911570,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGRLAFQEFMIVPCE,Positive-Low,6080.0
+1911605,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AQGKAFYEAVAKAHQ,Positive-High,29.3
+1911640,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AIVYYSMYGHIKKMA,Positive-High,82.4
+1911675,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MKNIFMLTLFILIIT,Positive-Low,1030.0
+1911710,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MLTLFILIITSTIKA,Negative,23900.0
+1911745,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DKWLDAKSTWYGKPT,Positive-Low,1920.0
+1911780,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IAKVPPGPNITATYG,Negative,46700.0
+1911815,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SKKDKFVAANAGGTV,Positive-Intermediate,715.0
+1911850,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGSILKISNKYHTKG,Positive-High,14.5
+1911885,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LEKISNEIKIVATPD,Positive-Intermediate,137.0
+1911920,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PAKNIYSFNEIVALW,Positive-Low,4080.0
+1911955,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IVYIKPAKNIYSFNE,Positive-High,14.1
+1911990,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RTLNKIVYIKPAKNI,Positive-High,44.4
+1912025,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ERSLWIIFSKNLNIK,Positive-High,18.7
+1912060,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NHFFNHHKVMLLGHS,Positive-Intermediate,214.0
+1912095,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIFSKNLNIKLNMPL,Positive-Intermediate,231.0
+1912130,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NLNIKLNMPLYIAGN,Positive-Low,6100.0
+1912165,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MKYLAAFLLLGLAGN,Positive-Low,2620.0
+1912200,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AFLLLGLAGNSSPSA,Positive-Intermediate,206.0
+1912235,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FQEFMIVPSGAPSFT,Positive-High,98.1
+1912270,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GGRLAFQEFMIVPSG,Positive-Low,1040.0
+1912305,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KELKGAYVYFASDAS,Positive-Intermediate,702.0
+1912340,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AYVYFASDASTYTTG,Positive-Intermediate,715.0
+1912375,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QIDAFIANAGATADS,Positive-Intermediate,356.0
+1912410,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GCIHMARSLANEWRD,Positive-High,38.4
+1912445,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GTGSLVITASMSGHI,Positive-Intermediate,262.0
+1912480,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KALWIIFSQNMNIKL,Positive-Low,3250.0
+1912515,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EDTNIYNSNEAFKVE,Negative,11300.0
+1912550,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IFSQNMNIKLQMPLY,Positive-Intermediate,225.0
+1912585,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MNIKLQMPLYVAGYK,Positive-High,29.7
+1912620,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EKALWIIFSQNMNIK,Positive-Low,1510.0
+1912655,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NHFFNHHKVMLLGHD,Positive-Intermediate,237.0
+1912690,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIFSQNMNIKLKMPL,Positive-Intermediate,143.0
+1912725,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NMNIKLKMPLYVAGH,Positive-High,97.7
+1912760,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TVWAQSAAFPAFKPE,Positive-High,8.78
+1912795,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PNYLALLVKYVDGDG,Positive-Intermediate,133.0
+1912830,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GSDEKNLALSIKYNK,Positive-Intermediate,451.0
+1912865,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NLALSIKYNKEGDSM,Positive-Intermediate,114.0
+1912900,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DIYNYMEPYVSKVDP,Positive-Intermediate,748.0
+1912935,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FSGVAATESAYLAYR,Positive-Low,4760.0
+1912970,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GSCWAFSGVAATESA,Negative,11500.0
+1913016,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SGVAATESAYLAYRN,Positive-Intermediate,646.0
+1913054,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RGIEYIQHNGVVQES,Positive-Intermediate,810.0
+1913092,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SCWAFSGVAATESAY,Positive-Intermediate,562.0
+1913130,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),REALAQTHSAIAVII,Positive-Intermediate,452.0
+1913157,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FDAFVAYHIGARIVS,Positive-High,36.6
+1913192,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SRGNRAFIAINLQKN,Positive-Low,1140.0
+1913227,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YVGHDEFDAFVAYHI,Positive-High,68.0
+1913262,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IEFRFYKEITNVFRG,Positive-Intermediate,699.0
+1913297,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AFMLAWNYGVPRVMS,Positive-Intermediate,155.0
+1913332,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EIYNMVKFRMIAGQE,Positive-High,9.44
+1913378,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YQIAFSRGNRAFIAI,Positive-High,55.0
+1913405,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NKAGVRIYVDIVLNH,Positive-Low,2400.0
+1913440,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EHRWREIYNMVKFRM,Positive-High,64.2
+1913475,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IVLNHMTGAQSGKGT,Positive-Intermediate,364.0
+1913510,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DEYVEQVAQYKALPV,Positive-Intermediate,779.0
+1913545,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NALSVLDKIYTSPLC,Positive-Intermediate,166.0
+1913580,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QVAQYKALPVVLENA,Positive-Intermediate,498.0
+1913615,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IFYDVFFAVANGNEL,Positive-Low,5440.0
+1913650,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NGNELLLDLSLTKVN,Positive-Low,6730.0
+1913685,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AETCPIFYDVFFAVA,Positive-Low,7990.0
+1913720,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GYVSLQEFVDLNNKG,Negative,14300.0
+1913755,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KASNPNYLAILVKYV,Positive-High,46.3
+1913790,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KQQGIRYANPIAFFR,Positive-Low,3750.0
+1913825,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RYANPIAFFRKEPLK,Positive-Intermediate,895.0
+1913860,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DGVWEIKSDKPLKGP,Negative,11300.0
+1913895,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IKSDKPLKGPFNFRF,Negative,18400.0
+1913930,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NVFDEVIPTAFTVGK,Negative,23300.0
+1913965,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SDAKTLVLNIKYTRP,Positive-High,89.3
+1914000,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DSYKFIPTLVAAVKQ,Positive-High,23.4
+1914035,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DAYVATLTEALRVIA,Positive-Intermediate,915.0
+1914070,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NAGFKAAVAAAAVVP,Positive-Intermediate,187.0
+1914105,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LIEKINAGFKAAVAA,Positive-Low,1830.0
+1914140,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PEAKYDAYVATLTEA,Negative,17900.0
+1914175,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PAAAYATATPAAATA,Positive-Intermediate,249.0
+1914210,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TLTEALRVIAGTLEV,Positive-Low,1720.0
+1914245,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AFKIAATAANAAPTN,Positive-High,83.8
+1914280,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NVVKSGIFLSVAAGN,Positive-Low,3920.0
+1914315,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GIFLSVAAGNEAENA,Positive-Intermediate,662.0
+1914361,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PAVKYIEPDMIVNAT,Positive-Intermediate,538.0
+1914388,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KFGVAKKANVYAVKV,Positive-High,38.6
+1914423,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LDLAVNAAVDAGIHF,Positive-Low,5460.0
+1914458,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PNYLALLVKYVDGDG,Positive-Intermediate,164.0
+1914493,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DAFIAALTEALRVIA,Positive-High,32.6
+1914528,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GAYETYKFIPSLEAA,Positive-High,82.7
+1914563,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YKFIPSLEAAVKQAY,Positive-Intermediate,130.0
+1914598,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ALTEALRVIAGAFEV,Positive-Intermediate,263.0
+1914633,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AAFKIAATAANSAPA,Positive-High,13.5
+1914668,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NDKFTVFEGAFNKAI,Positive-Intermediate,723.0
+1914703,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HSRNLINELSERMAG,Positive-Low,8600.0
+1914738,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EPIAAYHFDLSGKAF,Positive-Intermediate,587.0
+1914773,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LEAAVKQAYAATIAA,Positive-Low,3360.0
+1914808,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ATPEAKFDSFVAAFT,Negative,13600.0
+1914843,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DINVGFKAAVAAAAG,Positive-Intermediate,618.0
+1914878,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FKAAVAAAAGAPPAD,Positive-Low,2280.0
+1914913,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VAAFTEALRIIAGVL,Positive-High,72.7
+1914948,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AFKVAATAANAAPAN,Positive-Intermediate,324.0
+1914983,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AYDTYKSIPSLEAAV,Positive-High,28.8
+1915018,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QKLMEDINVGFKAAV,Positive-Intermediate,633.0
+1915053,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ESTGGAYDTYKSIPS,Positive-Low,5760.0
+1915088,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ASEVFKAVEAYLVAH,Positive-High,60.8
+1915123,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PARLFKAFVLDSDNL,Positive-Intermediate,1000.0
+1915158,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KAVEAYLVAHPDLYK,Positive-Low,2090.0
+1915193,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ASVIPPARLFKAFVL,Positive-Intermediate,390.0
+1915228,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KAFVLDSDNLIPKVV,Positive-Low,1170.0
+1915263,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FTSLEYIEAAKWLLP,Positive-Low,1300.0
+1915298,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EGTVDFIFGEARSLY,Positive-Low,1640.0
+1915333,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FIFGEARSLYLNTEL,Positive-Intermediate,967.0
+1915368,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EYIEAAKWLLPPPKV,Positive-High,70.0
+1915403,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WLDAKSTWYGKPTGA,Negative,37200.0
+1915438,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IAFFRKEPLKECGGI,Positive-Intermediate,383.0
+1915473,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MRNVFDDVVPADFKV,Negative,11100.0
+1915508,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LWEVKSAKPLTGPMN,Positive-Low,2640.0
+1915543,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IKLVKSSRPDCSEIP,Negative,21200.0
+1915647,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LIDDVIAILPVDELY,Negative,22100.0
+1915682,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FETIVVTVDSLPEFK,Positive-Low,4210.0
+1915717,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PLYKLVHVFINTQYA,Positive-Intermediate,257.0
+1915752,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISSQYYIQQNGNLCY,Positive-Low,3530.0
+1915787,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FAVATITHAAELQRV,Positive-Intermediate,363.0
+1915822,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GNQNFLTVFDSTSCN,Negative,25100.0
+1915857,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YFVAILDYLNHMAKE,Positive-Intermediate,274.0
+1915892,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISDFRAAIANYHYDA,Positive-High,51.6
+1915927,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GEPIRFLLSYGEKDF,Positive-Intermediate,985.0
+1915962,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MIVDTISDFRAAIAN,Positive-Low,3810.0
+1915997,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NLEIDMIVDTISDFR,Positive-Low,9260.0
+1916032,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EVVKANGGYLAAGKL,Positive-Intermediate,159.0
+1916067,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VAISRYLGKQFGLSG,Positive-High,18.8
+1916102,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EFVTLAAKFIIEEDS,Positive-Intermediate,557.0
+1916137,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RLEFDEFVTLAAKFI,Positive-Intermediate,475.0
+1916172,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LRKAFDAFDREKSGS,Positive-Intermediate,571.0
+1916207,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HFFIGDFFVDHYYSE,Positive-Low,2980.0
+1916242,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FLLSYGEKDFEDYRF,Negative,39300.0
+1916277,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SMPFGKTPVLEIDGK,Negative,31400.0
+1916312,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TKKFDEVVKANGGYL,Positive-Intermediate,320.0
+1916347,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HMAKEDLVANQPNLK,Negative,46700.0
+1916382,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DLVANQPNLKALREK,Positive-Low,3460.0
+1916417,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QPNLKALREKVLGLP,Positive-Low,2100.0
+1916452,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ALREKVLGLPAIKAW,Positive-Intermediate,651.0
+1916487,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VLGLPAIKAWVAKRP,Positive-Intermediate,990.0
+1916522,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EQISVLRKAFDAFDR,Positive-High,21.5
+1916557,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EAMEKELREAFRLYD,Positive-Intermediate,512.0
+1916592,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SGTVDFDEFMEMMTG,Positive-Low,4810.0
+1916627,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DDVLAILPIEDLKAL,Positive-Low,1150.0
+1916662,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PEFQSIVQTLNAMPE,Positive-Intermediate,410.0
+1916697,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PELQNFLNFLEANGL,Positive-Low,6480.0
+1916732,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FLNFLEANGLNAIDF,Positive-Low,1200.0
+1916767,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MVGTILEMLGTRLDQ,Positive-Low,7660.0
+1916802,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EEFCTLASRFLVEED,Positive-Intermediate,188.0
+1916837,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PEQIQLLKKAFDAFD,Positive-High,14.7
+1916872,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MVGTILEMLGHRLDD,Positive-Low,1470.0
+1916907,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GELEFEEFVSLASRF,Positive-Low,3750.0
+1916942,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EEFVSLASRFLVEED,Positive-Intermediate,114.0
+1916977,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GYITTNVLREILKEL,Positive-Intermediate,391.0
+1917012,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IVQTLNAMPEYQNLL,Positive-Low,9070.0
+1917047,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LIDDVLAILPLDDLK,Positive-Low,6100.0
+1969148,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PAVLQSSGLYSLSSVVTVPSSSLGTQ,Positive-Intermediate,35540.0
+1969154,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EEQYNSTYRVVSVLTVLHQDW,Positive-High,1000.0
+1972046,HLA-DRB1*11:01,dissociation constant KD (~IC50),ADDLTAAINKGILVT,Negative,1228.0
+1972060,HLA-DRB1*11:01,dissociation constant KD (~IC50),AKGSRAIWYMWLGAR,Negative,4183.0
+1972074,HLA-DRB1*11:01,dissociation constant KD (~IC50),DEVLIEVNPPFGDSY,Negative,2574.0
+1972088,HLA-DRB1*11:01,dissociation constant KD (~IC50),EFGKAKGSRAIWYMW,Negative,4721.0
+1972102,HLA-DRB1*11:01,dissociation constant KD (~IC50),GARYLEFEALGFLNE,Negative,5925.0
+1972112,HLA-DRB1*11:01,dissociation constant KD (~IC50),GTSGSPIVNRNGEVI,Negative,9476.0
+1972125,HLA-DRB1*11:01,dissociation constant KD (~IC50),LWNGPMAVSMTGVMR,Negative,2810.0
+1972139,HLA-DRB1*11:01,dissociation constant KD (~IC50),NKGILVTVNPIASTN,Positive-High,24.0
+1972153,HLA-DRB1*11:01,dissociation constant KD (~IC50),RKVCYNAVLTHVKIN,Positive-Intermediate,938.0
+1972189,HLA-DRB1*11:01,dissociation constant KD (~IC50),VVMTSLALVGAALHP,Negative,6739.0
+1972581,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GTDFTLTISSLQPED,Positive,85540.0
+1972587,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LNNFYPREAKVQWKVDNALQSGNS,Positive,34890.0
+2007233,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FIQYEELREQLSSVSAFE,Positive-Low,57460.0
+2007239,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AEMLVLLENERTLDYYDS,Positive-Low,10130.0
+2007245,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ESARIYQILAIYSTVASTLV,Positive-High,720.0
+2007251,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VNSIIEKMNTQFTAVGKEF,Positive-Intermediate,1180.0
+2007257,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IYQILVIYSTVASSLVLSVS,Positive-High,300.0
+2007263,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YEKVRSQLKNNAKEIGNGC,Positive-Intermediate,1990.0
+2007269,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GAVSFWMCSNGSLQFRI,Positive-High,530.0
+2007275,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FMDIWTYNAELLVLLDNE,Positive-High,180.0
+2007293,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),STRLRMVTGLRNVPSIQSKGL,Positive-Intermediate,1570.0
+2007299,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNAINRITNKVNSVIKKM,Positive-Intermediate,2940.0
+2007311,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CRNFFLTQGALLNDRH,Positive-Low,12600.0
+2007317,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SVLSVKLAGNSSLCSTSG,Positive-Low,41280.0
+2007323,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIGLILQIGNIISIWPV,Positive-Intermediate,1150.0
+2007329,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SGSIISFCGVNSDTVDWS,Positive-Intermediate,6680.0
+2009605,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CLEPIEGKVVQYENL,Negative,7884.0
+2009619,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EGKVVQYENLKYTVI,Negative,8983.0
+2009633,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QGVTAEITPQASTTE,Negative,16238.0
+2009661,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AILPEYGTLGLECSP,Negative,13772.0
+2009717,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RKELLVTFKNAHAKK,Positive-High,81.0
+2009731,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VTFKNAHAKKPEVVV,Negative,10195.0
+2009773,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LKCRLKMDKLELKGM,Negative,3333.0
+2009787,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TNTFVLKKEVSETQH,Positive-Intermediate,775.0
+2009815,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GTILVKVEYKGEDAP,Positive,153.0
+2009829,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NGRLITANPVVTKKE,Negative,10603.0
+2009871,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IGKMFEATARGARRM,Positive-High,39.0
+2009885,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LDIELQKTEATQLAT,Negative,3258.0
+2009899,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SCIAIGIITLYLGAVVQA,Negative,19494.0
+2009913,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TQLATLRKLCIEGKI,Positive-High,40.0
+2009927,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TWGKAKIVTAETQNS,Negative,18205.0
+2009955,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNSSFIIDGPNTPEC,Negative,6255.0
+2009983,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LKLREVYTQLCDHRL,Negative,4803.0
+2009997,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EVYTQLCDHRLMSAA,Positive-Intermediate,651.0
+2010025,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AVHADMGYWIESQKN,Negative,13906.0
+2010039,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SWKLEKASLIEVKTC,Negative,17295.0
+2010053,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WPKSHTLWSNGVLES,Negative,12905.0
+2010095,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LESDMIIPKSLAGPI,Negative,9612.0
+2010109,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MIIPKSLAGPISQHN,Negative,6920.0
+2010123,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HTQTAGPWHLGKLEL,Negative,7451.0
+2010165,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TEQYKFQADSPKRLA,Negative,11244.0
+2010193,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GKLIHEWCCRSCTLP,Negative,4397.0
+2010207,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CRSCTLPPLRYMGED,Positive-Intermediate,655.0
+2010221,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KFQADSPKRLATAIA,Negative,5248.0
+2010235,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VINWKGKELKCGSGI,Negative,13186.0
+2010249,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KQIANELNYILWENN,Negative,19002.0
+2010263,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KLTVVVGDIIGVLEQ,Positive-Low,807.0
+2010277,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IIGVLEQGKRTLTPQ,Negative,16640.0
+2010305,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NPKNFQTMPGTFQTT,Positive-High,86.0
+2010319,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FQTMPGTFQTTTGEI,Negative,3862.0
+2010333,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PGTFQTTTGEIGAIA,Positive,231.0
+2010375,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SPIINREGKVVGLYG,Positive-High,56.0
+2010389,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PELEEEMFKKRNLTI,Negative,11865.0
+2010403,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EEMFKKRNLTIMDLH,Positive,336.0
+2010417,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KKRNLTIMDLHPGSG,Positive-High,72.0
+2010431,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TRKYLPAIVREAIKR,Positive-High,20.0
+2010445,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LPAIVREAIKRRLRT,Positive,106.0
+2010459,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VREAIKRRLRTLILA,Positive,147.0
+2010473,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KGLPIRYQTTATKSE,Positive-Low,807.0
+2010487,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IRYQTTATKSEHTGR,Negative,2574.0
+2010501,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TFTMRLLSPVRVPNY,Positive-Low,848.0
+2010515,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PNYNLIIMDEAHFTD,Negative,4615.0
+2010529,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ASIAARGYISTRVGM,Positive-Intermediate,669.0
+2010543,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ARGYISTRVGMGEAA,Positive-High,35.0
+2010557,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EAAAIFMTATPPGTA,Positive-High,93.0
+2010571,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IFMTATPPGTADAFP,Negative,1045.0
+2010585,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WNSGNEWITDFAGKT,Negative,10086.0
+2010613,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TDFAGKTVWFVPSIK,Positive,238.0
+2010627,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GKTVWFVPSIKAGND,Positive-High,38.0
+2010641,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ANCLRKNGKKVIQLS,Positive,372.0
+2010655,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KKVIQLSRKTFDTEY,Positive-High,78.0
+2010669,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KTFDTEYQKTKLNDW,Positive-Intermediate,676.0
+2010683,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TEYQKTKLNDWDFVV,Negative,5943.0
+2010697,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FVVTTDISEMGANFK,Negative,2961.0
+2010725,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EMGANFKADRVIDPR,Negative,7126.0
+2010739,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NFKADRVIDPRRCLK,Negative,4262.0
+2010753,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CLKPVILTDGPERVI,Negative,4932.0
+2010795,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TRGAVLTYNGKRLEP,Positive,279.0
+2010809,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VLTYNGKRLEPNWAS,Negative,2312.0
+2010823,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PLALKEFKDFAAGRK,Negative,8887.0
+2010837,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NGKRLEPNWASVKKD,Negative,4747.0
+2010851,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WASVKKDLISYGGGW,Negative,13852.0
+2010865,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KKDLISYGGGWRLSA,Negative,1570.0
+2010879,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISYGGGWRLSAQWQK,Positive,286.0
+2010893,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LKMVEPWLKNNQFCIKV,Positive,208.0
+2010907,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NQFCIKVLNPYMPTVIE,Negative,6169.0
+2010921,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LERLQRKHGGMLVRNPL,Positive,110.0
+2010935,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SNGTGNIVSSVNMVSRL,Positive-High,31.0
+2010949,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MVSRLLLNRFTMTHRR,Positive-High,16.0
+2010963,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KEFDLYKKSGITEVDRT,Negative,2478.0
+2010977,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PETPNMDVIGERIKRIK,Positive,452.0
+2010991,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KEEHSSTWHYDDENPYK,Negative,1402.0
+2011005,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TWHYDDENPYKTWAYHG,Negative,3900.0
+2011019,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KKSGITEVDRTEAKEGL,Positive,289.0
+2011033,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DENPYKTWAYHGSYEVK,Negative,2726.0
+2011047,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TWAYHGSYEVKATGSA,Positive,133.0
+2011061,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GSYEVKATGSASSMING,Positive,120.0
+2011075,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PWDVVPMVTQMAMTDTT,Positive,125.0
+2011089,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MVTQMAMTDTTPFGQQR,Negative,3135.0
+2011103,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),TEAKEGLKRGEITHHAV,Negative,8636.0
+2011117,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GSCVYNMMGKREKKLGE,Positive-High,12.0
+2011131,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LKRGEITHHAVSRGSAK,Positive-High,82.0
+2011145,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WLGARYLEFEALGFLNE,Positive-Intermediate,710.0
+2011159,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GFLNEDHWFSRENSYSG,Negative,1955.0
+2011173,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HWFSRENSYSGVEGEGL,Negative,11098.0
+2011187,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NSYSGVEGEGLHKLGYI,Negative,8181.0
+2011201,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LHKLGYILRDISKIPGG,Positive-High,17.0
+2011215,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KIPGGAMYADDTAGWDT,Positive,170.0
+2011229,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PEHRQLANAIFKLTYQN,Positive,173.0
+2011243,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ANAIFKLTYQNKVVKVQ,Positive,344.0
+2011257,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LTYQNKVVKVQRPTPKG,Positive-High,65.0
+2011271,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VVKVQRPTPKGTVMDII,Negative,1209.0
+2011285,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PTPKGTVMDIISRKDQR,Positive,106.0
+2011299,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VMDIISRKDQRGSGQVG,Positive,124.0
+2011313,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KADLENPHPLEKKITQW,Negative,2588.0
+2011327,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PHPLEKKITQWLETKGV,Negative,1071.0
+2011341,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KITQWLETKGVERLKRM,Positive-Intermediate,665.0
+2011355,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VERLKRMAISGDDCVVK,Positive-Intermediate,575.0
+2011369,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MAISGDDCVVKPIDDRF,Negative,7317.0
+2011383,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DCVVKPIDDRFANALLA,Negative,5083.0
+2011397,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IDDRFANALLALNDMGK,Negative,2601.0
+2011411,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DWQQVPFCSHHFHELIM,Negative,1152.0
+2011425,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HELIMKDGRKLVVPCR,Positive-Intermediate,671.0
+2011439,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KDGRKLVVPCRPQDELI,Negative,1031.0
+2011453,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SLRETACLGKAYAQMWT,Positive-High,80.0
+2011467,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),MYFHRRDLRLASNAI,Positive-High,17.0
+2011481,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RRDLRLASNAICSAVPV,Positive-High,79.0
+2011495,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CSAVPVHWVPTSRTTW,Positive-Intermediate,681.0
+2011509,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YLGKREDQWCGSLIGLT,Negative,10466.0
+2011523,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AIQQVRSLIGNEEFLDY,Positive,421.0
+2104304,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AQGYKVLVLNPSVAATLGFG,Positive-High,10000.0
+2104322,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),ISGIQYLAGLSTLPGNPA,Positive-High,10000.0
+2104328,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AARVTQILSSLTITQLLKRLHQWI,Positive-High,10000.0
+2104334,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KLPINALSNSLLRHH,Positive-Low,100000.0
+2104340,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AEQFKQKALGLLQTASRQAE,Positive-High,10000.0
+2104352,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LMAFTAAVTSPLTTS,Positive-Intermediate,100000.0
+2104358,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),WARMILMTHFFSVLIARDQLEQ,Positive-Low,100000.0
+2104376,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DQMWKCLIRLKPTLHGPTP,Positive-High,10000.0
+2104382,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CGKYLFNWAVRTKLKLT,Positive-High,10000.0
+2104388,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),GIAYFSMVGNWAKVL,Positive-Intermediate,100000.0
+2104394,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VPYFVRVQGLLRICALARKAV,Positive-High,10000.0
+2104406,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VPPLRVWRHRARSVRAKLLSQGGRA,Positive-High,10000.0
+2114647,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FKVIIKPPVPPAPIM,Positive,2.0
+2114648,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KTTRPFKVIIKPPVP,Positive,7.0
+2115186,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VDLLVNLLPAILSPGA,Positive-High,10000.0
+2115202,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LENLVVLNAASVAGAHW,Positive-Intermediate,100000.0
+2115214,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LGNIIQRLHGLSAFSLHSY,Positive-High,10000.0
+2115226,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LQVLKEVKAAASKVKANL,Positive-Intermediate,100000.0
+2115237,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AYCLWMMLLISQAEAALELIT,Positive-Low,100000.0
+2115249,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AAILRRHIDLLVGSATLCSALY,Positive-Intermediate,100000.0
+2115261,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PGEINRVASCLRKLGVPPLRAY,Positive-High,10000.0
+2116187,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),FLMEHTMPVTHPPEV,Positive,2.0
+2116352,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AKAFAYYIEPQHRDVLQLYA,Positive-High,4.0
+2116360,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),AVDDYAGYLLDKNQSDLVTN,Positive-Intermediate,55.0
+2116372,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),DTGGLIDSPSINLDVRKQYK,Positive-Low,179.0
+2116381,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EAQLNINQEWNKALGLPKYT,Positive-Low,100.0
+2116394,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EIMKHIVKIEVKGEEAVKKE,Positive-High,4.0
+2116406,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EQYTHQDEIYEQVHSKGLYV,Positive-Intermediate,35.0
+2116414,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),EYIRIDAKVVPKSKIDTKIQ,Positive-High,21.0
+2116427,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),HQSIGSTLYNKIYLYENMNI,Positive-Intermediate,44.0
+2116437,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IGLEIKDVQIIKQSEKEYIRIDAKVVP,Positive-Intermediate,73.0
+2116452,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KELLNRIQVDSSNPLSEKEK,Positive-Low,274.0
+2116459,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KIYLYENMNINNLTATLGAD,Positive-High,5.0
+2116466,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KLITFNVHNRYASNIVESAY,Positive-High,7.0
+2116481,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LENGKLILQRNIGLEIKDVQI,Positive-High,3.0
+2116489,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),LLFTNQLKEHPTDFSVEFLE,Positive-Low,148.0
+2116505,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NKALGLPKYTKLITFNVHNR,Positive-High,2.0
+2116515,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PEAFNYMDKFNEQEINLSLE,Positive-High,2.0
+2116522,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),PESRSILLHGPSKGVELRND,Positive-Low,120.0
+2116535,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QHRDVLQLYAPEAFNYMDKF,Positive-High,5.0
+2116543,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QNSNEVQEVFAKAFAYYIEP,Positive-High,2.0
+2116552,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),QSDLIKKVTNYLVDGNGRFV,Positive-Low,139.0
+2116561,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RNKTQEEHLKEIMKHIVKIE,Positive-High,2.0
+2116568,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SDVLEMYKAIGGKIYIVDGD,Positive-High,4.0
+2116576,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SEGFIHEFGHAVDDYAGYLL,Positive-Low,849.0
+2116583,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),SKKFIDIFKEEGSNLTSYGR,Positive-High,0.4
+2116594,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VENTEKALNVYYEIGKILSR,Positive-High,0.03
+2116604,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),VLVIQSSEDYVENTEKALNV,Positive-Low,168.0
+2116614,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YGKDALLHEHYVYAKEGYEP,Positive-High,9.0
+2116622,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YLVDGNGRFVFTDITLPNIA,Positive-Intermediate,45.0
+2116629,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YVYAKEGYEPVLVIQSSEDY,Positive-High,14.0
+2116636,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),YYEIGKILSRDILSKINQPY,Positive-High,0.4
+2117201,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CPRYVKQLTKLATGMRNVPE,Positive-Intermediate,10450.0
+2117202,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CPKYVRSAKLRMVTGLRNIPS,Positive-High,680.0
+2117203,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),NSVIEKMNTQFTAVGKEFNKHE,Positive-High,590.0
+2117204,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IDIWTYNAELLVLLENERTDFHDS,Positive-Intermediate,18840.0
+2117205,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),KNLYEKVKSQLKNNAKEEIGNGC,Positive-High,500.0
+2117206,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),IDGVKLESMGVYQILAIYSTVASSL,Positive-Intermediate,10030.0
+2117208,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),CRTFFLTQGALLNDKHSNGTVK,Positive-Intermediate,13060.0
+2118485,HLA-DRB1*11:01,half maximal inhibitory concentration (IC50),RRIEEICMKVFAQYI,Positive,738.0
