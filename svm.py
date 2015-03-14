@@ -21,7 +21,6 @@ def main():
 			if has_both(training_labels) and has_both(test_labels):
 				training_trues, training_falses = len(filter(lambda l: l, training_labels)), len(filter(lambda l: not l, training_labels))
 				test_trues, test_falses = len(filter(lambda l: l, test_labels)), len(filter(lambda l: not l, test_labels))
-				print 'training: ' + str(training_trues) + ' vs ' + str(training_falses) + ', test: ' + str(test_trues) + ' vs ' + str(test_falses)
 				nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
 				classifier = svm.SVC(probability=True)
 				classifier.fit(nonamer_features, training_labels)
@@ -46,9 +45,7 @@ def main():
 		
 					probabilities = classifier.predict_proba(predictions)
 					test_labels_mlb = mlb.fit_transform(map(lambda l: [1] if l else [0], test_labels))
-					print str(threshold)+' produces a roc score of '+str(roc_auc_score(test_labels_mlb, probabilities, average='micro'))
-			else:
-				print str(threshold)+' does not have both'
+					print str(threshold)+' '+str(training_trues)+' '+str(training_falses)+' '+str(test_trues)+' '+str(test_falses)+' '+str(roc_auc_score(test_labels_mlb, probabilities, average='micro'))
 
 def get_args():
 	args = sys.argv
