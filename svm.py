@@ -3,6 +3,7 @@ import re
 from random import randint, shuffle
 from sklearn import svm
 from sklearn.metrics import roc_auc_score
+from sklearn.preprocessing import MultiLabelBinarizer
 import numpy as np
 
 AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
@@ -11,31 +12,40 @@ def main():
 	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
 	sample_ids, sample_features, sample_kds = read_samples(samples_file, num_samples)
 	
-	for fold in range(0, int(100/(100-split_pc))):
-		training_features, training_kds, test_features, test_kds = split_data(sample_features, sample_kds, split_pc)
-		nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
-		classifier = svm.SVR()
-		print 'fitting 0'
-		classifier.fit(nonamer_features, training_kds)
-		print 'fitted 0'
-		for i in range(0, num_iterations):
-			for j in range(0, len(training_features)):
-				combinations = all_combinations(training_features[j])
-				predictions = classifier.predict(combinations)
-				zipped = zip(combinations, predictions)
-				best = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
-				nonamer_features[j] = best
-			print 'fitting '+str(i+1)
-			classifier.fit(nonamer_features, training_kds)
-			print 'fitted '+str(i+1)
-			
-			"""predictions = []
-			for feature in test_features:
-				feature_predictions = classifier.predict(all_combinations(feature))
-				predictions.append(min(feature_predictions))"""
-			
-			print 'roc score '+str(roc_auc_score(test_kds, classifier.predict_proba(), average='micro'))
-			
+	mlb = MultiLabelBinarizer()
+	min_value, max_value = min(sample_kds), max(sample_kds)
+	for threshold in np.arange(min_value, max_value, (max_value-min_value)/100):
+		sample_labels = map(lambda kd: kd<threshold, sample_kds)
+		for fold in range(0, int(100/(100-split_pc))):
+			training_features, training_labels, test_features, test_labels = split_data(sample_features, sample_labels, split_pc)
+			if has_both(training_labels) and has_both(test_labels):
+				training_trues, training_falses = len(filter(lambda l: l, training_labels)), len(filter(lambda l: not l, training_labels))
+				test_trues, test_falses = len(filter(lambda l: l, test_labels)), len(filter(lambda l: not l, test_labels))
+				nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
+				classifier = svm.SVC(probability=True)
+				classifier.fit(nonamer_features, training_labels)
+				for i in range(0, num_iterations):
+					for j in range(0, len(training_features)):
+						combinations = all_combinations(training_features[j])
+						predictions = classifier.predict(combinations)
+						zipped = zip(combinations, predictions)
+						best = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
+						nonamer_features[j] = best
+					classifier.fit(nonamer_features, training_labels)
+		
+					predictions = []
+					for feature in test_features:
+						feature_combinations = all_combinations(feature)
+						feature_predictions = classifier.predict(feature_combinations)
+						if any(feature_predictions):
+							prediction = feature_combinations[feature_predictions.tolist().index(True)]
+						else:
+							prediction = feature_combinations[0]
+						predictions.append(prediction)
+		
+					probabilities = classifier.predict_proba(predictions)
+					test_labels_mlb = mlb.fit_transform(map(lambda l: [1] if l else [0], test_labels))
+					print str(threshold)+' '+str(training_trues)+' '+str(training_falses)+' '+str(test_trues)+' '+str(test_falses)+' '+str(roc_auc_score(test_labels_mlb, probabilities, average='micro'))
 
 def get_args():
 	args = sys.argv
@@ -148,6 +158,9 @@ def parse_lines(input_file):
 	parsed_lines = map(lambda line: line.strip(), nonempty_lines)
 	return parsed_lines
 
+def has_both(labels):
+	return any(labels) and any(map(lambda l: not l, labels))
+
 def take_nine(sequence, start):
 	return sequence[start:start+9]
 
@@ -169,8 +182,8 @@ def split_data(sample_features, sample_labels, split_pc):
 	shuffle(zipped)
 	divider = int(split_pc*len(zipped)/100)
 	training, test = zipped[:divider], zipped[divider:]
-	training_features, training_labels = zip(*training)
-	test_features, test_labels = zip(*test)
+	training_features, training_labels = map(list, zip(*training))
+	test_features, test_labels = map(list, zip(*test))
 	return training_features, training_labels, test_features, test_labels
 
 main()
