@@ -1,0 +1,1901 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+4.258598 does not have both
+4.258598 does not have both
+4.258598 does not have both
+4.258598 does not have both
+4.258598 does not have both
+4.35622232 does not have both
+4.35622232 does not have both
+4.35622232 does not have both
+4.35622232 does not have both
+4.35622232 does not have both
+4.45384664 does not have both
+4.45384664 does not have both
+4.45384664 does not have both
+4.45384664 does not have both
+4.45384664 does not have both
+4.55147096 does not have both
+4.55147096 does not have both
+training: 2 vs 10418, test: 1 vs 2605
+4.55147096 produces a roc score of 0.999616270146
+4.55147096 produces a roc score of 0.999616270146
+4.55147096 produces a roc score of 0.999616270146
+training: 2 vs 10418, test: 1 vs 2605
+4.55147096 produces a roc score of 0.999616270146
+4.55147096 produces a roc score of 0.999616270146
+4.55147096 produces a roc score of 0.999616270146
+4.55147096 does not have both
+4.64909528 does not have both
+4.64909528 does not have both
+training: 4 vs 10416, test: 1 vs 2605
+4.64909528 produces a roc score of 0.999934032627
+4.64909528 produces a roc score of 0.999934032627
+4.64909528 produces a roc score of 0.999934032627
+4.64909528 does not have both
+training: 3 vs 10417, test: 2 vs 2604
+4.64909528 produces a roc score of 0.99956635287
+4.64909528 produces a roc score of 0.999573273554
+4.64909528 produces a roc score of 0.99956635287
+training: 4 vs 10416, test: 1 vs 2605
+4.7467196 produces a roc score of 0.999474911489
+4.7467196 produces a roc score of 0.999876605672
+4.7467196 produces a roc score of 0.999474911489
+training: 4 vs 10416, test: 1 vs 2605
+4.7467196 produces a roc score of 0.999930793158
+4.7467196 produces a roc score of 0.999956708911
+4.7467196 produces a roc score of 0.999956708911
+training: 1 vs 10419, test: 4 vs 2602
+4.7467196 produces a roc score of 0.999282457567
+4.7467196 produces a roc score of 0.999234012778
+4.7467196 produces a roc score of 0.999234012778
+training: 4 vs 10416, test: 1 vs 2605
+4.7467196 produces a roc score of 0.999464456838
+4.7467196 produces a roc score of 0.999437068598
+4.7467196 produces a roc score of 0.999464456838
+training: 4 vs 10416, test: 1 vs 2605
+4.7467196 produces a roc score of 0.999887943815
+4.7467196 produces a roc score of 0.999934474373
+4.7467196 produces a roc score of 0.999934474373
+training: 7 vs 10413, test: 1 vs 2605
+4.84434392 produces a roc score of 0.999937124847
+4.84434392 produces a roc score of 0.999946107012
+4.84434392 produces a roc score of 0.999937272096
+training: 7 vs 10413, test: 1 vs 2605
+4.84434392 produces a roc score of 0.999553542242
+4.84434392 produces a roc score of 0.999466518319
+4.84434392 produces a roc score of 0.99969372291
+4.84434392 does not have both
+training: 6 vs 10414, test: 2 vs 2604
+4.84434392 produces a roc score of 0.999007249932
+4.84434392 produces a roc score of 0.999231362303
+4.84434392 produces a roc score of 0.999198673113
+training: 5 vs 10415, test: 3 vs 2603
+4.84434392 produces a roc score of 0.999184095502
+4.84434392 produces a roc score of 0.999184095502
+4.84434392 produces a roc score of 0.999152878798
+4.94196824 does not have both
+training: 5 vs 10415, test: 3 vs 2603
+4.94196824 produces a roc score of 0.999781630325
+4.94196824 produces a roc score of 0.999759395786
+4.94196824 produces a roc score of 0.999776623872
+training: 7 vs 10413, test: 1 vs 2605
+4.94196824 produces a roc score of 0.999897073228
+4.94196824 produces a roc score of 0.999891772278
+4.94196824 produces a roc score of 0.999896042488
+training: 7 vs 10413, test: 1 vs 2605
+4.94196824 produces a roc score of 0.999678261807
+4.94196824 produces a roc score of 0.999830958606
+4.94196824 produces a roc score of 0.999832578341
+training: 5 vs 10415, test: 3 vs 2603
+4.94196824 produces a roc score of 0.99944325304
+4.94196824 produces a roc score of 0.999434565372
+4.94196824 produces a roc score of 0.999264051492
+training: 9 vs 10411, test: 2 vs 2604
+5.03959256 produces a roc score of 0.99907277556
+5.03959256 produces a roc score of 0.99908426095
+5.03959256 produces a roc score of 0.999161713715
+training: 9 vs 10411, test: 2 vs 2604
+5.03959256 produces a roc score of 0.998957332656
+5.03959256 produces a roc score of 0.998833349334
+5.03959256 produces a roc score of 0.998885769836
+training: 9 vs 10411, test: 2 vs 2604
+5.03959256 produces a roc score of 0.999022122041
+5.03959256 produces a roc score of 0.999461511866
+5.03959256 produces a roc score of 0.999028895476
+training: 9 vs 10411, test: 2 vs 2604
+5.03959256 produces a roc score of 0.99902742299
+5.03959256 produces a roc score of 0.998868983496
+5.03959256 produces a roc score of 0.999036110658
+5.03959256 does not have both
+training: 9 vs 10411, test: 4 vs 2602
+5.13721688 produces a roc score of 0.998233753031
+5.13721688 produces a roc score of 0.99854650906
+5.13721688 produces a roc score of 0.998656356516
+training: 10 vs 10410, test: 3 vs 2603
+5.13721688 produces a roc score of 0.99890638464
+5.13721688 produces a roc score of 0.998666074924
+5.13721688 produces a roc score of 0.998906531889
+training: 11 vs 10409, test: 2 vs 2604
+5.13721688 produces a roc score of 0.999629964266
+5.13721688 produces a roc score of 0.999070272333
+5.13721688 produces a roc score of 0.999078812752
+training: 11 vs 10409, test: 2 vs 2604
+5.13721688 produces a roc score of 0.998665338681
+5.13721688 produces a roc score of 0.998678591055
+5.13721688 produces a roc score of 0.998665338681
+training: 12 vs 10408, test: 1 vs 2605
+5.13721688 produces a roc score of 0.999403054172
+5.13721688 produces a roc score of 0.999403643166
+5.13721688 produces a roc score of 0.999801803383
+training: 18 vs 10402, test: 1 vs 2605
+5.2348412 produces a roc score of 0.9997579233
+5.2348412 produces a roc score of 0.999398636714
+5.2348412 produces a roc score of 0.999858199597
+training: 14 vs 10406, test: 5 vs 2601
+5.2348412 produces a roc score of 0.998851313664
+5.2348412 produces a roc score of 0.999191605181
+5.2348412 produces a roc score of 0.99717503559
+training: 16 vs 10404, test: 3 vs 2603
+5.2348412 produces a roc score of 0.997998302518
+5.2348412 produces a roc score of 0.99821490521
+5.2348412 produces a roc score of 0.998002130982
+training: 18 vs 10402, test: 1 vs 2605
+5.2348412 produces a roc score of 0.999326779396
+5.2348412 produces a roc score of 0.996515656355
+5.2348412 produces a roc score of 0.999326779396
+training: 14 vs 10406, test: 5 vs 2601
+5.2348412 produces a roc score of 0.997498246269
+5.2348412 produces a roc score of 0.997329941118
+5.2348412 produces a roc score of 0.997491472834
+training: 16 vs 10404, test: 4 vs 2602
+5.33246552 produces a roc score of 0.998840711764
+5.33246552 produces a roc score of 0.998873548202
+5.33246552 produces a roc score of 0.998840711764
+training: 16 vs 10404, test: 4 vs 2602
+5.33246552 produces a roc score of 0.997714848961
+5.33246552 produces a roc score of 0.998079289249
+5.33246552 produces a roc score of 0.997704394311
+training: 18 vs 10402, test: 2 vs 2604
+5.33246552 produces a roc score of 0.99875280435
+5.33246552 produces a roc score of 0.998752951598
+5.33246552 produces a roc score of 0.99875280435
+training: 18 vs 10402, test: 2 vs 2604
+5.33246552 produces a roc score of 0.99942425797
+5.33246552 produces a roc score of 0.99926213726
+5.33246552 produces a roc score of 0.999069683339
+training: 18 vs 10402, test: 2 vs 2604
+5.33246552 produces a roc score of 0.999061584666
+5.33246552 produces a roc score of 0.999327662888
+5.33246552 produces a roc score of 0.999399078459
+training: 38 vs 10382, test: 14 vs 2592
+5.43008984 produces a roc score of 0.996338221791
+5.43008984 produces a roc score of 0.996285948537
+5.43008984 produces a roc score of 0.996347056707
+training: 37 vs 10383, test: 15 vs 2591
+5.43008984 produces a roc score of 0.994264519743
+5.43008984 produces a roc score of 0.995034335429
+5.43008984 produces a roc score of 0.994261280274
+training: 40 vs 10380, test: 12 vs 2594
+5.43008984 produces a roc score of 0.996830915609
+5.43008984 produces a roc score of 0.997067102365
+5.43008984 produces a roc score of 0.996841812006
+training: 42 vs 10378, test: 10 vs 2596
+5.43008984 produces a roc score of 0.99810653024
+5.43008984 produces a roc score of 0.998172939359
+5.43008984 produces a roc score of 0.99810653024
+training: 39 vs 10381, test: 13 vs 2593
+5.43008984 produces a roc score of 0.996903067424
+5.43008984 produces a roc score of 0.997299018912
+5.43008984 produces a roc score of 0.996903067424
+training: 53 vs 10367, test: 14 vs 2592
+5.52771416 produces a roc score of 0.994459035145
+5.52771416 produces a roc score of 0.994786663282
+5.52771416 produces a roc score of 0.994511013901
+training: 54 vs 10366, test: 13 vs 2593
+5.52771416 produces a roc score of 0.994964245095
+5.52771416 produces a roc score of 0.995369178747
+5.52771416 produces a roc score of 0.994964245095
+training: 53 vs 10367, test: 14 vs 2592
+5.52771416 produces a roc score of 0.996740210471
+5.52771416 produces a roc score of 0.995745840669
+5.52771416 produces a roc score of 0.996738443488
+training: 50 vs 10370, test: 17 vs 2589
+5.52771416 produces a roc score of 0.993458775398
+5.52771416 produces a roc score of 0.993105673253
+5.52771416 produces a roc score of 0.993449498736
+training: 59 vs 10361, test: 8 vs 2598
+5.52771416 produces a roc score of 0.996591636633
+5.52771416 produces a roc score of 0.996186555732
+5.52771416 produces a roc score of 0.99659193113
+training: 77 vs 10343, test: 21 vs 2585
+5.62533848 produces a roc score of 0.993533577687
+5.62533848 produces a roc score of 0.993468493806
+5.62533848 produces a roc score of 0.993538142394
+training: 82 vs 10338, test: 16 vs 2590
+5.62533848 produces a roc score of 0.995536011412
+5.62533848 produces a roc score of 0.995182762019
+5.62533848 produces a roc score of 0.995525262264
+training: 84 vs 10336, test: 14 vs 2592
+5.62533848 produces a roc score of 0.995501407991
+5.62533848 produces a roc score of 0.995358135102
+5.62533848 produces a roc score of 0.995474019751
+training: 73 vs 10347, test: 25 vs 2581
+5.62533848 produces a roc score of 0.993246884661
+5.62533848 produces a roc score of 0.993080493742
+5.62533848 produces a roc score of 0.993246884661
+training: 80 vs 10340, test: 18 vs 2588
+5.62533848 produces a roc score of 0.995919888515
+5.62533848 produces a roc score of 0.99459951031
+5.62533848 produces a roc score of 0.995941534059
+training: 90 vs 10330, test: 23 vs 2583
+5.7229628 produces a roc score of 0.993319036476
+5.7229628 produces a roc score of 0.993080640991
+5.7229628 produces a roc score of 0.99332492642
+training: 89 vs 10331, test: 24 vs 2582
+5.7229628 produces a roc score of 0.99198084119
+5.7229628 produces a roc score of 0.992591922884
+5.7229628 produces a roc score of 0.991991737587
+training: 94 vs 10326, test: 19 vs 2587
+5.7229628 produces a roc score of 0.995819170472
+5.7229628 produces a roc score of 0.99511105195
+5.7229628 produces a roc score of 0.995880131393
+training: 91 vs 10329, test: 22 vs 2584
+5.7229628 produces a roc score of 0.994885467093
+5.7229628 produces a roc score of 0.995213831473
+5.7229628 produces a roc score of 0.994864557792
+training: 90 vs 10330, test: 23 vs 2583
+5.7229628 produces a roc score of 0.993915025188
+5.7229628 produces a roc score of 0.993012906634
+5.7229628 produces a roc score of 0.99391642405
+training: 112 vs 10308, test: 22 vs 2584
+5.82058712 produces a roc score of 0.994315173262
+5.82058712 produces a roc score of 0.994498792267
+5.82058712 produces a roc score of 0.994304424114
+training: 97 vs 10323, test: 37 vs 2569
+5.82058712 produces a roc score of 0.989729557329
+5.82058712 produces a roc score of 0.989459945141
+5.82058712 produces a roc score of 0.989725876114
+training: 107 vs 10313, test: 27 vs 2579
+5.82058712 produces a roc score of 0.990355216635
+5.82058712 produces a roc score of 0.989665356939
+5.82058712 produces a roc score of 0.99035683637
+training: 107 vs 10313, test: 27 vs 2579
+5.82058712 produces a roc score of 0.991946826763
+5.82058712 produces a roc score of 0.992077730769
+5.82058712 produces a roc score of 0.991929451428
+training: 106 vs 10314, test: 28 vs 2578
+5.82058712 produces a roc score of 0.991783822562
+5.82058712 produces a roc score of 0.991514210373
+5.82058712 produces a roc score of 0.991779257855
+training: 158 vs 10262, test: 39 vs 2567
+5.91821144 produces a roc score of 0.987574279557
+5.91821144 produces a roc score of 0.986459165901
+5.91821144 produces a roc score of 0.987585175953
+training: 160 vs 10260, test: 37 vs 2569
+5.91821144 produces a roc score of 0.988618124889
+5.91821144 produces a roc score of 0.98641513857
+5.91821144 produces a roc score of 0.988620039121
+training: 159 vs 10261, test: 38 vs 2568
+5.91821144 produces a roc score of 0.988395043259
+5.91821144 produces a roc score of 0.987167578921
+5.91821144 produces a roc score of 0.988395043259
+training: 160 vs 10260, test: 37 vs 2569
+5.91821144 produces a roc score of 0.988014111128
+5.91821144 produces a roc score of 0.989139973931
+5.91821144 produces a roc score of 0.988014111128
+training: 158 vs 10262, test: 39 vs 2567
+5.91821144 produces a roc score of 0.986947442262
+5.91821144 produces a roc score of 0.986713758733
+5.91821144 produces a roc score of 0.986944939036
+training: 231 vs 10189, test: 57 vs 2549
+6.01583576 produces a roc score of 0.980429630188
+6.01583576 produces a roc score of 0.981528252
+6.01583576 produces a roc score of 0.980409015384
+training: 226 vs 10194, test: 62 vs 2544
+6.01583576 produces a roc score of 0.979959170908
+6.01583576 produces a roc score of 0.98068937672
+6.01583576 produces a roc score of 0.979959170908
+training: 228 vs 10192, test: 60 vs 2546
+6.01583576 produces a roc score of 0.980522544055
+6.01583576 produces a roc score of 0.97988422137
+6.01583576 produces a roc score of 0.980505463218
+training: 214 vs 10206, test: 74 vs 2532
+6.01583576 produces a roc score of 0.974015922875
+6.01583576 produces a roc score of 0.974998807286
+6.01583576 produces a roc score of 0.974017984355
+training: 239 vs 10181, test: 49 vs 2557
+6.01583576 produces a roc score of 0.984327447905
+6.01583576 produces a roc score of 0.983905727912
+6.01583576 produces a roc score of 0.984327300656
+training: 315 vs 10105, test: 73 vs 2533
+6.11346008 produces a roc score of 0.975101145064
+6.11346008 produces a roc score of 0.974302910398
+6.11346008 produces a roc score of 0.975101292313
+training: 312 vs 10108, test: 76 vs 2530
+6.11346008 produces a roc score of 0.97406480941
+6.11346008 produces a roc score of 0.974343845509
+6.11346008 produces a roc score of 0.974045372595
+training: 315 vs 10105, test: 73 vs 2533
+6.11346008 produces a roc score of 0.976330670882
+6.11346008 produces a roc score of 0.975740203992
+6.11346008 produces a roc score of 0.976331112628
+training: 319 vs 10101, test: 69 vs 2537
+6.11346008 produces a roc score of 0.976064739909
+6.11346008 produces a roc score of 0.977195903662
+6.11346008 produces a roc score of 0.976065328903
+training: 321 vs 10099, test: 67 vs 2539
+6.11346008 produces a roc score of 0.979074206816
+6.11346008 produces a roc score of 0.979463532117
+6.11346008 produces a roc score of 0.979074206816
+training: 396 vs 10024, test: 101 vs 2505
+6.2110844 produces a roc score of 0.970616836169
+6.2110844 produces a roc score of 0.968869731519
+6.2110844 produces a roc score of 0.970617277915
+training: 410 vs 10010, test: 87 vs 2519
+6.2110844 produces a roc score of 0.973847912221
+6.2110844 produces a roc score of 0.973398509491
+6.2110844 produces a roc score of 0.973848648464
+training: 398 vs 10022, test: 99 vs 2507
+6.2110844 produces a roc score of 0.970610062734
+6.2110844 produces a roc score of 0.970161543495
+6.2110844 produces a roc score of 0.970599019089
+training: 393 vs 10027, test: 104 vs 2502
+6.2110844 produces a roc score of 0.965838766316
+6.2110844 produces a roc score of 0.966361793347
+6.2110844 produces a roc score of 0.965877492698
+training: 403 vs 10017, test: 94 vs 2512
+6.2110844 produces a roc score of 0.967780459993
+6.2110844 produces a roc score of 0.967750347654
+6.2110844 produces a roc score of 0.967737978771
+training: 532 vs 9888, test: 133 vs 2473
+6.30870872 produces a roc score of 0.954533754975
+6.30870872 produces a roc score of 0.954548774332
+6.30870872 produces a roc score of 0.954544945868
+training: 531 vs 9889, test: 134 vs 2472
+6.30870872 produces a roc score of 0.956124039865
+6.30870872 produces a roc score of 0.954486046428
+6.30870872 produces a roc score of 0.956129119942
+training: 539 vs 9881, test: 126 vs 2480
+6.30870872 produces a roc score of 0.958731518092
+6.30870872 produces a roc score of 0.960257455344
+6.30870872 produces a roc score of 0.958711934028
+training: 540 vs 9880, test: 125 vs 2481
+6.30870872 produces a roc score of 0.956743809227
+6.30870872 produces a roc score of 0.955872539255
+6.30870872 produces a roc score of 0.956743072984
+training: 512 vs 9908, test: 153 vs 2453
+6.30870872 produces a roc score of 0.949383440658
+6.30870872 produces a roc score of 0.949195993189
+6.30870872 produces a roc score of 0.949383882404
+training: 631 vs 9789, test: 153 vs 2453
+6.40633304 produces a roc score of 0.951114936957
+6.40633304 produces a roc score of 0.951553443291
+6.40633304 produces a roc score of 0.952077059316
+training: 632 vs 9788, test: 152 vs 2454
+6.40633304 produces a roc score of 0.95087153502
+6.40633304 produces a roc score of 0.950931759697
+6.40633304 produces a roc score of 0.950817347534
+training: 635 vs 9785, test: 149 vs 2457
+6.40633304 produces a roc score of 0.949210276303
+6.40633304 produces a roc score of 0.94888117568
+6.40633304 produces a roc score of 0.949198938161
+training: 630 vs 9790, test: 154 vs 2452
+6.40633304 produces a roc score of 0.951099623102
+6.40633304 produces a roc score of 0.947580528787
+6.40633304 produces a roc score of 0.951097561622
+training: 638 vs 9782, test: 146 vs 2460
+6.40633304 produces a roc score of 0.95229130603
+6.40633304 produces a roc score of 0.952751752406
+6.40633304 produces a roc score of 0.952823167977
+training: 738 vs 9682, test: 176 vs 2430
+6.50395736 produces a roc score of 0.946093317917
+6.50395736 produces a roc score of 0.944081902028
+6.50395736 produces a roc score of 0.946095084901
+training: 740 vs 9680, test: 174 vs 2432
+6.50395736 produces a roc score of 0.940672655169
+6.50395736 produces a roc score of 0.941267834014
+6.50395736 produces a roc score of 0.940670888186
+training: 759 vs 9661, test: 155 vs 2451
+6.50395736 produces a roc score of 0.949588557959
+6.50395736 produces a roc score of 0.948456510715
+6.50395736 produces a roc score of 0.949578250557
+training: 723 vs 9697, test: 191 vs 2415
+6.50395736 produces a roc score of 0.935249636443
+6.50395736 produces a roc score of 0.932851987473
+6.50395736 produces a roc score of 0.935249636443
+training: 746 vs 9674, test: 168 vs 2438
+6.50395736 produces a roc score of 0.947325788708
+6.50395736 produces a roc score of 0.946026467053
+6.50395736 produces a roc score of 0.947325788708
+training: 856 vs 9564, test: 206 vs 2400
+6.60158168 produces a roc score of 0.932983774971
+6.60158168 produces a roc score of 0.935264214055
+6.60158168 produces a roc score of 0.932996143854
+training: 838 vs 9582, test: 224 vs 2382
+6.60158168 produces a roc score of 0.927316323568
+6.60158168 produces a roc score of 0.928947543569
+6.60158168 produces a roc score of 0.92731293685
+training: 842 vs 9578, test: 220 vs 2386
+6.60158168 produces a roc score of 0.929577178587
+6.60158168 produces a roc score of 0.929098326137
+6.60158168 produces a roc score of 0.929617524704
+training: 850 vs 9570, test: 212 vs 2394
+6.60158168 produces a roc score of 0.933905992959
+6.60158168 produces a roc score of 0.932063618464
+6.60158168 produces a roc score of 0.933907023699
+training: 834 vs 9586, test: 228 vs 2378
+6.60158168 produces a roc score of 0.928291992798
+6.60158168 produces a roc score of 0.929475429804
+6.60158168 produces a roc score of 0.928300312344
+training: 984 vs 9436, test: 229 vs 2377
+6.699206 produces a roc score of 0.923073796876
+6.699206 produces a roc score of 0.925871078549
+6.699206 produces a roc score of 0.923132696316
+training: 974 vs 9446, test: 239 vs 2367
+6.699206 produces a roc score of 0.925370875051
+6.699206 produces a roc score of 0.923739213304
+6.699206 produces a roc score of 0.925363954367
+training: 973 vs 9447, test: 240 vs 2366
+6.699206 produces a roc score of 0.924598114393
+6.699206 produces a roc score of 0.925850905491
+6.699206 produces a roc score of 0.925764176065
+training: 957 vs 9463, test: 256 vs 2350
+6.699206 produces a roc score of 0.923731556376
+6.699206 produces a roc score of 0.921086824254
+6.699206 produces a roc score of 0.923164796511
+training: 974 vs 9446, test: 239 vs 2367
+6.699206 produces a roc score of 0.926677853634
+6.699206 produces a roc score of 0.923942416373
+6.699206 produces a roc score of 0.925205662121
+training: 1115 vs 9305, test: 292 vs 2314
+6.79683032 produces a roc score of 0.910221202738
+6.79683032 produces a roc score of 0.911571472409
+6.79683032 produces a roc score of 0.910176144666
+training: 1126 vs 9294, test: 281 vs 2325
+6.79683032 produces a roc score of 0.914411456177
+6.79683032 produces a roc score of 0.91373956081
+6.79683032 produces a roc score of 0.914411750674
+training: 1138 vs 9282, test: 269 vs 2337
+6.79683032 produces a roc score of 0.913200336434
+6.79683032 produces a roc score of 0.910108263061
+6.79683032 produces a roc score of 0.913200336434
+training: 1119 vs 9301, test: 288 vs 2318
+6.79683032 produces a roc score of 0.904869746833
+6.79683032 produces a roc score of 0.908953981278
+6.79683032 produces a roc score of 0.904848248537
+training: 1106 vs 9314, test: 301 vs 2305
+6.79683032 produces a roc score of 0.905984418742
+6.79683032 produces a roc score of 0.907152541894
+6.79683032 produces a roc score of 0.905985154985
+training: 1283 vs 9137, test: 314 vs 2292
+6.89445464 produces a roc score of 0.903678358402
+6.89445464 produces a roc score of 0.901822878781
+6.89445464 produces a roc score of 0.903678358402
+training: 1271 vs 9149, test: 326 vs 2280
+6.89445464 produces a roc score of 0.892010968254
+6.89445464 produces a roc score of 0.894774677246
+6.89445464 produces a roc score of 0.892010968254
+training: 1292 vs 9128, test: 305 vs 2301
+6.89445464 produces a roc score of 0.900186210581
+6.89445464 produces a roc score of 0.902512738476
+6.89445464 produces a roc score of 0.90018002614
+training: 1275 vs 9145, test: 322 vs 2284
+6.89445464 produces a roc score of 0.89115987134
+6.89445464 produces a roc score of 0.891264859593
+6.89445464 produces a roc score of 0.891186523337
+training: 1257 vs 9163, test: 340 vs 2266
+6.89445464 produces a roc score of 0.885707550143
+6.89445464 produces a roc score of 0.892685072349
+6.89445464 produces a roc score of 0.88567942566
+training: 1444 vs 8976, test: 383 vs 2223
+6.99207896 produces a roc score of 0.867620857234
+6.99207896 produces a roc score of 0.87269651651
+6.99207896 produces a roc score of 0.867698015501
+training: 1453 vs 8967, test: 374 vs 2232
+6.99207896 produces a roc score of 0.881347887189
+6.99207896 produces a roc score of 0.876785021166
+6.99207896 produces a roc score of 0.881338242405
+training: 1454 vs 8966, test: 373 vs 2233
+6.99207896 produces a roc score of 0.878312725401
+6.99207896 produces a roc score of 0.875480104064
+6.99207896 produces a roc score of 0.878289460122
+training: 1466 vs 8954, test: 361 vs 2245
+6.99207896 produces a roc score of 0.890376361534
+6.99207896 produces a roc score of 0.893018295933
+6.99207896 produces a roc score of 0.890367968364
+training: 1454 vs 8966, test: 373 vs 2233
+6.99207896 produces a roc score of 0.878986829496
+6.99207896 produces a roc score of 0.873827385766
+6.99207896 produces a roc score of 0.878990952457
+training: 1643 vs 8777, test: 384 vs 2222
+7.08970328 produces a roc score of 0.870761301772
+7.08970328 produces a roc score of 0.875479662318
+7.08970328 produces a roc score of 0.870764099495
+training: 1623 vs 8797, test: 404 vs 2202
+7.08970328 produces a roc score of 0.872395245873
+7.08970328 produces a roc score of 0.873003088098
+7.08970328 produces a roc score of 0.872367563136
+training: 1611 vs 8809, test: 416 vs 2190
+7.08970328 produces a roc score of 0.873869351617
+7.08970328 produces a roc score of 0.86636350143
+7.08970328 produces a roc score of 0.873868762623
+training: 1653 vs 8767, test: 374 vs 2232
+7.08970328 produces a roc score of 0.876588002537
+7.08970328 produces a roc score of 0.877953586063
+7.08970328 produces a roc score of 0.876588002537
+training: 1603 vs 8817, test: 424 vs 2182
+7.08970328 produces a roc score of 0.863675330971
+7.08970328 produces a roc score of 0.864075258171
+7.08970328 produces a roc score of 0.863675036473
+training: 1763 vs 8657, test: 459 vs 2147
+7.1873276 produces a roc score of 0.850538252536
+7.1873276 produces a roc score of 0.851387876964
+7.1873276 produces a roc score of 0.850534571321
+training: 1828 vs 8592, test: 394 vs 2212
+7.1873276 produces a roc score of 0.8739553448
+7.1873276 produces a roc score of 0.874725307735
+7.1873276 produces a roc score of 0.876052164878
+training: 1799 vs 8621, test: 423 vs 2183
+7.1873276 produces a roc score of 0.859479334837
+7.1873276 produces a roc score of 0.859643811524
+7.1873276 produces a roc score of 0.857307712469
+training: 1790 vs 8630, test: 432 vs 2174
+7.1873276 produces a roc score of 0.865058363455
+7.1873276 produces a roc score of 0.861175491472
+7.1873276 produces a roc score of 0.865070658714
+training: 1750 vs 8670, test: 472 vs 2134
+7.1873276 produces a roc score of 0.852717090085
+7.1873276 produces a roc score of 0.849331255754
+7.1873276 produces a roc score of 0.852717090085
+training: 1891 vs 8529, test: 504 vs 2102
+7.28495192 produces a roc score of 0.836634450636
+7.28495192 produces a roc score of 0.835362369972
+7.28495192 produces a roc score of 0.837743821596
+training: 1880 vs 8540, test: 515 vs 2091
+7.28495192 produces a roc score of 0.828655048948
+7.28495192 produces a roc score of 0.830153008966
+7.28495192 produces a roc score of 0.828895358665
+training: 1919 vs 8501, test: 476 vs 2130
+7.28495192 produces a roc score of 0.851724340017
+7.28495192 produces a roc score of 0.847609477862
+7.28495192 produces a roc score of 0.851704314207
+training: 1914 vs 8506, test: 481 vs 2125
+7.28495192 produces a roc score of 0.84610886737
+7.28495192 produces a roc score of 0.849803482017
+7.28495192 produces a roc score of 0.84709396051
+training: 1900 vs 8520, test: 495 vs 2111
+7.28495192 produces a roc score of 0.842605528655
+7.28495192 produces a roc score of 0.842086330088
+7.28495192 produces a roc score of 0.843386682483
+training: 2063 vs 8357, test: 523 vs 2083
+7.38257624 produces a roc score of 0.838593740521
+7.38257624 produces a roc score of 0.837620574517
+7.38257624 produces a roc score of 0.840615316564
+training: 2044 vs 8376, test: 542 vs 2064
+7.38257624 produces a roc score of 0.832816294412
+7.38257624 produces a roc score of 0.837392339185
+7.38257624 produces a roc score of 0.832800833309
+training: 2064 vs 8356, test: 522 vs 2084
+7.38257624 produces a roc score of 0.832156031686
+7.38257624 produces a roc score of 0.833955556838
+7.38257624 produces a roc score of 0.832168106071
+training: 2070 vs 8350, test: 516 vs 2090
+7.38257624 produces a roc score of 0.840832802748
+7.38257624 produces a roc score of 0.84181450917
+7.38257624 produces a roc score of 0.842619222775
+training: 2044 vs 8376, test: 542 vs 2064
+7.38257624 produces a roc score of 0.832206832453
+7.38257624 produces a roc score of 0.831286086951
+7.38257624 produces a roc score of 0.830536444323
+training: 2229 vs 8191, test: 546 vs 2060
+7.48020056 produces a roc score of 0.8292232813
+7.48020056 produces a roc score of 0.826818932518
+7.48020056 produces a roc score of 0.825774719064
+training: 2195 vs 8225, test: 580 vs 2026
+7.48020056 produces a roc score of 0.818156591819
+7.48020056 produces a roc score of 0.821396650035
+7.48020056 produces a roc score of 0.818444021088
+training: 2236 vs 8184, test: 539 vs 2067
+7.48020056 produces a roc score of 0.830704896723
+7.48020056 produces a roc score of 0.832885648503
+7.48020056 produces a roc score of 0.829773402073
+training: 2245 vs 8175, test: 530 vs 2076
+7.48020056 produces a roc score of 0.834596235501
+7.48020056 produces a roc score of 0.829903275339
+7.48020056 produces a roc score of 0.835173891763
+training: 2206 vs 8214, test: 569 vs 2037
+7.48020056 produces a roc score of 0.827756537985
+7.48020056 produces a roc score of 0.827364120463
+7.48020056 produces a roc score of 0.828735741182
+training: 2340 vs 8080, test: 626 vs 1980
+7.57782488 produces a roc score of 0.802281793771
+7.57782488 produces a roc score of 0.800493312263
+7.57782488 produces a roc score of 0.802285990356
+training: 2362 vs 8058, test: 604 vs 2002
+7.57782488 produces a roc score of 0.816731004489
+7.57782488 produces a roc score of 0.818983098217
+7.57782488 produces a roc score of 0.816733065969
+training: 2387 vs 8033, test: 579 vs 2027
+7.57782488 produces a roc score of 0.804062397478
+7.57782488 produces a roc score of 0.811030348526
+7.57782488 produces a roc score of 0.803927149638
+training: 2379 vs 8041, test: 587 vs 2019
+7.57782488 produces a roc score of 0.817821085882
+7.57782488 produces a roc score of 0.814291978662
+7.57782488 produces a roc score of 0.817708146205
+training: 2386 vs 8034, test: 580 vs 2026
+7.57782488 produces a roc score of 0.828104560054
+7.57782488 produces a roc score of 0.826187898639
+7.57782488 produces a roc score of 0.825797174476
+training: 2506 vs 7914, test: 649 vs 1957
+7.6754492 produces a roc score of 0.798781694525
+7.6754492 produces a roc score of 0.793102757731
+7.6754492 produces a roc score of 0.798519886513
+training: 2517 vs 7903, test: 638 vs 1968
+7.6754492 produces a roc score of 0.813830354298
+7.6754492 produces a roc score of 0.813053028933
+7.6754492 produces a roc score of 0.816289405934
+training: 2519 vs 7901, test: 636 vs 1970
+7.6754492 produces a roc score of 0.809519872377
+7.6754492 produces a roc score of 0.809176856761
+7.6754492 produces a roc score of 0.809519798752
+training: 2514 vs 7906, test: 641 vs 1965
+7.6754492 produces a roc score of 0.79845494988
+7.6754492 produces a roc score of 0.797435842312
+7.6754492 produces a roc score of 0.799996053737
+training: 2519 vs 7901, test: 636 vs 1970
+7.6754492 produces a roc score of 0.808774131837
+7.6754492 produces a roc score of 0.810674080536
+7.6754492 produces a roc score of 0.808772953848
+training: 2686 vs 7734, test: 673 vs 1933
+7.77307352 produces a roc score of 0.793902538507
+7.77307352 produces a roc score of 0.789025738466
+7.77307352 produces a roc score of 0.793830975687
+training: 2674 vs 7746, test: 685 vs 1921
+7.77307352 produces a roc score of 0.800741794277
+7.77307352 produces a roc score of 0.797328498082
+7.77307352 produces a roc score of 0.800800767342
+training: 2697 vs 7723, test: 662 vs 1944
+7.77307352 produces a roc score of 0.804316843061
+7.77307352 produces a roc score of 0.806057836894
+7.77307352 produces a roc score of 0.804201179285
+training: 2688 vs 7732, test: 671 vs 1935
+7.77307352 produces a roc score of 0.788922075451
+7.77307352 produces a roc score of 0.791987349578
+7.77307352 produces a roc score of 0.790428281391
+training: 2671 vs 7749, test: 688 vs 1918
+7.77307352 produces a roc score of 0.795406609342
+7.77307352 produces a roc score of 0.799687347046
+7.77307352 produces a roc score of 0.795406609342
+training: 2854 vs 7566, test: 714 vs 1892
+7.87069784 produces a roc score of 0.783807174423
+7.87069784 produces a roc score of 0.776991478429
+7.87069784 produces a roc score of 0.7792864215
+training: 2858 vs 7562, test: 710 vs 1896
+7.87069784 produces a roc score of 0.785586084772
+7.87069784 produces a roc score of 0.781889335019
+7.87069784 produces a roc score of 0.785684005091
+training: 2866 vs 7554, test: 702 vs 1904
+7.87069784 produces a roc score of 0.792362686262
+7.87069784 produces a roc score of 0.794620890807
+7.87069784 produces a roc score of 0.794342296454
+training: 2866 vs 7554, test: 702 vs 1904
+7.87069784 produces a roc score of 0.791673710058
+7.87069784 produces a roc score of 0.789520861887
+7.87069784 produces a roc score of 0.792166403877
+training: 2848 vs 7572, test: 720 vs 1886
+7.87069784 produces a roc score of 0.784933478972
+7.87069784 produces a roc score of 0.778336888896
+7.87069784 produces a roc score of 0.781072178908
+training: 3092 vs 7328, test: 738 vs 1868
+7.96832216 produces a roc score of 0.771867227114
+7.96832216 produces a roc score of 0.773069953687
+7.96832216 produces a roc score of 0.771623236183
+training: 3071 vs 7349, test: 759 vs 1847
+7.96832216 produces a roc score of 0.765273287513
+7.96832216 produces a roc score of 0.761488188601
+7.96832216 produces a roc score of 0.765597528933
+training: 3070 vs 7350, test: 760 vs 1846
+7.96832216 produces a roc score of 0.76221029574
+7.96832216 produces a roc score of 0.760051852122
+7.96832216 produces a roc score of 0.763875603793
+training: 3093 vs 7327, test: 737 vs 1869
+7.96832216 produces a roc score of 0.781431023749
+7.96832216 produces a roc score of 0.779320067805
+7.96832216 produces a roc score of 0.779758574139
+training: 3088 vs 7332, test: 742 vs 1864
+7.96832216 produces a roc score of 0.768133591588
+7.96832216 produces a roc score of 0.76893690633
+7.96832216 produces a roc score of 0.768629156754
+training: 3259 vs 7161, test: 793 vs 1813
+8.06594648 produces a roc score of 0.764984901128
+8.06594648 produces a roc score of 0.762385521575
+8.06594648 produces a roc score of 0.765571318682
+training: 3236 vs 7184, test: 816 vs 1790
+8.06594648 produces a roc score of 0.75129991065
+8.06594648 produces a roc score of 0.747899793204
+8.06594648 produces a roc score of 0.75031945584
+training: 3225 vs 7195, test: 827 vs 1779
+8.06594648 produces a roc score of 0.752155498646
+8.06594648 produces a roc score of 0.742441802935
+8.06594648 produces a roc score of 0.750938194461
+training: 3221 vs 7199, test: 831 vs 1775
+8.06594648 produces a roc score of 0.747608535471
+8.06594648 produces a roc score of 0.742875302817
+8.06594648 produces a roc score of 0.748608058975
+training: 3240 vs 7180, test: 812 vs 1794
+8.06594648 produces a roc score of 0.763976616333
+8.06594648 produces a roc score of 0.760664259054
+8.06594648 produces a roc score of 0.763103653002
+training: 3462 vs 6958, test: 860 vs 1746
+8.1635708 produces a roc score of 0.723110123106
+8.1635708 produces a roc score of 0.725806392238
+8.1635708 produces a roc score of 0.736240943475
+training: 3468 vs 6952, test: 854 vs 1752
+8.1635708 produces a roc score of 0.733988260753
+8.1635708 produces a roc score of 0.726280459109
+8.1635708 produces a roc score of 0.716657983907
+training: 3423 vs 6997, test: 899 vs 1707
+8.1635708 produces a roc score of 0.713944118567
+8.1635708 produces a roc score of 0.710386003373
+8.1635708 produces a roc score of 0.716067517018
+training: 3489 vs 6931, test: 833 vs 1773
+8.1635708 produces a roc score of 0.732576809288
+8.1635708 produces a roc score of 0.7282128025
+8.1635708 produces a roc score of 0.733457208673
+training: 3479 vs 6941, test: 843 vs 1763
+8.1635708 produces a roc score of 0.732276937512
+8.1635708 produces a roc score of 0.732186747744
+8.1635708 produces a roc score of 0.732114964051
+training: 3675 vs 6745, test: 935 vs 1671
+8.26119512 produces a roc score of 0.713538227798
+8.26119512 produces a roc score of 0.712122579748
+8.26119512 produces a roc score of 0.71404005103
+training: 3710 vs 6710, test: 900 vs 1706
+8.26119512 produces a roc score of 0.707004512875
+8.26119512 produces a roc score of 0.712807653864
+8.26119512 produces a roc score of 0.706659362154
+training: 3691 vs 6729, test: 919 vs 1687
+8.26119512 produces a roc score of 0.717503558999
+8.26119512 produces a roc score of 0.716708931923
+8.26119512 produces a roc score of 0.717156420422
+training: 3693 vs 6727, test: 917 vs 1689
+8.26119512 produces a roc score of 0.707723895915
+8.26119512 produces a roc score of 0.705176274245
+8.26119512 produces a roc score of 0.707725589274
+training: 3652 vs 6768, test: 958 vs 1648
+8.26119512 produces a roc score of 0.712759209075
+8.26119512 produces a roc score of 0.709784860959
+8.26119512 produces a roc score of 0.710972052805
+training: 3942 vs 6478, test: 986 vs 1620
+8.35881944 produces a roc score of 0.703955951465
+8.35881944 produces a roc score of 0.702098778485
+8.35881944 produces a roc score of 0.704711410412
+training: 3972 vs 6448, test: 956 vs 1650
+8.35881944 produces a roc score of 0.708536119198
+8.35881944 produces a roc score of 0.704529411141
+8.35881944 produces a roc score of 0.70784603863
+training: 3943 vs 6477, test: 985 vs 1621
+8.35881944 produces a roc score of 0.691023990331
+8.35881944 produces a roc score of 0.690189679758
+8.35881944 produces a roc score of 0.689107108043
+training: 3909 vs 6511, test: 1019 vs 1587
+8.35881944 produces a roc score of 0.679555017673
+8.35881944 produces a roc score of 0.672327982712
+8.35881944 produces a roc score of 0.68085198335
+training: 3941 vs 6479, test: 987 vs 1619
+8.35881944 produces a roc score of 0.68512734648
+8.35881944 produces a roc score of 0.688246881716
+8.35881944 produces a roc score of 0.685590148833
+training: 4156 vs 6264, test: 1066 vs 1540
+8.45644376 produces a roc score of 0.674371866918
+8.45644376 produces a roc score of 0.671866211099
+8.45644376 produces a roc score of 0.677826466346
+training: 4121 vs 6299, test: 1101 vs 1505
+8.45644376 produces a roc score of 0.684051916323
+8.45644376 produces a roc score of 0.680290377186
+8.45644376 produces a roc score of 0.68438690689
+training: 4191 vs 6229, test: 1031 vs 1575
+8.45644376 produces a roc score of 0.68602939141
+8.45644376 produces a roc score of 0.678848003515
+8.45644376 produces a roc score of 0.686166038111
+training: 4181 vs 6239, test: 1041 vs 1565
+8.45644376 produces a roc score of 0.674040557566
+8.45644376 produces a roc score of 0.668179327003
+8.45644376 produces a roc score of 0.673985044843
+training: 4186 vs 6234, test: 1036 vs 1570
+8.45644376 produces a roc score of 0.683170265324
+8.45644376 produces a roc score of 0.68061469223
+8.45644376 produces a roc score of 0.681198164811
+training: 4440 vs 5980, test: 1093 vs 1513
+8.55406808 produces a roc score of 0.648640321143
+8.55406808 produces a roc score of 0.650255049302
+8.55406808 produces a roc score of 0.649560551275
+training: 4427 vs 5993, test: 1106 vs 1500
+8.55406808 produces a roc score of 0.650181130504
+8.55406808 produces a roc score of 0.644503887069
+8.55406808 produces a roc score of 0.651453284792
+training: 4411 vs 6009, test: 1122 vs 1484
+8.55406808 produces a roc score of 0.659682714605
+8.55406808 produces a roc score of 0.652252108453
+8.55406808 produces a roc score of 0.657733364
+training: 4476 vs 5944, test: 1057 vs 1549
+8.55406808 produces a roc score of 0.673536157483
+8.55406808 produces a roc score of 0.664670613714
+8.55406808 produces a roc score of 0.674133545057
+training: 4422 vs 5998, test: 1111 vs 1495
+8.55406808 produces a roc score of 0.64957586513
+8.55406808 produces a roc score of 0.643387889922
+8.55406808 produces a roc score of 0.650035428013
+training: 4665 vs 5755, test: 1154 vs 1452
+8.6516924 produces a roc score of 0.63573729436
+8.6516924 produces a roc score of 0.636551284626
+8.6516924 produces a roc score of 0.63752820547
+training: 4658 vs 5762, test: 1161 vs 1445
+8.6516924 produces a roc score of 0.652742446294
+8.6516924 produces a roc score of 0.651592361096
+8.6516924 produces a roc score of 0.653213200071
+training: 4638 vs 5782, test: 1181 vs 1425
+8.6516924 produces a roc score of 0.652688258809
+8.6516924 produces a roc score of 0.651542811942
+8.6516924 produces a roc score of 0.652977823183
+training: 4683 vs 5737, test: 1136 vs 1470
+8.6516924 produces a roc score of 0.656252558444
+8.6516924 produces a roc score of 0.649399240433
+8.6516924 produces a roc score of 0.654696876975
+training: 4609 vs 5811, test: 1210 vs 1396
+8.6516924 produces a roc score of 0.650589745372
+8.6516924 produces a roc score of 0.643352108512
+8.6516924 produces a roc score of 0.651044007306
+training: 4838 vs 5582, test: 1248 vs 1358
+8.74931672 produces a roc score of 0.626461884111
+8.74931672 produces a roc score of 0.63058778991
+8.74931672 produces a roc score of 0.630503048341
+training: 4886 vs 5534, test: 1200 vs 1406
+8.74931672 produces a roc score of 0.648623976549
+8.74931672 produces a roc score of 0.646988265464
+8.74931672 produces a roc score of 0.649287552369
+training: 4869 vs 5551, test: 1217 vs 1389
+8.74931672 produces a roc score of 0.655490620559
+8.74931672 produces a roc score of 0.657506969276
+8.74931672 produces a roc score of 0.655024505112
+training: 4871 vs 5549, test: 1215 vs 1391
+8.74931672 produces a roc score of 0.645132344098
+8.74931672 produces a roc score of 0.64844389151
+8.74931672 produces a roc score of 0.64534313047
+training: 4867 vs 5553, test: 1219 vs 1387
+8.74931672 produces a roc score of 0.653011174991
+8.74931672 produces a roc score of 0.649898781312
+8.74931672 produces a roc score of 0.654552499722
+training: 5088 vs 5332, test: 1264 vs 1342
+8.84694104 produces a roc score of 0.643364182897
+8.84694104 produces a roc score of 0.651702650298
+8.84694104 produces a roc score of 0.643240862194
+training: 5085 vs 5335, test: 1267 vs 1339
+8.84694104 produces a roc score of 0.627484304772
+8.84694104 produces a roc score of 0.631813487265
+8.84694104 produces a roc score of 0.629143796505
+training: 5100 vs 5320, test: 1252 vs 1354
+8.84694104 produces a roc score of 0.628164372435
+8.84694104 produces a roc score of 0.625627573537
+8.84694104 produces a roc score of 0.631070249952
+training: 5087 vs 5333, test: 1265 vs 1341
+8.84694104 produces a roc score of 0.633669703129
+8.84694104 produces a roc score of 0.628807775197
+8.84694104 produces a roc score of 0.633124147062
+training: 5065 vs 5355, test: 1287 vs 1319
+8.84694104 produces a roc score of 0.632484720013
+8.84694104 produces a roc score of 0.632170565122
+8.84694104 produces a roc score of 0.635944546766
+training: 5319 vs 5101, test: 1282 vs 1324
+8.94456536 produces a roc score of 0.602849761074
+8.94456536 produces a roc score of 0.592347696355
+8.94456536 produces a roc score of 0.603294083728
+training: 5255 vs 5165, test: 1346 vs 1260
+8.94456536 produces a roc score of 0.62714239352
+8.94456536 produces a roc score of 0.626094719724
+8.94456536 produces a roc score of 0.627702600823
+training: 5256 vs 5164, test: 1345 vs 1261
+8.94456536 produces a roc score of 0.6303284115
+8.94456536 produces a roc score of 0.624778022734
+8.94456536 produces a roc score of 0.633783526298
+training: 5294 vs 5126, test: 1307 vs 1299
+8.94456536 produces a roc score of 0.617467645065
+8.94456536 produces a roc score of 0.612898962722
+8.94456536 produces a roc score of 0.618700483977
+training: 5287 vs 5133, test: 1314 vs 1292
+8.94456536 produces a roc score of 0.621601428665
+8.94456536 produces a roc score of 0.614948589623
+8.94456536 produces a roc score of 0.62029886754
+training: 5450 vs 4970, test: 1372 vs 1234
+9.04218968 produces a roc score of 0.575310296977
+9.04218968 produces a roc score of 0.596380172917
+9.04218968 produces a roc score of 0.591554173644
+training: 5500 vs 4920, test: 1322 vs 1284
+9.04218968 produces a roc score of 0.553444763221
+9.04218968 produces a roc score of 0.571235486442
+9.04218968 produces a roc score of 0.560765963663
+training: 5458 vs 4962, test: 1364 vs 1242
+9.04218968 produces a roc score of 0.604179636814
+9.04218968 produces a roc score of 0.557578914943
+9.04218968 produces a roc score of 0.605154275304
+training: 5452 vs 4968, test: 1370 vs 1236
+9.04218968 produces a roc score of 0.57736868517
+9.04218968 produces a roc score of 0.581452772367
+9.04218968 produces a roc score of 0.589315553163
+training: 5471 vs 4949, test: 1351 vs 1255
+9.04218968 produces a roc score of 0.554997941465
+9.04218968 produces a roc score of 0.566581694407
+9.04218968 produces a roc score of 0.564183898189
+training: 5688 vs 4732, test: 1399 vs 1207
+9.139814 produces a roc score of 0.583580956397
+9.139814 produces a roc score of 0.59760447141
+9.139814 produces a roc score of 0.587841152921
+training: 5650 vs 4770, test: 1437 vs 1169
+9.139814 produces a roc score of 0.602429071821
+9.139814 produces a roc score of 0.609797539064
+9.139814 produces a roc score of 0.601577533162
+training: 5693 vs 4727, test: 1394 vs 1212
+9.139814 produces a roc score of 0.588691513592
+9.139814 produces a roc score of 0.596589192306
+9.139814 produces a roc score of 0.593000302154
+training: 5645 vs 4775, test: 1442 vs 1164
+9.139814 produces a roc score of 0.600661352366
+9.139814 produces a roc score of 0.613571962453
+9.139814 produces a roc score of 0.601600356695
+training: 5701 vs 4719, test: 1386 vs 1220
+9.139814 produces a roc score of 0.581186252399
+9.139814 produces a roc score of 0.594241755109
+9.139814 produces a roc score of 0.587450649631
+training: 5885 vs 4535, test: 1458 vs 1148
+9.23743832 produces a roc score of 0.601082188868
+9.23743832 produces a roc score of 0.614222065026
+9.23743832 produces a roc score of 0.605539993015
+training: 5894 vs 4526, test: 1449 vs 1157
+9.23743832 produces a roc score of 0.598192287825
+9.23743832 produces a roc score of 0.606313637164
+9.23743832 produces a roc score of 0.599809077464
+training: 5891 vs 4529, test: 1452 vs 1154
+9.23743832 produces a roc score of 0.604416044443
+9.23743832 produces a roc score of 0.612826884532
+9.23743832 produces a roc score of 0.607165764818
+training: 5886 vs 4534, test: 1457 vs 1149
+9.23743832 produces a roc score of 0.608839686914
+9.23743832 produces a roc score of 0.611414181454
+9.23743832 produces a roc score of 0.611071092214
+training: 5907 vs 4513, test: 1436 vs 1170
+9.23743832 produces a roc score of 0.602474277142
+9.23743832 produces a roc score of 0.598498564915
+9.23743832 produces a roc score of 0.599427998085
+training: 6045 vs 4375, test: 1559 vs 1047
+9.33506264 produces a roc score of 0.646218449779
+9.33506264 produces a roc score of 0.65440694448
+9.33506264 produces a roc score of 0.647078528857
+training: 6059 vs 4361, test: 1545 vs 1061
+9.33506264 produces a roc score of 0.630310594419
+9.33506264 produces a roc score of 0.634549145399
+9.33506264 produces a roc score of 0.63435845846
+training: 6124 vs 4296, test: 1480 vs 1126
+9.33506264 produces a roc score of 0.624529319847
+9.33506264 produces a roc score of 0.632072571179
+9.33506264 produces a roc score of 0.629762976872
+training: 6049 vs 4371, test: 1555 vs 1051
+9.33506264 produces a roc score of 0.649914684161
+9.33506264 produces a roc score of 0.651490538688
+9.33506264 produces a roc score of 0.651273347002
+training: 6101 vs 4319, test: 1503 vs 1103
+9.33506264 produces a roc score of 0.623362521933
+9.33506264 produces a roc score of 0.632596776198
+9.33506264 produces a roc score of 0.629884015222
+training: 6295 vs 4125, test: 1586 vs 1020
+9.43268696 produces a roc score of 0.648775568983
+9.43268696 produces a roc score of 0.66158928949
+9.43268696 produces a roc score of 0.655510425495
+training: 6284 vs 4136, test: 1597 vs 1009
+9.43268696 produces a roc score of 0.656968628391
+9.43268696 produces a roc score of 0.66909484518
+9.43268696 produces a roc score of 0.662424336306
+training: 6262 vs 4158, test: 1619 vs 987
+9.43268696 produces a roc score of 0.672553125823
+9.43268696 produces a roc score of 0.672462126187
+9.43268696 produces a roc score of 0.672698754689
+training: 6299 vs 4121, test: 1582 vs 1024
+9.43268696 produces a roc score of 0.654035583508
+9.43268696 produces a roc score of 0.656109727301
+9.43268696 produces a roc score of 0.655943041885
+training: 6292 vs 4128, test: 1589 vs 1017
+9.43268696 produces a roc score of 0.65653822073
+9.43268696 produces a roc score of 0.662699396693
+9.43268696 produces a roc score of 0.658166201263
+training: 6504 vs 3916, test: 1650 vs 956
+9.53031128 produces a roc score of 0.683967690123
+9.53031128 produces a roc score of 0.683518140144
+9.53031128 produces a roc score of 0.68492789825
+training: 6515 vs 3905, test: 1639 vs 967
+9.53031128 produces a roc score of 0.679728697398
+9.53031128 produces a roc score of 0.685796664996
+9.53031128 produces a roc score of 0.681233136354
+training: 6497 vs 3923, test: 1657 vs 949
+9.53031128 produces a roc score of 0.68365331436
+9.53031128 produces a roc score of 0.679049881347
+9.53031128 produces a roc score of 0.680611452761
+training: 6534 vs 3886, test: 1620 vs 986
+9.53031128 produces a roc score of 0.668733349864
+9.53031128 produces a roc score of 0.669492416403
+9.53031128 produces a roc score of 0.66992002634
+training: 6536 vs 3884, test: 1618 vs 988
+9.53031128 produces a roc score of 0.665642012735
+9.53031128 produces a roc score of 0.669689435031
+9.53031128 produces a roc score of 0.668134048058
+training: 6751 vs 3669, test: 1654 vs 952
+9.6279356 produces a roc score of 0.683844001298
+9.6279356 produces a roc score of 0.684205938359
+9.6279356 produces a roc score of 0.683893035082
+training: 6682 vs 3738, test: 1723 vs 883
+9.6279356 produces a roc score of 0.70828756356
+9.6279356 produces a roc score of 0.704807048378
+9.6279356 produces a roc score of 0.71068521253
+training: 6710 vs 3710, test: 1695 vs 911
+9.6279356 produces a roc score of 0.686727570651
+9.6279356 produces a roc score of 0.694668834951
+9.6279356 produces a roc score of 0.692995796347
+training: 6755 vs 3665, test: 1650 vs 956
+9.6279356 produces a roc score of 0.677754240907
+9.6279356 produces a roc score of 0.67453111628
+9.6279356 produces a roc score of 0.677536901972
+training: 6706 vs 3714, test: 1699 vs 907
+9.6279356 produces a roc score of 0.685188233777
+9.6279356 produces a roc score of 0.69057576559
+9.6279356 produces a roc score of 0.684422393803
+training: 6919 vs 3501, test: 1767 vs 839
+9.72555992 produces a roc score of 0.718955724702
+9.72555992 produces a roc score of 0.721366478797
+9.72555992 produces a roc score of 0.723304564883
+training: 6965 vs 3455, test: 1721 vs 885
+9.72555992 produces a roc score of 0.703913985613
+9.72555992 produces a roc score of 0.703041390404
+9.72555992 produces a roc score of 0.705209920551
+training: 6954 vs 3466, test: 1732 vs 874
+9.72555992 produces a roc score of 0.708469562831
+9.72555992 produces a roc score of 0.711322651723
+9.72555992 produces a roc score of 0.712108075761
+training: 6941 vs 3479, test: 1745 vs 861
+9.72555992 produces a roc score of 0.70906223845
+9.72555992 produces a roc score of 0.710481125969
+9.72555992 produces a roc score of 0.71132515495
+training: 6953 vs 3467, test: 1733 vs 873
+9.72555992 produces a roc score of 0.705866060317
+9.72555992 produces a roc score of 0.707388021856
+9.72555992 produces a roc score of 0.704217612228
+training: 7138 vs 3282, test: 1790 vs 816
+9.82318424 produces a roc score of 0.729760532545
+9.82318424 produces a roc score of 0.729892320043
+9.82318424 produces a roc score of 0.726730450834
+training: 7151 vs 3269, test: 1777 vs 829
+9.82318424 produces a roc score of 0.716841823786
+9.82318424 produces a roc score of 0.720848163722
+9.82318424 produces a roc score of 0.720722413416
+training: 7185 vs 3235, test: 1743 vs 863
+9.82318424 produces a roc score of 0.706864258583
+9.82318424 produces a roc score of 0.710466842855
+9.82318424 produces a roc score of 0.710313704309
+training: 7140 vs 3280, test: 1788 vs 818
+9.82318424 produces a roc score of 0.721608408249
+9.82318424 produces a roc score of 0.727252447125
+9.82318424 produces a roc score of 0.724978045234
+training: 7175 vs 3245, test: 1753 vs 853
+9.82318424 produces a roc score of 0.707336632095
+9.82318424 produces a roc score of 0.705632524035
+9.82318424 produces a roc score of 0.711386852114
+training: 7395 vs 3025, test: 1816 vs 790
+9.92080856 produces a roc score of 0.730019690083
+9.92080856 produces a roc score of 0.734413441088
+9.92080856 produces a roc score of 0.73339021056
+training: 7361 vs 3059, test: 1850 vs 756
+9.92080856 produces a roc score of 0.7491737881
+9.92080856 produces a roc score of 0.748915219556
+9.92080856 produces a roc score of 0.749307342581
+training: 7399 vs 3021, test: 1812 vs 794
+9.92080856 produces a roc score of 0.73078096535
+9.92080856 produces a roc score of 0.733606224257
+9.92080856 produces a roc score of 0.728873212476
+training: 7373 vs 3047, test: 1838 vs 768
+9.92080856 produces a roc score of 0.739715715961
+9.92080856 produces a roc score of 0.74501210089
+9.92080856 produces a roc score of 0.739372037726
+training: 7412 vs 3008, test: 1799 vs 807
+9.92080856 produces a roc score of 0.723632929264
+9.92080856 produces a roc score of 0.721202296607
+9.92080856 produces a roc score of 0.725783936827
+training: 7554 vs 2866, test: 1892 vs 714
+10.01843288 produces a roc score of 0.762409964843
+10.01843288 produces a roc score of 0.758843898224
+10.01843288 produces a roc score of 0.761014784349
+training: 7572 vs 2848, test: 1874 vs 732
+10.01843288 produces a roc score of 0.74996421859
+10.01843288 produces a roc score of 0.750430554909
+10.01843288 produces a roc score of 0.751770075433
+training: 7569 vs 2851, test: 1877 vs 729
+10.01843288 produces a roc score of 0.753328849123
+10.01843288 produces a roc score of 0.759849017174
+10.01843288 produces a roc score of 0.753791651476
+training: 7533 vs 2887, test: 1913 vs 693
+10.01843288 produces a roc score of 0.764204925289
+10.01843288 produces a roc score of 0.759472796999
+10.01843288 produces a roc score of 0.761709061502
+training: 7548 vs 2872, test: 1898 vs 708
+10.01843288 produces a roc score of 0.749731271303
+10.01843288 produces a roc score of 0.755028392475
+10.01843288 produces a roc score of 0.756959852374
+training: 7690 vs 2730, test: 1943 vs 663
+10.1160572 produces a roc score of 0.772945602244
+10.1160572 produces a roc score of 0.769536208136
+10.1160572 produces a roc score of 0.771772030894
+training: 7709 vs 2711, test: 1924 vs 682
+10.1160572 produces a roc score of 0.761529565458
+10.1160572 produces a roc score of 0.769348318922
+10.1160572 produces a roc score of 0.765900787427
+training: 7707 vs 2713, test: 1926 vs 680
+10.1160572 produces a roc score of 0.767269904919
+10.1160572 produces a roc score of 0.767476200209
+10.1160572 produces a roc score of 0.768855330606
+training: 7704 vs 2716, test: 1929 vs 677
+10.1160572 produces a roc score of 0.757876474916
+10.1160572 produces a roc score of 0.760538287876
+10.1160572 produces a roc score of 0.759646255851
+training: 7691 vs 2729, test: 1942 vs 664
+10.1160572 produces a roc score of 0.778942596016
+10.1160572 produces a roc score of 0.78100510717
+10.1160572 produces a roc score of 0.781956774879
+training: 7902 vs 2518, test: 1947 vs 659
+10.21368152 produces a roc score of 0.773644738601
+10.21368152 produces a roc score of 0.770105029482
+10.21368152 produces a roc score of 0.771567502587
+training: 7859 vs 2561, test: 1990 vs 616
+10.21368152 produces a roc score of 0.780612836897
+10.21368152 produces a roc score of 0.782598484282
+10.21368152 produces a roc score of 0.78234816166
+training: 7905 vs 2515, test: 1944 vs 662
+10.21368152 produces a roc score of 0.761492606059
+10.21368152 produces a roc score of 0.759933096126
+10.21368152 produces a roc score of 0.763121028337
+training: 7916 vs 2504, test: 1933 vs 673
+10.21368152 produces a roc score of 0.764110686184
+10.21368152 produces a roc score of 0.765268354685
+10.21368152 produces a roc score of 0.764593367098
+training: 7888 vs 2532, test: 1961 vs 645
+10.21368152 produces a roc score of 0.777132321716
+10.21368152 produces a roc score of 0.777848097165
+10.21368152 produces a roc score of 0.778477290437
+training: 8051 vs 2369, test: 2019 vs 587
+10.31130584 produces a roc score of 0.795250378576
+10.31130584 produces a roc score of 0.800373304653
+10.31130584 produces a roc score of 0.793878610609
+training: 8055 vs 2365, test: 2015 vs 591
+10.31130584 produces a roc score of 0.785727664301
+10.31130584 produces a roc score of 0.785689379665
+10.31130584 produces a roc score of 0.788937242057
+training: 8027 vs 2393, test: 2043 vs 563
+10.31130584 produces a roc score of 0.809225007053
+10.31130584 produces a roc score of 0.8057994156
+10.31130584 produces a roc score of 0.807593639803
+training: 8071 vs 2349, test: 1999 vs 607
+10.31130584 produces a roc score of 0.793835614018
+10.31130584 produces a roc score of 0.794506625893
+10.31130584 produces a roc score of 0.793615182862
+training: 8030 vs 2390, test: 2040 vs 566
+10.31130584 produces a roc score of 0.81561206237
+10.31130584 produces a roc score of 0.81491528199
+10.31130584 produces a roc score of 0.812387907002
+training: 8202 vs 2218, test: 2044 vs 562
+10.40893016 produces a roc score of 0.812414853496
+10.40893016 produces a roc score of 0.811808336509
+10.40893016 produces a roc score of 0.808629386462
+training: 8159 vs 2261, test: 2087 vs 519
+10.40893016 produces a roc score of 0.825721562319
+10.40893016 produces a roc score of 0.817961855544
+10.40893016 produces a roc score of 0.818457199838
+training: 8192 vs 2228, test: 2054 vs 552
+10.40893016 produces a roc score of 0.804413659016
+10.40893016 produces a roc score of 0.805066706561
+10.40893016 produces a roc score of 0.803043805281
+training: 8173 vs 2247, test: 2073 vs 533
+10.40893016 produces a roc score of 0.815176648257
+10.40893016 produces a roc score of 0.814091720565
+10.40893016 produces a roc score of 0.818542898524
+training: 8170 vs 2250, test: 2076 vs 530
+10.40893016 produces a roc score of 0.817587255103
+10.40893016 produces a roc score of 0.814161516401
+10.40893016 produces a roc score of 0.815067389795
+training: 8336 vs 2084, test: 2075 vs 531
+10.50655448 produces a roc score of 0.806296821374
+10.50655448 produces a roc score of 0.808227986776
+10.50655448 produces a roc score of 0.802269130391
+training: 8357 vs 2063, test: 2054 vs 552
+10.50655448 produces a roc score of 0.799713041926
+10.50655448 produces a roc score of 0.800646745305
+10.50655448 produces a roc score of 0.800763513446
+training: 8296 vs 2124, test: 2115 vs 491
+10.50655448 produces a roc score of 0.83474480934
+10.50655448 produces a roc score of 0.828688327132
+10.50655448 produces a roc score of 0.832471732686
+training: 8339 vs 2081, test: 2072 vs 534
+10.50655448 produces a roc score of 0.814465437514
+10.50655448 produces a roc score of 0.811132023685
+10.50655448 produces a roc score of 0.810956797849
+training: 8358 vs 2062, test: 2053 vs 553
+10.50655448 produces a roc score of 0.809520387747
+10.50655448 produces a roc score of 0.802646528555
+10.50655448 produces a roc score of 0.805588113857
+training: 8480 vs 1940, test: 2138 vs 468
+10.6041788 produces a roc score of 0.840677455473
+10.6041788 produces a roc score of 0.840389878956
+10.6041788 produces a roc score of 0.842384803002
+training: 8521 vs 1899, test: 2097 vs 509
+10.6041788 produces a roc score of 0.81869912929
+10.6041788 produces a roc score of 0.814466468254
+10.6041788 produces a roc score of 0.818361488248
+training: 8479 vs 1941, test: 2139 vs 467
+10.6041788 produces a roc score of 0.830304675025
+10.6041788 produces a roc score of 0.821979680871
+10.6041788 produces a roc score of 0.827228651751
+training: 8494 vs 1926, test: 2124 vs 482
+10.6041788 produces a roc score of 0.830517302005
+10.6041788 produces a roc score of 0.827400932614
+10.6041788 produces a roc score of 0.831063888812
+training: 8495 vs 1925, test: 2123 vs 483
+10.6041788 produces a roc score of 0.83011472433
+10.6041788 produces a roc score of 0.825189405875
+10.6041788 produces a roc score of 0.829299997821
+training: 8647 vs 1773, test: 2165 vs 441
+10.70180312 produces a roc score of 0.845648568243
+10.70180312 produces a roc score of 0.842903559823
+10.70180312 produces a roc score of 0.847520834205
+training: 8672 vs 1748, test: 2140 vs 466
+10.70180312 produces a roc score of 0.841422238897
+10.70180312 produces a roc score of 0.829740123889
+10.70180312 produces a roc score of 0.836356003532
+training: 8641 vs 1779, test: 2171 vs 435
+10.70180312 produces a roc score of 0.846800935794
+10.70180312 produces a roc score of 0.839995105457
+10.70180312 produces a roc score of 0.839713271634
+training: 8639 vs 1781, test: 2173 vs 433
+10.70180312 produces a roc score of 0.852071846715
+10.70180312 produces a roc score of 0.848705007454
+10.70180312 produces a roc score of 0.854800952286
+training: 8646 vs 1774, test: 2166 vs 440
+10.70180312 produces a roc score of 0.848521682945
+10.70180312 produces a roc score of 0.83790756204
+10.70180312 produces a roc score of 0.842941402714
+training: 8785 vs 1635, test: 2210 vs 396
+10.79942744 produces a roc score of 0.832420490173
+10.79942744 produces a roc score of 0.861695720779
+10.79942744 produces a roc score of 0.865255455708
+training: 8832 vs 1588, test: 2163 vs 443
+10.79942744 produces a roc score of 0.834686793391
+10.79942744 produces a roc score of 0.831471031194
+10.79942744 produces a roc score of 0.837058379358
+training: 8825 vs 1595, test: 2170 vs 436
+10.79942744 produces a roc score of 0.843854049543
+10.79942744 produces a roc score of 0.842799160565
+10.79942744 produces a roc score of 0.837482749826
+training: 8806 vs 1614, test: 2189 vs 417
+10.79942744 produces a roc score of 0.850262308658
+10.79942744 produces a roc score of 0.850170720028
+10.79942744 produces a roc score of 0.85227239931
+training: 8819 vs 1601, test: 2176 vs 430
+10.79942744 produces a roc score of 0.845302828528
+10.79942744 produces a roc score of 0.843145931021
+10.79942744 produces a roc score of 0.845979730347
+training: 8931 vs 1489, test: 2240 vs 366
+10.89705176 produces a roc score of 0.869985669766
+10.89705176 produces a roc score of 0.864545128457
+10.89705176 produces a roc score of 0.874224220746
+training: 8949 vs 1471, test: 2222 vs 384
+10.89705176 produces a roc score of 0.853771095571
+10.89705176 produces a roc score of 0.856125600701
+10.89705176 produces a roc score of 0.854910652494
+training: 8928 vs 1492, test: 2243 vs 363
+10.89705176 produces a roc score of 0.852241329855
+10.89705176 produces a roc score of 0.873112199311
+10.89705176 produces a roc score of 0.871648400969
+training: 8950 vs 1470, test: 2221 vs 385
+10.89705176 produces a roc score of 0.858092253016
+10.89705176 produces a roc score of 0.852113370821
+10.89705176 produces a roc score of 0.855652785443
+training: 8899 vs 1521, test: 2272 vs 334
+10.89705176 produces a roc score of 0.877792937839
+10.89705176 produces a roc score of 0.877316588615
+10.89705176 produces a roc score of 0.878318615345
+training: 9094 vs 1326, test: 2260 vs 346
+10.99467608 produces a roc score of 0.858443882675
+10.99467608 produces a roc score of 0.875938047213
+10.99467608 produces a roc score of 0.872117240514
+training: 9120 vs 1300, test: 2234 vs 372
+10.99467608 produces a roc score of 0.86359537498
+10.99467608 produces a roc score of 0.860926641336
+10.99467608 produces a roc score of 0.862986943761
+training: 9089 vs 1331, test: 2265 vs 341
+10.99467608 produces a roc score of 0.882867124629
+10.99467608 produces a roc score of 0.879614108536
+10.99467608 produces a roc score of 0.879017162708
+training: 9072 vs 1348, test: 2282 vs 324
+10.99467608 produces a roc score of 0.876920048133
+10.99467608 produces a roc score of 0.878658465116
+10.99467608 produces a roc score of 0.876076460898
+training: 9061 vs 1359, test: 2293 vs 313
+10.99467608 produces a roc score of 0.88201661671
+10.99467608 produces a roc score of 0.881244150549
+10.99467608 produces a roc score of 0.881262556624
+training: 9209 vs 1211, test: 2329 vs 277
+11.0923004 produces a roc score of 0.889108992825
+11.0923004 produces a roc score of 0.896548728391
+11.0923004 produces a roc score of 0.897457988502
+training: 9233 vs 1187, test: 2305 vs 301
+11.0923004 produces a roc score of 0.883130552377
+11.0923004 produces a roc score of 0.884003000337
+11.0923004 produces a roc score of 0.884392914633
+training: 9215 vs 1205, test: 2323 vs 283
+11.0923004 produces a roc score of 0.886362659168
+11.0923004 produces a roc score of 0.897993384415
+11.0923004 produces a roc score of 0.896862220662
+training: 9226 vs 1194, test: 2312 vs 294
+11.0923004 produces a roc score of 0.892325638514
+11.0923004 produces a roc score of 0.888627342652
+11.0923004 produces a roc score of 0.890479288306
+training: 9202 vs 1218, test: 2336 vs 270
+11.0923004 produces a roc score of 0.893622604192
+11.0923004 produces a roc score of 0.901651039663
+11.0923004 produces a roc score of 0.89871166309
+training: 9359 vs 1061, test: 2354 vs 252
+11.18992472 produces a roc score of 0.902659839829
+11.18992472 produces a roc score of 0.900281185928
+11.18992472 produces a roc score of 0.899811757388
+training: 9374 vs 1046, test: 2339 vs 267
+11.18992472 produces a roc score of 0.897622465189
+11.18992472 produces a roc score of 0.894087615274
+11.18992472 produces a roc score of 0.897723919475
+training: 9378 vs 1042, test: 2335 vs 271
+11.18992472 produces a roc score of 0.894708562624
+11.18992472 produces a roc score of 0.896422536339
+11.18992472 produces a roc score of 0.897073816902
+training: 9366 vs 1054, test: 2347 vs 259
+11.18992472 produces a roc score of 0.894634349329
+11.18992472 produces a roc score of 0.894995402899
+11.18992472 produces a roc score of 0.896576852873
+training: 9361 vs 1059, test: 2352 vs 254
+11.18992472 produces a roc score of 0.904701147184
+11.18992472 produces a roc score of 0.902071876165
+11.18992472 produces a roc score of 0.906242840037
+training: 9483 vs 937, test: 2376 vs 230
+11.28754904 produces a roc score of 0.918811980617
+11.28754904 produces a roc score of 0.903528753823
+11.28754904 produces a roc score of 0.905250237217
+training: 9496 vs 924, test: 2363 vs 243
+11.28754904 produces a roc score of 0.910182476356
+11.28754904 produces a roc score of 0.903646405456
+11.28754904 produces a roc score of 0.904230246158
+training: 9479 vs 941, test: 2380 vs 226
+11.28754904 produces a roc score of 0.919253284675
+11.28754904 produces a roc score of 0.909791825818
+11.28754904 produces a roc score of 0.908733697371
+training: 9502 vs 918, test: 2357 vs 249
+11.28754904 produces a roc score of 0.90140616524
+11.28754904 produces a roc score of 0.901571525419
+11.28754904 produces a roc score of 0.902188349808
+training: 9497 vs 923, test: 2362 vs 244
+11.28754904 produces a roc score of 0.905334316169
+11.28754904 produces a roc score of 0.90201768868
+11.28754904 produces a roc score of 0.901097090427
+training: 9602 vs 818, test: 2389 vs 217
+11.38517336 produces a roc score of 0.921760486604
+11.38517336 produces a roc score of 0.915396843815
+11.38517336 produces a roc score of 0.911989363939
+training: 9592 vs 828, test: 2399 vs 207
+11.38517336 produces a roc score of 0.929304032432
+11.38517336 produces a roc score of 0.913433578218
+11.38517336 produces a roc score of 0.909227716427
+training: 9578 vs 842, test: 2413 vs 193
+11.38517336 produces a roc score of 0.931474035065
+11.38517336 produces a roc score of 0.923160379053
+11.38517336 produces a roc score of 0.920845925543
+training: 9586 vs 834, test: 2405 vs 201
+11.38517336 produces a roc score of 0.916085231024
+11.38517336 produces a roc score of 0.919947709077
+11.38517336 produces a roc score of 0.914366545353
+training: 9580 vs 840, test: 2411 vs 195
+11.38517336 produces a roc score of 0.935665466492
+11.38517336 produces a roc score of 0.91884437531
+11.38517336 produces a roc score of 0.917618530706
+training: 9690 vs 730, test: 2405 vs 201
+11.48279768 produces a roc score of 0.925619725187
+11.48279768 produces a roc score of 0.917186356062
+11.48279768 produces a roc score of 0.927197788444
+training: 9664 vs 756, test: 2431 vs 175
+11.48279768 produces a roc score of 0.925109214287
+11.48279768 produces a roc score of 0.927119157691
+11.48279768 produces a roc score of 0.92658346728
+training: 9686 vs 734, test: 2409 vs 197
+11.48279768 produces a roc score of 0.916849598512
+11.48279768 produces a roc score of 0.919014300195
+11.48279768 produces a roc score of 0.914512615966
+training: 9696 vs 724, test: 2399 vs 207
+11.48279768 produces a roc score of 0.927449141806
+11.48279768 produces a roc score of 0.917049267615
+11.48279768 produces a roc score of 0.913368788833
+training: 9643 vs 777, test: 2452 vs 154
+11.48279768 produces a roc score of 0.934735886074
+11.48279768 produces a roc score of 0.934561396482
+11.48279768 produces a roc score of 0.935743213754
+training: 9776 vs 644, test: 2422 vs 184
+11.580422 produces a roc score of 0.921567149191
+11.580422 produces a roc score of 0.926022744608
+11.580422 produces a roc score of 0.922398220295
+training: 9752 vs 668, test: 2446 vs 160
+11.580422 produces a roc score of 0.932412744897
+11.580422 produces a roc score of 0.933910704914
+11.580422 produces a roc score of 0.945214243769
+training: 9775 vs 645, test: 2423 vs 183
+11.580422 produces a roc score of 0.924847406275
+11.580422 produces a roc score of 0.927384941416
+11.580422 produces a roc score of 0.928772464983
+training: 9756 vs 664, test: 2442 vs 164
+11.580422 produces a roc score of 0.927767787778
+11.580422 produces a roc score of 0.930421943811
+11.580422 produces a roc score of 0.928711209565
+training: 9757 vs 663, test: 2441 vs 165
+11.580422 produces a roc score of 0.92882429649
+11.580422 produces a roc score of 0.930379683463
+11.580422 produces a roc score of 0.930751044434
+training: 9829 vs 591, test: 2451 vs 155
+11.67804632 produces a roc score of 0.933152227371
+11.67804632 produces a roc score of 0.929845465538
+11.67804632 produces a roc score of 0.93491523487
+training: 9824 vs 596, test: 2456 vs 150
+11.67804632 produces a roc score of 0.938529157284
+11.67804632 produces a roc score of 0.938849128494
+11.67804632 produces a roc score of 0.948079554296
+training: 9815 vs 605, test: 2465 vs 141
+11.67804632 produces a roc score of 0.942430803465
+11.67804632 produces a roc score of 0.939124925124
+11.67804632 produces a roc score of 0.941061538724
+training: 9827 vs 593, test: 2453 vs 153
+11.67804632 produces a roc score of 0.934259242353
+11.67804632 produces a roc score of 0.935787535583
+11.67804632 produces a roc score of 0.935359336651
+training: 9824 vs 596, test: 2456 vs 150
+11.67804632 produces a roc score of 0.941171386181
+11.67804632 produces a roc score of 0.936973917561
+11.67804632 produces a roc score of 0.940855537932
+training: 9913 vs 507, test: 2474 vs 132
+11.77567064 produces a roc score of 0.941378270465
+11.77567064 produces a roc score of 0.939239337287
+11.77567064 produces a roc score of 0.940898976269
+training: 9907 vs 513, test: 2480 vs 126
+11.77567064 produces a roc score of 0.95989684352
+11.77567064 produces a roc score of 0.957302617668
+11.77567064 produces a roc score of 0.944901487741
+training: 9913 vs 507, test: 2474 vs 132
+11.77567064 produces a roc score of 0.942380738941
+11.77567064 produces a roc score of 0.944839348831
+11.77567064 produces a roc score of 0.943035406221
+training: 9902 vs 518, test: 2485 vs 121
+11.77567064 produces a roc score of 0.955649163127
+11.77567064 produces a roc score of 0.950731354351
+11.77567064 produces a roc score of 0.949464869134
+training: 9891 vs 529, test: 2496 vs 110
+11.77567064 produces a roc score of 0.952615400201
+11.77567064 produces a roc score of 0.952584183498
+11.77567064 produces a roc score of 0.951191358981
+training: 9977 vs 443, test: 2502 vs 104
+11.87329496 produces a roc score of 0.96669722566
+11.87329496 produces a roc score of 0.952736144054
+11.87329496 produces a roc score of 0.968259680565
+training: 9986 vs 434, test: 2493 vs 113
+11.87329496 produces a roc score of 0.965126524833
+11.87329496 produces a roc score of 0.949548359091
+11.87329496 produces a roc score of 0.949524946563
+training: 9991 vs 429, test: 2488 vs 118
+11.87329496 produces a roc score of 0.959956331955
+11.87329496 produces a roc score of 0.961418657811
+11.87329496 produces a roc score of 0.962416267083
+training: 9983 vs 437, test: 2496 vs 110
+11.87329496 produces a roc score of 0.962932667927
+11.87329496 produces a roc score of 0.961767048001
+11.87329496 produces a roc score of 0.952646322407
+training: 9983 vs 437, test: 2496 vs 110
+11.87329496 produces a roc score of 0.948782960863
+11.87329496 produces a roc score of 0.966360762606
+11.87329496 produces a roc score of 0.950398278016
+training: 10047 vs 373, test: 2507 vs 99
+11.97091928 produces a roc score of 0.956286896818
+11.97091928 produces a roc score of 0.954129557565
+11.97091928 produces a roc score of 0.956280565128
+training: 10045 vs 375, test: 2509 vs 97
+11.97091928 produces a roc score of 0.957235177809
+11.97091928 produces a roc score of 0.957124888606
+11.97091928 produces a roc score of 0.956627041086
+training: 10051 vs 369, test: 2503 vs 103
+11.97091928 produces a roc score of 0.966987894398
+11.97091928 produces a roc score of 0.952194710948
+11.97091928 produces a roc score of 0.953383448904
+training: 10011 vs 409, test: 2543 vs 63
+11.97091928 produces a roc score of 0.972160001508
+11.97091928 produces a roc score of 0.974916789816
+11.97091928 produces a roc score of 0.971546563836
+training: 10038 vs 382, test: 2516 vs 90
+11.97091928 produces a roc score of 0.961067911644
+11.97091928 produces a roc score of 0.960051896297
+11.97091928 produces a roc score of 0.96052103034
+training: 10116 vs 304, test: 2517 vs 89
+12.0685436 produces a roc score of 0.960156148306
+12.0685436 produces a roc score of 0.961355782659
+12.0685436 produces a roc score of 0.960398372255
+training: 10113 vs 307, test: 2520 vs 86
+12.0685436 produces a roc score of 0.968233175817
+12.0685436 produces a roc score of 0.971742404475
+12.0685436 produces a roc score of 0.968233175817
+training: 10099 vs 321, test: 2534 vs 72
+12.0685436 produces a roc score of 0.976443610559
+12.0685436 produces a roc score of 0.968248489671
+12.0685436 produces a roc score of 0.968554325015
+training: 10102 vs 318, test: 2531 vs 75
+12.0685436 produces a roc score of 0.966163302232
+12.0685436 produces a roc score of 0.966197316659
+12.0685436 produces a roc score of 0.96496263714
+training: 10103 vs 317, test: 2530 vs 76
+12.0685436 produces a roc score of 0.97734344676
+12.0685436 produces a roc score of 0.977073392826
+12.0685436 produces a roc score of 0.976618836394
+training: 10170 vs 250, test: 2538 vs 68
+12.16616792 produces a roc score of 0.967565845157
+12.16616792 produces a roc score of 0.967248229925
+12.16616792 produces a roc score of 0.969247129683
+training: 10164 vs 256, test: 2544 vs 62
+12.16616792 produces a roc score of 0.971904230688
+12.16616792 produces a roc score of 0.97034943271
+12.16616792 produces a roc score of 0.971688511487
+training: 10159 vs 261, test: 2549 vs 57
+12.16616792 produces a roc score of 0.97379858394
+12.16616792 produces a roc score of 0.981383653874
+12.16616792 produces a roc score of 0.973958937666
+training: 10164 vs 256, test: 2544 vs 62
+12.16616792 produces a roc score of 0.980040304887
+12.16616792 produces a roc score of 0.98027045445
+12.16616792 produces a roc score of 0.977964541359
+training: 10179 vs 241, test: 2529 vs 77
+12.16616792 produces a roc score of 0.976251156638
+12.16616792 produces a roc score of 0.96591621908
+12.16616792 produces a roc score of 0.964561237454
+training: 10208 vs 212, test: 2543 vs 63
+12.26379224 produces a roc score of 0.973498933037
+12.26379224 produces a roc score of 0.974230758584
+12.26379224 produces a roc score of 0.973467274587
+training: 10203 vs 217, test: 2548 vs 58
+12.26379224 produces a roc score of 0.979467066083
+12.26379224 produces a roc score of 0.975524337543
+12.26379224 produces a roc score of 0.979467066083
+training: 10204 vs 216, test: 2547 vs 59
+12.26379224 produces a roc score of 0.975457781176
+12.26379224 produces a roc score of 0.9783548974
+12.26379224 produces a roc score of 0.975771420696
+training: 10199 vs 221, test: 2552 vs 54
+12.26379224 produces a roc score of 0.976535935432
+12.26379224 produces a roc score of 0.977452557973
+12.26379224 produces a roc score of 0.976578932024
+training: 10197 vs 223, test: 2554 vs 52
+12.26379224 produces a roc score of 0.978230030586
+12.26379224 produces a roc score of 0.979812953047
+12.26379224 produces a roc score of 0.978216483715
+training: 10239 vs 181, test: 2557 vs 49
+12.36141656 produces a roc score of 0.975798661687
+12.36141656 produces a roc score of 0.979223516897
+12.36141656 produces a roc score of 0.97577731064
+training: 10228 vs 192, test: 2568 vs 38
+12.36141656 produces a roc score of 0.982812701547
+12.36141656 produces a roc score of 0.982647194119
+12.36141656 produces a roc score of 0.982839059046
+training: 10238 vs 182, test: 2558 vs 48
+12.36141656 produces a roc score of 0.978890735059
+12.36141656 produces a roc score of 0.978302476898
+12.36141656 produces a roc score of 0.978860549096
+training: 10240 vs 180, test: 2556 vs 50
+12.36141656 produces a roc score of 0.977859405858
+12.36141656 produces a roc score of 0.977817292758
+12.36141656 produces a roc score of 0.977868240774
+training: 10240 vs 180, test: 2556 vs 50
+12.36141656 produces a roc score of 0.979043873604
+12.36141656 produces a roc score of 0.980297106447
+12.36141656 produces a roc score of 0.979041959372
+training: 10253 vs 167, test: 2574 vs 32
+12.45904088 produces a roc score of 0.984082131736
+12.45904088 produces a roc score of 0.983052716766
+12.45904088 produces a roc score of 0.984114231931
+training: 10255 vs 165, test: 2572 vs 34
+12.45904088 produces a roc score of 0.98375008614
+12.45904088 produces a roc score of 0.982677380082
+12.45904088 produces a roc score of 0.983751411378
+training: 10257 vs 163, test: 2570 vs 36
+12.45904088 produces a roc score of 0.992044305337
+12.45904088 produces a roc score of 0.983363264066
+12.45904088 produces a roc score of 0.980321549715
+training: 10260 vs 160, test: 2567 vs 39
+12.45904088 produces a roc score of 0.980513709139
+12.45904088 produces a roc score of 0.981689930964
+12.45904088 produces a roc score of 0.980514445382
+training: 10268 vs 152, test: 2559 vs 47
+12.45904088 produces a roc score of 0.978743780955
+12.45904088 produces a roc score of 0.985902860687
+12.45904088 produces a roc score of 0.978784568818
+training: 10284 vs 136, test: 2571 vs 35
+12.5566652 produces a roc score of 0.98951369088
+12.5566652 produces a roc score of 0.989243342449
+12.5566652 produces a roc score of 0.98951369088
+training: 10285 vs 135, test: 2570 vs 36
+12.5566652 produces a roc score of 0.984564518153
+12.5566652 produces a roc score of 0.9851278913
+12.5566652 produces a roc score of 0.984680108304
+training: 10292 vs 128, test: 2563 vs 43
+12.5566652 produces a roc score of 0.980607212001
+12.5566652 produces a roc score of 0.981579494513
+12.5566652 produces a roc score of 0.98058733344
+training: 10276 vs 144, test: 2579 vs 27
+12.5566652 produces a roc score of 0.987145344382
+12.5566652 produces a roc score of 0.98690768514
+12.5566652 produces a roc score of 0.987131944759
+training: 10288 vs 132, test: 2567 vs 39
+12.5566652 produces a roc score of 0.982477858228
+12.5566652 produces a roc score of 0.983193044683
+12.5566652 produces a roc score of 0.983490634105
+training: 10310 vs 110, test: 2576 vs 30
+12.65428952 produces a roc score of 0.985553439757
+12.65428952 produces a roc score of 0.986705954557
+12.65428952 produces a roc score of 0.985484380163
+training: 10302 vs 118, test: 2584 vs 22
+12.65428952 produces a roc score of 0.990343731244
+12.65428952 produces a roc score of 0.990198838621
+12.65428952 produces a roc score of 0.99035153542
+training: 10306 vs 114, test: 2580 vs 26
+12.65428952 produces a roc score of 0.986865719289
+12.65428952 produces a roc score of 0.987216465456
+12.65428952 produces a roc score of 0.986816391007
+training: 10314 vs 106, test: 2572 vs 34
+12.65428952 produces a roc score of 0.984690415706
+12.65428952 produces a roc score of 0.984357044874
+12.65428952 produces a roc score of 0.984575561798
+training: 10309 vs 111, test: 2577 vs 29
+12.65428952 produces a roc score of 0.991806793344
+12.65428952 produces a roc score of 0.987043153853
+12.65428952 produces a roc score of 0.991806793344
+training: 10332 vs 88, test: 2576 vs 30
+12.75191384 produces a roc score of 0.985874883453
+12.75191384 produces a roc score of 0.986624231583
+12.75191384 produces a roc score of 0.98633091237
+training: 10323 vs 97, test: 2585 vs 21
+12.75191384 produces a roc score of 0.994580809738
+12.75191384 produces a roc score of 0.994887970319
+12.75191384 produces a roc score of 0.994580809738
+training: 10333 vs 87, test: 2575 vs 31
+12.75191384 produces a roc score of 0.986504371222
+12.75191384 produces a roc score of 0.985157046523
+12.75191384 produces a roc score of 0.986084565461
+training: 10327 vs 93, test: 2581 vs 25
+12.75191384 produces a roc score of 0.992144728883
+12.75191384 produces a roc score of 0.992009996413
+12.75191384 produces a roc score of 0.992144728883
+training: 10321 vs 99, test: 2587 vs 19
+12.75191384 produces a roc score of 0.994026566004
+12.75191384 produces a roc score of 0.993600428552
+12.75191384 produces a roc score of 0.994026566004
+training: 10340 vs 80, test: 2589 vs 17
+12.84953816 produces a roc score of 0.992250895124
+12.84953816 produces a roc score of 0.994803891368
+12.84953816 produces a roc score of 0.992274602149
+training: 10338 vs 82, test: 2591 vs 15
+12.84953816 produces a roc score of 0.99313541747
+12.84953816 produces a roc score of 0.993811288549
+12.84953816 produces a roc score of 0.993134681227
+training: 10347 vs 73, test: 2582 vs 24
+12.84953816 produces a roc score of 0.988384735857
+12.84953816 produces a roc score of 0.988345567729
+12.84953816 produces a roc score of 0.988384735857
+training: 10343 vs 77, test: 2586 vs 20
+12.84953816 produces a roc score of 0.989386615338
+12.84953816 produces a roc score of 0.990916233805
+12.84953816 produces a roc score of 0.98926322101
+training: 10342 vs 78, test: 2587 vs 19
+12.84953816 produces a roc score of 0.991409516618
+12.84953816 produces a roc score of 0.993123195837
+12.84953816 produces a roc score of 0.991420560263
+training: 10348 vs 72, test: 2593 vs 13
+12.94716248 produces a roc score of 0.993993140571
+12.94716248 produces a roc score of 0.993432565147
+12.94716248 produces a roc score of 0.994024651772
+training: 10356 vs 64, test: 2585 vs 21
+12.94716248 produces a roc score of 0.991348113952
+12.94716248 produces a roc score of 0.989655638532
+12.94716248 produces a roc score of 0.991344285488
+training: 10349 vs 71, test: 2592 vs 14
+12.94716248 produces a roc score of 0.994284692801
+12.94716248 produces a roc score of 0.996251345116
+12.94716248 produces a roc score of 0.994284692801
+training: 10348 vs 72, test: 2593 vs 13
+12.94716248 produces a roc score of 0.993108765474
+12.94716248 produces a roc score of 0.993544032338
+12.94716248 produces a roc score of 0.993153529048
+training: 10352 vs 68, test: 2589 vs 17
+12.94716248 produces a roc score of 0.992983309666
+12.94716248 produces a roc score of 0.994152610806
+12.94716248 produces a roc score of 0.992754338091
+training: 10364 vs 56, test: 2594 vs 12
+13.0447868 produces a roc score of 0.994311639295
+13.0447868 produces a roc score of 0.995673247108
+13.0447868 produces a roc score of 0.994311639295
+training: 10367 vs 53, test: 2591 vs 15
+13.0447868 produces a roc score of 0.992645226878
+13.0447868 produces a roc score of 0.995711384496
+13.0447868 produces a roc score of 0.995838901785
+training: 10358 vs 62, test: 2600 vs 6
+13.0447868 produces a roc score of 0.997692025428
+13.0447868 produces a roc score of 0.998175148088
+13.0447868 produces a roc score of 0.998247005405
+training: 10366 vs 54, test: 2592 vs 14
+13.0447868 produces a roc score of 0.994003153476
+13.0447868 produces a roc score of 0.995244900928
+13.0447868 produces a roc score of 0.993964574343
+training: 10367 vs 53, test: 2591 vs 15
+13.0447868 produces a roc score of 0.996024876768
+13.0447868 produces a roc score of 0.992040329625
+13.0447868 produces a roc score of 0.992387394577
+training: 10378 vs 42, test: 2596 vs 10
+13.14241112 produces a roc score of 0.997686282733
+13.14241112 produces a roc score of 0.996474721244
+13.14241112 produces a roc score of 0.997686282733
+training: 10378 vs 42, test: 2596 vs 10
+13.14241112 produces a roc score of 0.996313484026
+13.14241112 produces a roc score of 0.996077002772
+13.14241112 produces a roc score of 0.996146651361
+training: 10379 vs 41, test: 2595 vs 11
+13.14241112 produces a roc score of 0.997662870205
+13.14241112 produces a roc score of 0.9965582112
+13.14241112 produces a roc score of 0.997662722956
+training: 10376 vs 44, test: 2598 vs 8
+13.14241112 produces a roc score of 0.998134654723
+13.14241112 produces a roc score of 0.998137894192
+13.14241112 produces a roc score of 0.998096222838
+training: 10378 vs 42, test: 2596 vs 10
+13.14241112 produces a roc score of 0.998101082042
+13.14241112 produces a roc score of 0.997320517208
+13.14241112 produces a roc score of 0.998101082042
+training: 10385 vs 35, test: 2599 vs 7
+13.24003544 produces a roc score of 0.998505279451
+13.24003544 produces a roc score of 0.998505279451
+13.24003544 produces a roc score of 0.998505279451
+training: 10388 vs 32, test: 2596 vs 10
+13.24003544 produces a roc score of 0.997578496757
+13.24003544 produces a roc score of 0.997578496757
+13.24003544 produces a roc score of 0.997578496757
+training: 10385 vs 35, test: 2599 vs 7
+13.24003544 produces a roc score of 0.998380412638
+13.24003544 produces a roc score of 0.998380412638
+13.24003544 produces a roc score of 0.998380412638
+training: 10386 vs 34, test: 2598 vs 8
+13.24003544 produces a roc score of 0.997963993594
+13.24003544 produces a roc score of 0.997963993594
+13.24003544 produces a roc score of 0.997964140843
+training: 10387 vs 33, test: 2597 vs 9
+13.24003544 produces a roc score of 0.997381183631
+13.24003544 produces a roc score of 0.997381625377
+13.24003544 produces a roc score of 0.997381183631
+training: 10389 vs 31, test: 2602 vs 4
+13.33765976 produces a roc score of 0.997943084293
+13.33765976 produces a roc score of 0.997918493776
+13.33765976 produces a roc score of 0.997943084293
+training: 10391 vs 29, test: 2600 vs 6
+13.33765976 produces a roc score of 0.997242622698
+13.33765976 produces a roc score of 0.997242622698
+13.33765976 produces a roc score of 0.997242917195
+training: 10393 vs 27, test: 2598 vs 8
+13.33765976 produces a roc score of 0.998221089651
+13.33765976 produces a roc score of 0.998290590991
+13.33765976 produces a roc score of 0.998235372766
+training: 10392 vs 28, test: 2599 vs 7
+13.33765976 produces a roc score of 0.998087240673
+13.33765976 produces a roc score of 0.998087240673
+13.33765976 produces a roc score of 0.998087240673
+training: 10397 vs 23, test: 2594 vs 12
+13.33765976 produces a roc score of 0.996201722337
+13.33765976 produces a roc score of 0.996230435815
+13.33765976 produces a roc score of 0.996201722337
+training: 10404 vs 16, test: 2599 vs 7
+13.43528408 produces a roc score of 0.996900564198
+13.43528408 produces a roc score of 0.996920148262
+13.43528408 produces a roc score of 0.996932517144
+training: 10402 vs 18, test: 2601 vs 5
+13.43528408 produces a roc score of 0.998960866623
+13.43528408 produces a roc score of 0.998601285539
+13.43528408 produces a roc score of 0.998960866623
+training: 10399 vs 21, test: 2604 vs 2
+13.43528408 produces a roc score of 0.999620245858
+13.43528408 produces a roc score of 0.999619951361
+13.43528408 produces a roc score of 0.999619951361
+training: 10401 vs 19, test: 2602 vs 4
+13.43528408 produces a roc score of 0.998719231669
+13.43528408 produces a roc score of 0.998714666962
+13.43528408 produces a roc score of 0.998719231669
+training: 10402 vs 18, test: 2601 vs 5
+13.43528408 produces a roc score of 0.99873587076
+13.43528408 produces a roc score of 0.99949272857
+13.43528408 produces a roc score of 0.998718937171
+training: 10406 vs 14, test: 2605 vs 1
+13.5329084 produces a roc score of 0.999551480761
+13.5329084 produces a roc score of 0.999561346418
+13.5329084 produces a roc score of 0.999551480761
+training: 10409 vs 11, test: 2602 vs 4
+13.5329084 produces a roc score of 0.998645754617
+13.5329084 produces a roc score of 0.99826438074
+13.5329084 produces a roc score of 0.998646196362
+training: 10406 vs 14, test: 2605 vs 1
+13.5329084 produces a roc score of 0.999616270146
+13.5329084 produces a roc score of 0.999616270146
+13.5329084 produces a roc score of 0.999616270146
+training: 10408 vs 12, test: 2603 vs 3
+13.5329084 produces a roc score of 0.998673437354
+13.5329084 produces a roc score of 0.998673437354
+13.5329084 produces a roc score of 0.998669461641
+training: 10407 vs 13, test: 2604 vs 2
+13.5329084 produces a roc score of 0.99912328183
+13.5329084 produces a roc score of 0.999116213897
+13.5329084 produces a roc score of 0.999115330405
+training: 10415 vs 5, test: 2605 vs 1
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+training: 10415 vs 5, test: 2605 vs 1
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+training: 10415 vs 5, test: 2605 vs 1
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+training: 10416 vs 4, test: 2604 vs 2
+13.63053272 produces a roc score of 0.999232540292
+13.63053272 produces a roc score of 0.999232540292
+13.63053272 produces a roc score of 0.999232540292
+training: 10415 vs 5, test: 2605 vs 1
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+13.63053272 produces a roc score of 0.999616270146
+training: 10416 vs 4, test: 2605 vs 1
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 does not have both
+training: 10416 vs 4, test: 2605 vs 1
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+training: 10416 vs 4, test: 2605 vs 1
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+13.72815704 produces a roc score of 0.999616270146
+training: 10418 vs 2, test: 2603 vs 3
+13.72815704 produces a roc score of 0.998848810437
+13.72815704 produces a roc score of 0.998848810437
+13.72815704 produces a roc score of 0.998848810437
+training: 10419 vs 1, test: 2604 vs 2
+13.82578136 produces a roc score of 0.999232540292
+13.82578136 produces a roc score of 0.999232540292
+13.82578136 produces a roc score of 0.999232540292
+13.82578136 does not have both
+13.82578136 does not have both
+13.82578136 does not have both
+13.82578136 does not have both
+13.92340568 does not have both
+13.92340568 does not have both
+13.92340568 does not have both
+13.92340568 does not have both
+13.92340568 does not have both

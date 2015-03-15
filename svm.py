@@ -10,42 +10,39 @@ AMINO_ACIDS = 'ACDEFGHIKLMNPQRSTVWY'
 
 def main():
 	samples_file, predictions_file, num_samples, num_iterations, split_pc = get_args()
-	sample_ids, sample_features, sample_kds = read_samples(samples_file, num_samples)
+	sample_ids, sample_features, sample_labels = read_samples(samples_file, num_samples)
 	
 	mlb = MultiLabelBinarizer()
-	min_value, max_value = min(sample_kds), max(sample_kds)
-	for threshold in np.arange(min_value, max_value, (max_value-min_value)/100):
-		sample_labels = map(lambda kd: kd<threshold, sample_kds)
-		for fold in range(0, int(100/(100-split_pc))):
-			training_features, training_labels, test_features, test_labels = split_data(sample_features, sample_labels, split_pc)
-			if has_both(training_labels) and has_both(test_labels):
-				training_trues, training_falses = len(filter(lambda l: l, training_labels)), len(filter(lambda l: not l, training_labels))
-				test_trues, test_falses = len(filter(lambda l: l, test_labels)), len(filter(lambda l: not l, test_labels))
-				nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
-				classifier = svm.SVC(probability=True)
+	for fold in range(0, int(100/(100-split_pc))):
+		training_features, training_labels, test_features, test_labels = split_data(sample_features, sample_labels, split_pc)
+		if has_both(training_labels) and has_both(test_labels):
+			training_trues, training_falses = len(filter(lambda l: l, training_labels)), len(filter(lambda l: not l, training_labels))
+			test_trues, test_falses = len(filter(lambda l: l, test_labels)), len(filter(lambda l: not l, test_labels))
+			nonamer_features = map(lambda sequence: take_nine(sequence, 0), training_features)
+			classifier = svm.SVC(probability=True)
+			classifier.fit(nonamer_features, training_labels)
+			for i in range(0, num_iterations):
+				for j in range(0, len(training_features)):
+					combinations = all_combinations(training_features[j])
+					predictions = classifier.predict(combinations)
+					zipped = zip(combinations, predictions)
+					best = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
+					nonamer_features[j] = best
 				classifier.fit(nonamer_features, training_labels)
-				for i in range(0, num_iterations):
-					for j in range(0, len(training_features)):
-						combinations = all_combinations(training_features[j])
-						predictions = classifier.predict(combinations)
-						zipped = zip(combinations, predictions)
-						best = filter(lambda z: z[1]==min(predictions), zipped)[0][0]
-						nonamer_features[j] = best
-					classifier.fit(nonamer_features, training_labels)
-		
-					predictions = []
-					for feature in test_features:
-						feature_combinations = all_combinations(feature)
-						feature_predictions = classifier.predict(feature_combinations)
-						if any(feature_predictions):
-							prediction = feature_combinations[feature_predictions.tolist().index(True)]
-						else:
-							prediction = feature_combinations[0]
-						predictions.append(prediction)
-		
-					probabilities = classifier.predict_proba(predictions)
-					test_labels_mlb = mlb.fit_transform(map(lambda l: [1] if l else [0], test_labels))
-					print str(threshold)+' '+str(training_trues)+' '+str(training_falses)+' '+str(test_trues)+' '+str(test_falses)+' '+str(roc_auc_score(test_labels_mlb, probabilities, average='micro'))
+	
+				predictions = []
+				for feature in test_features:
+					feature_combinations = all_combinations(feature)
+					feature_predictions = classifier.predict(feature_combinations)
+					if any(feature_predictions):
+						prediction = feature_combinations[feature_predictions.tolist().index(True)]
+					else:
+						prediction = feature_combinations[0]
+					predictions.append(prediction)
+	
+				probabilities = classifier.predict_proba(predictions)
+				test_labels_mlb = mlb.fit_transform(map(lambda l: [1] if l else [0], test_labels))
+				print str(training_trues)+' '+str(training_falses)+' '+str(test_trues)+' '+str(test_falses)+' '+str(roc_auc_score(test_labels_mlb, probabilities, average='micro'))
 
 def get_args():
 	args = sys.argv
@@ -137,11 +134,16 @@ def sanitize_label(label):
 		return None
 
 def parse_rta_line(line):
-	cells = line.split("\t")
-	if len(cells) == 5:
-		epitope_id = cells[3]
-		vectorized_sequence = vectorize_sequence(cells[2])
-		kd = float(cells[4])
+	cells = line.split(",")
+	if len(cells) == 6:
+		epitope_id = cells[0]
+		vectorized_sequence = vectorize_sequence(cells[3])
+		if vectorized_sequence is None or len(vectorized_sequence)<9:
+			return None
+		if cells[4] == 'Negative':
+			kd = False
+		else:
+			kd = True
 		return [epitope_id, vectorized_sequence, kd]
 	else:
 		return None
