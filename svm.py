@@ -134,7 +134,7 @@ def sanitize_label(label):
 		return None
 
 def parse_rta_line(line):
-	cells = line.split(",")
+	cells = line.split("\W+")
 	if len(cells) == 6:
 		epitope_id = cells[0]
 		vectorized_sequence = vectorize_sequence(cells[3])
