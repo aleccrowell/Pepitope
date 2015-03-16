@@ -452,6 +452,7 @@ We took the peptides from IEDB, and subdivided them according to allele type. We
 We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as roc\_auc\_score etc. for metrics.
 \subsection{Encoding Peptides}
 
+
 \subsection{AUC as a Comparison Metric} 
 \textit{Area Under the Curve (AUC)} is used as a metric throughout, because other approaches used the same metric or comparable metrics. Also, some of our data is skewed, and since AUC accounts for both true and false positives, it ensures that any good predictions we get isn't due to the fact that we have more positives in our data.
 
