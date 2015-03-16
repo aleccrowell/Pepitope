@@ -410,14 +410,13 @@ $$
     \mathbf{w}.\mathbf{x} - b = -1
 $$
 
-By using geometry, we find the distance between these two hyperplanes is $\tfrac{2}{\|\mathbf{w}\|}$, so we want to minimize $\|\mathbf{w}\|$. As we also have to prevent data points from falling into the margin, we add the following constraint: 
+By using geometry, we find the distance between these two hyperplanes is $\tfrac{2}{\|\mathbf{w}\|}$, so we want to minimize $\|\mathbf{w}\|$. As we also have to prevent data points from falling into the margin, we add the following constraint:\\ 
 
-for each $i$ either
-
-$\mathbf{w}\cdot\mathbf{x}_i - b \ge 1\qquad\text{ for }\mathbf{x}_i$ 
-of the first class or
-$\mathbf{w}\cdot\mathbf{x}_i - b \le -1\qquad\text{ for }\mathbf{x}_i$ 
-of the second.    
+For each $i$ either
+$$\mathbf{w}\cdot\mathbf{x}_i - b \ge 1\qquad\text{ for }\mathbf{x}_i$$ 
+of the first class, or
+$$\mathbf{w}\cdot\mathbf{x}_i - b \le -1\qquad\text{ for }\mathbf{x}_i$$ 
+of the second.  \\  
 
 This can be rewritten as:
 $$
@@ -426,12 +425,15 @@ $$
 
 We can put this together to get the optimization problem:
 
-Minimize $(in {\mathbf{w},b})
-    \|\mathbf{w}\|$
-subject to $(for any i = 1, \dots, n)
-    y_i(\mathbf{w}\cdot\mathbf{x_i} - b) \ge 1. \,$
-
-
+Minimize $(in \quad {\mathbf{w},b})$
+$$   
+ \|\mathbf{w}\|
+$$
+ 
+subject to $(for any i = 1, \dots, n)$
+$$
+y_i(\mathbf{w}\cdot\mathbf{x_i} - b) \ge 1. \,
+$$
 
 \section{Methods}
 This section provides a brief overview of how we implemented the algorithm and how we validated it.
