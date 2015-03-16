@@ -390,6 +390,7 @@ Given the fact that it is a binary linear classifier that also performs non-line
 
 \subsection{Formal Definition}
 
+From Wikipedia,\\ 
 Given some training data $D$, a set of $n$ points of the form 
 
 $$
@@ -401,16 +402,19 @@ where the $y_i$ is either 1 or −1, indicating the class to which the point $x_
 $$
 \mathbf{w}.x - b = 0,
 $$
-where $\cdot$ denotes the dot product and $w$ the (not necessarily normalized) normal vector to the hyperplane. The parameter $\tfrac{b}{\|\mathbf{w}\|}$ determines the offset of the hyperplane from the origin along the normal vector ${\mathbf{w}}$.
+where $\cdot$ denotes the dot product and $w$ the (not necessarily normalized) normal vector to the hyperplane. The parameter $\tfrac{b}{\|\mathbf{w}\|}$ determines the offset of the hyperplane from the origin along the normal vector ${\mathbf{w}}$.\\
 
-If the training data are linearly separable, we can select two hyperplanes in a way that they separate the data and there are no points between them, and then try to maximize their distance. The region bounded by them is called "the margin". These hyperplanes can be described by the equations
+If the training data is linearly separable, we can separate the examples under two hyperplanes such that there are no points between them. We can then try to maximize their distance. The region bound by these hyperplanes is called "the margin", and ideally, we want to maximize it so that there is no overlap.
+
+These hyperplanes can be described by the equations
+
 
 $$
     \mathbf{w}.\mathbf{x} - b = 1    \quad \textrm{and} \quad 
     \mathbf{w}.\mathbf{x} - b = -1
 $$
 
-By using geometry, we find the distance between these two hyperplanes is $\tfrac{2}{\|\mathbf{w}\|}$, so we want to minimize $\|\mathbf{w}\|$. As we also have to prevent data points from falling into the margin, we add the following constraint:\\ 
+We then find the geometric distance between these two hyperplanes is $\tfrac{2}{\|\mathbf{w}\|}$, so we want to minimize $\|\mathbf{w}\|$. We also add the below constraint because we want to prevent the data points from falling under the margin:\\ 
 
 For each $i$ either
 $$\mathbf{w}\cdot\mathbf{x}_i - b \ge 1\qquad\text{ for }\mathbf{x}_i$$ 
@@ -418,22 +422,25 @@ of the first class, or
 $$\mathbf{w}\cdot\mathbf{x}_i - b \le -1\qquad\text{ for }\mathbf{x}_i$$ 
 of the second.  \\  
 
-This can be rewritten as:
+Which can be written as:
 $$
     y_i(\mathbf{w}\cdot\mathbf{x}_i - b) \ge 1, \quad \text{ for all } 1 \le i \le n.\qquad\qquad(1)
 $$
 
-We can put this together to get the optimization problem:
+We can express the above as an optimization problem:
 
 Minimize $(in \quad {\mathbf{w},b})$
 $$   
  \|\mathbf{w}\|
 $$
  
-subject to $(for any i = 1, \dots, n)$
+subject to $(for \enskip any \enskip i = 1, \dots, n)$
 $$
 y_i(\mathbf{w}\cdot\mathbf{x_i} - b) \ge 1. \,
 $$
+
+The optimization problem presented above can be converted into a quadratic programming optimization problem, which gives the primal and dual forms of the SVM. In this project, we used the dual form of the SVM, "which reveals that the maximum-margin hyperplane, and therefore the classification task is only a function of the support vectors" \cite{WikipediaSVM}.
+
 
 \section{Methods}
 This section provides a brief overview of how we implemented the algorithm and how we validated it.
