@@ -3,3 +3,5 @@
 mhc_ligand_full.csv
 job-*
 *peptide_data.tab
+*.aux
+*.log
