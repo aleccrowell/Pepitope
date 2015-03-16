@@ -105,7 +105,7 @@
 
 % *** MATH PACKAGES ***
 %
-\usepackage[cmex10]{amsmath}
+\usepackage{amsmath}
 % A popular package from the American Mathematical Society that provides
 % many useful and powerful commands for dealing with mathematics. If using
 % it, be sure to load this package with the cmex10 option to ensure that
@@ -327,7 +327,7 @@
 
 \begin{document}
 
-\title{Sequence Based T Cell Epitope Prediction: Verification and Iprovements}
+\title{Sequence Based T~Cell Epitope Prediction: Verification and Iprovements}
 
 \author{Alexander~Crowell,~Jack~Holland,~and~Vineetha~Paruchuri}
 
@@ -338,13 +338,13 @@
 
 \begin{abstract}
 %\boldmath
-The abstract goes here.
+Successful preduction of T~cell epitopes is very useful in vaccine design and immunotherapy. Obviously, computational prediction is a lot cheaper than experimental validation for T~cell epitope prediction. Researchers have previously predicted the T~cell epitopes with varying degrees of success. In this paper, we use Support Vector Machine, a machine learning algorithm, to do the same, and we compare our results to pan-specific approaches of T~cell epitope prediction, like NetMHCII, NetMHCIIpan, and the MultiRTA methods. Our analysis showed that <insert data> 
 \end{abstract}
 
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-IEEEtran, journal, \LaTeX, paper, template.
+T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural Networks, Support Vector Machines, Machine Learning.
 \end{IEEEkeywords}
 
 
@@ -353,36 +353,99 @@ IEEEtran, journal, \LaTeX, paper, template.
 
 \section{Introduction}
 
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.7 and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
+\IEEEPARstart{T}{cell} epitopes are the part of the antigen, where they bind to MHC molecules. T~cell epitopes presented by MHC class I molecules are peptides between 8 and 11 amino acids in length, whereas MHC class II molecules are 13-17 amino acids in length. 
 
+The MHC II alleles exhibit polymorphism, and experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matric \cite{PSSM} such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
 
-\subsection{Subsection Heading Here}
-Subsection text here.
-
-% needed in second column of first page if using \IEEEpubid
-%\IEEEpubidadjcol
-
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+In this project, we use the machine learning technique of Support Vector Machines to predict T~cell epitopes, and compare the performance of our approach to pan-specific approaches like NetMHC, NetMHCIIpan, and MultiRTA \cite{MultiRTA}. The results show that <insert something about our performance>
 
 
 \section{NetMHCII}
-We can describe in detail what they did and our inferences on it, maybe like a critique.
+NetMHCII is a neural network based approach for MHC class II predictions. It uses a novel artificial neural network-based method, \textit{NN-align}, which allows for simultaneous identification of the MHC class II binding core and binding affinity. As mentioned in \cite{NetMHCII}, the NN-align method includes explicit encoding of the peptide flanking residues in terms of amino acid composition and length, as well as a novel scheme for neural network training that deals with the data redundancy inherent in the peptide data due to multiple examples of identical binding cores. The NN-align method is trained on a large data set of more than 14,000 quantitative peptide MHC binding values covering 14 HLA-DR alleles.
+
+\subsection{NetMHCII Implementation}
+NN-align was implemented as a conventional feed-forward artificial neural network method. The method consists of a two-step procedure that simultaneously estimates the optimal peptide binding register (core) and network weight configuration. The score of a 9 mer peptide was calculated using the conventional feed-forward algorithm. The network weights were updated using gradient descent back-propagation. The predictive performance of the method was significantly improved by incorporation of information from residues flanking the peptide-binding core.
+
+%\begin{figure}[!t]
+%\centering
+%\includegraphics[width=2.5in]{myfigure}
+% where an .eps filename suffix will be assumed under latex, 
+% and a .pdf suffix will be assumed for pdflatex; or what has been declared
+% via \DeclareGraphicsExtensions.
+%\caption{Simulation Results}
+%\label{fig_sim}
+%\end{figure}
+
+
+\subsection{NetMHCII Performance, and Metrics Used}
+All statistical comparisons were made using one-tailed binomial tests. For each comparison, it is calculated how often one method outperforms the other (excluding ties), and based on these numbers, one-tailed p-values were calculated. P-values less than 0.05 were taken to be significant. Performance across different methods is calculated using AUC.
+
+\subsection{Inferences from NetMHCII}
+Our critique goes here. I'll update once we discuss what we wanna say about it. Maybe something like it is comprehensive, and tested for all these things x y z, which is why we think it is a good method for MHCII binding predictions despite <cite limitations>, so we want to compare ours to this etc.? 
 
 \section{Support Vector Machines}
-Short section to justify our choice of using SVM, and math behind SVMs.
+Support Vector Machine is a supervised learning algorithm used for classification and regression analysis - they identify patterns in the data. Once we train the SVM on some data (called the training data set), it classifies new examples into one of two classes, thereby making it a non-probablistic binary linear classifier. An SVM can also perform non-linear classification using \textit{kernel trick}, which just means that it doesn't need to compute the coordinates of data in a high-dimensional space, but rather just the inner products between images of all pairs of data, thereby making it computationally cheaper. 
 
-\section{Methodology}
-We can do steps in subsections
+Given the fact that it is a binary linear classifier that also performs non-linear classification, we felt that, as a first step, using SVM as the choice of machine learning algorithm made sense. 
+
+\subsection{Formal Definition}
+From Wikipedia, %It is a math definithin so is universal. Do we need to cite source here?
+
+Given some training data $D$, a set of $n$ points of the form 
+
+$$
+D =   \lbrace \left(x_{i}, y_{i}\right) \mid x_{i} \in R^{p}, y_{i} \in \lbrace-1, 1\rbrace\rbrace_{i=1}^n     
+$$
+    
+where the $y_i$ is either 1 or −1, indicating the class to which the point $x_i$ belongs. Each $x_i$ is a p-dimensional real vector. We want to find the maximum-margin hyperplane that divides the points having $y_i=1$ from those having $y_i=-1$. Any hyperplane can be written as the set of points $x$ satisfying 
+
+$$
+\mathbf{w}.x - b = 0,
+$$
+where $\cdot$ denotes the dot product and $w$ the (not necessarily normalized) normal vector to the hyperplane. The parameter $\tfrac{b}{\|\mathbf{w}\|}$ determines the offset of the hyperplane from the origin along the normal vector ${\mathbf{w}}$.
+
+If the training data are linearly separable, we can select two hyperplanes in a way that they separate the data and there are no points between them, and then try to maximize their distance. The region bounded by them is called "the margin". These hyperplanes can be described by the equations
+
+$$
+    \mathbf{w}.\mathbf{x} - b = 1    and 
+    \mathbf{w}.\mathbf{x} - b = -1
+$$
+
+By using geometry, we find the distance between these two hyperplanes is $\tfrac{2}{\|\mathbf{w}\|}$, so we want to minimize $\|\mathbf{w}\|$. As we also have to prevent data points from falling into the margin, we add the following constraint: 
+
+for each $i$ either
+
+$\mathbf{w}\cdot\mathbf{x}_i - b \ge 1\qquad\text{ for }\mathbf{x}_i$ 
+of the first class or
+$\mathbf{w}\cdot\mathbf{x}_i - b \le -1\qquad\text{ for }\mathbf{x}_i$ 
+of the second.    
+
+This can be rewritten as:
+$$
+    y_i(\mathbf{w}\cdot\mathbf{x}_i - b) \ge 1, \quad \text{ for all } 1 \le i \le n.\qquad\qquad(1)
+$$
+
+We can put this together to get the optimization problem:
+
+Minimize $(in {\mathbf{w},b})
+    \|\mathbf{w}\|$
+subject to $(for any i = 1, \dots, n)
+    y_i(\mathbf{w}\cdot\mathbf{x_i} - b) \ge 1. \,$
+
+
+
+\section{Methods}
+This section provides a brief overview of how we implemented the algorithm and how we validated it.
+
 \subsection{Datasets}
-\subsection{Implementation of the SVM}
+We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the MultiRTA \cite{MultiRTA} dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
+
+\subsection{Implementation of the SVM and Metrics}
+We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as roc\_auc\_score etc. for metrics.
 \subsection{Encoding Peptides}
-\subsection{AUC as a Comparison Metric}
+
+\subsection{AUC as a Comparison Metric} 
+\textit{Area Under the Curve} is used as a metric throughout, because other pan-specific approaches used comparable metrics. (Maybe include some more detail?)
 
 blah blah blah
 
@@ -491,35 +554,32 @@ Our inferences in how this performed and what it means etc.
 %\end{table}
 
 
-% Note that IEEE does not put floats in the very first column - or typically
-% anywhere on the first page for that matter. Also, in-text middle ("here")
-% positioning is not used. Most IEEE journals use top floats exclusively.
-% Note that, LaTeX2e, unlike IEEE journals, places footnotes above bottom
-% floats. This can be corrected via the \fnbelowfloat command of the
-% stfloats package.
+
 
 \appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+\section{Division of Work}
+\subsection{Alexander Crowell}
+\subsection{Jack Holland}
+\subsection{Vineetha Paruchuri}
 
-% you can choose not to have a title for an appendix
-% if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+%% you can choose not to have a title for an appendix
+%% if you want by leaving the argument blank
+%\section{}
+%Appendix two text goes here.
 
 
 % use section* for acknowledgement
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
-
-
-% Can use something like this to put references on a page
-% by themselves when using endfloat and the captionsoff option.
-\ifCLASSOPTIONcaptionsoff
-  \newpage
-\fi
+%\section*{Acknowledgment}
+%
+%
+%The authors would like to thank...
+%
+%
+%% Can use something like this to put references on a page
+%% by themselves when using endfloat and the captionsoff option.
+%\ifCLASSOPTIONcaptionsoff
+%  \newpage
+%\fi
 
 
 
@@ -539,53 +599,14 @@ The authors would like to thank...
 \bibitem{IEEEhowto:kopka}
 H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+  
+\bibitem{IEEEhowto:PSSM}
+Sturniolo~T, Bono~E, Ding~J, Raddrizzani~L, Tuereci~O,~et al. \emph{Generation of tissue-specific and promiscuous HLA ligand database using DNA microarrays and virtual HLA class II matrices}, 7th~ed. \hskip 1em plus
+  0.5em minus 0.4em\relax Nat Biotechnol, 1999, pp.555–561
 
 \end{thebibliography}
 
 
-% biography section
-% 
-% If you have an EPS/PDF photo (graphicx package needed) extra braces are
-% needed around the contents of the optional argument to biography to prevent
-% the LaTeX parser from getting confused when it sees the complicated
-% \includegraphics command within an optional argument. (You could create
-% your own custom macro containing the \includegraphics command to make things
-% simpler here.)
-%\begin{biography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
-% or if you just want to reserve a space for a photo:
-
-%\begin{IEEEbiography}{Michael Shell}
-%Biography text here.
-%\end{IEEEbiography}
-%
-%% if you will not have a photo at all:
-%\begin{IEEEbiographynophoto}{John Doe}
-%Biography text here.
-%\end{IEEEbiographynophoto}
-%
-%% insert where needed to balance the two columns on the last page with
-%% biographies
-%%\newpage
-%
-%\begin{IEEEbiographynophoto}{Jane Doe}
-%Biography text here.
-%\end{IEEEbiographynophoto}
-%
-%% You can push biographies down or up by placing
-%% a \vfill before or after them. The appropriate
-%% use of \vfill depends on what kind of text is
-%% on the last page and whether or not the columns
-%% are being equalized.
-%
-%%\vfill
-%
-%% Can be used to pull up biographies so that the bottom of the last one
-%% is flush with the other column.
-%%\enlargethispage{-5in}
-
-
-
-% that's all folks
 \end{document}
 
 
