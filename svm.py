@@ -134,7 +134,7 @@ def sanitize_label(label):
 		return None
 
 def parse_rta_line(line):
-	cells = line.split("\W+")
+	cells = re.split('\W|,', line)
 	print line
 	print cells
 	exit()
