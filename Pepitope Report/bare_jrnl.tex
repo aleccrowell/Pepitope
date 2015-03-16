@@ -353,7 +353,7 @@ T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural N
 
 \section{Introduction}
 
-\IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC).  Two primary groupings of MHC proteins, MHC I and MHC II, are respectively present either on all cells or only antigen presenting cells.  Due to differences in the structure of their binding pockets, T~cell epitopes presented by MHC class I molecules are peptides between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
+\IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC).  Two primary groupings of MHC proteins, MHC I and MHC II, are respectively present either on all cells or only antigen presenting cells.  Due to differences in the structure of their binding pockets, T~cell peptides bound by MHC class I molecules are between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
 
 The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matric \cite{PSSM} such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
 
@@ -407,7 +407,7 @@ where $\cdot$ denotes the dot product and $w$ the (not necessarily normalized) n
 If the training data are linearly separable, we can select two hyperplanes in a way that they separate the data and there are no points between them, and then try to maximize their distance. The region bounded by them is called "the margin". These hyperplanes can be described by the equations
 
 $$
-    \mathbf{w}.\mathbf{x} - b = 1    and 
+    \mathbf{w}.\mathbf{x} - b = 1    \quad \textrm{and} \quad 
     \mathbf{w}.\mathbf{x} - b = -1
 $$
 
