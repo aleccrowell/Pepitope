@@ -338,7 +338,7 @@
 
 \begin{abstract}
 %\boldmath
-Successful preduction of T~cell epitopes is very useful in vaccine design and immunotherapy. Obviously, computational prediction is a lot cheaper than experimental validation for T~cell epitope prediction. Researchers have previously predicted the T~cell epitopes with varying degrees of success. In this paper, we use Support Vector Machine, a machine learning algorithm, to do the same, and we compare our results to pan-specific approaches of T~cell epitope prediction, like NetMHCII, NetMHCIIpan, and the MultiRTA methods. Our analysis showed that <insert data> 
+Successful preduction of T~cell epitopes is very useful in vaccine design and immunotherapy. Obviously, computational prediction is a lot cheaper than experimental validation for T~cell epitope prediction. Researchers have previously predicted the T~cell epitopes with varying degrees of success. In this paper, we use Support Vector Machine, a machine learning algorithm, to do the same, and we compare our results to other approaches of T~cell epitope prediction, like NetMHCII, NetMHCIIpan, and the MultiRTA methods. Our analysis showed that <insert data> 
 \end{abstract}
 
 
@@ -353,7 +353,7 @@ T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural N
 
 \section{Introduction}
 
-\IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC).  Two primary groupings of MHC proteins, MHC I and MHC II, are respectively present either on all cells or only antigen presenting cells.  Due to differences in the structure of their binding pockets, T~cell peptides bound by MHC class I molecules are between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
+\IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC). There are two types of MHC proteins, MHC I, which is present on all cells, and MHC II, which is only present on antigen-presenting cells. Due to differences in the structure of their binding pockets, T~cell peptides bound by MHC class I molecules are between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
 
 The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matric \cite{PSSM} such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
 
@@ -361,10 +361,10 @@ In this project, we use the machine learning technique of Support Vector Machine
 
 
 \section{NetMHCII}
-NetMHCII is a neural network based approach for MHC class II predictions. It uses a novel artificial neural network-based method, \textit{NN-align}, which allows for simultaneous identification of the MHC class II binding core and binding affinity. As mentioned in \cite{NetMHCII}, the NN-align method includes explicit encoding of the peptide flanking residues in terms of amino acid composition and length, as well as a novel scheme for neural network training that deals with the data redundancy inherent in the peptide data due to multiple examples of identical binding cores. The NN-align method is trained on a large data set of more than 14,000 quantitative peptide MHC binding values covering 14 HLA-DR alleles.
+NetMHCII is a neural network based approach for MHC class II predictions. It uses a novel artificial neural network-based method, \textit{NN-align}, which allows for simultaneous identification of the MHC class II binding core and binding affinity. As mentioned in \cite{NetMHCII}, the NN-align method includes "explicit encoding of the peptide flanking residues in terms of amino acid composition and length, as well as a novel scheme for neural network training that deals with the data redundancy inherent in the peptide data due to multiple examples of identical binding cores". The NN-align method is trained on a large data set of more than 14,000 quantitative peptide MHC binding values covering 14 HLA-DR alleles.
 
 \subsection{NetMHCII Implementation}
-NN-align was implemented as a conventional feed-forward artificial neural network method. The method consists of a two-step procedure that simultaneously estimates the optimal peptide binding register (core) and network weight configuration. The score of a 9 mer peptide was calculated using the conventional feed-forward algorithm. The network weights were updated using gradient descent back-propagation. The predictive performance of the method was significantly improved by incorporation of information from residues flanking the peptide-binding core.
+The implementation of NN-align was done as an artificial neural network. It was done as a two-step procedure that simultaneously estimated the optimal peptide binding register, and the network weight configuration (where the network weights were updated using gradient descent back propogation). The score of a 9 mer peptide was calculated using the conventional feed-forward algorithm. The incorporation of information from residues flanking the peptide binding core seemed to considerably improve the predictive performance of the method. 
 
 %\begin{figure}[!t]
 %\centering
@@ -378,7 +378,7 @@ NN-align was implemented as a conventional feed-forward artificial neural networ
 
 
 \subsection{NetMHCII Performance, and Metrics Used}
-All statistical comparisons were made using one-tailed binomial tests. For each comparison, it is calculated how often one method outperforms the other (excluding ties), and based on these numbers, one-tailed p-values were calculated. P-values less than 0.05 were taken to be significant. Performance across different methods is calculated using AUC.
+In NetMHCII, all statistical comparisons were made using one-tailed binomial tests. For each comparison, it was calculated how often one method outperforms the other (excluding ties). One-tailed p-values were calculated based on these numbers. P-values < 0.05 were taken to be significant. Performance across different methods was calculated using AUC.
 
 \subsection{Inferences from NetMHCII}
 Our critique goes here. I'll update once we discuss what we wanna say about it. Maybe something like it is comprehensive, and tested for all these things x y z, which is why we think it is a good method for MHCII binding predictions despite <cite limitations>, so we want to compare ours to this etc.? 
@@ -443,7 +443,7 @@ The optimization problem presented above can be converted into a quadratic progr
 
 
 \section{Methods}
-This section provides a brief overview of how we implemented the algorithm and how we validated it.
+This section provides a brief overview of how we implemented our algorithm and how we validated it.
 
 \subsection{Datasets}
 We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the MultiRTA \cite{MultiRTA} dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
@@ -453,9 +453,8 @@ We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used sci
 \subsection{Encoding Peptides}
 
 \subsection{AUC as a Comparison Metric} 
-\textit{Area Under the Curve} is used as a metric throughout, because other pan-specific approaches used comparable metrics. (Maybe include some more detail?)
+\textit{Area Under the Curve (AUC)} is used as a metric throughout, because other approaches used the same metric or comparable metrics. Also, some of our data is skewed, and since AUC accounts for both true and false positives, it ensures that any good predictions we get isn't due to the fact that we have more positives in our data.
 
-blah blah blah
 
 \section{Results}
 \subsection{Individual Alleles}
