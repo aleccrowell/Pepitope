@@ -6,3 +6,4 @@ job-*
 *.aux
 *.log
 *.pdf
+*.gz
