@@ -65,19 +65,13 @@ def main():
 			if len(aucs_by_method) <= i:
 				aucs_by_method.append([])
 			aucs_by_method[i].append(allele_aucs[i])
-	
-	average_aucs, min_aucs, max_aucs, auc_spreads, = [], [], [], []
-	for abm in aucs_by_method:
-		average_aucs.append(sum(abm) / len(abm))
-		min_aucs.append(min(abm))
-		max_aucs.append(max(abm))
-		auc_spreads.append(np.std(abm))
-	
+		
 	ax = plt.subplot(111)
-	ax.boxplot([auc_spreads, average_aucs, max_aucs, min_aucs])
+	ax.boxplot(aucs_by_method)
 	ax.set_title('AUC Comparisons')
 	ax.set_xlabel('Method')
 	ax.set_ylabel('AUC score')
+	ax.set_xticklabels(headers, rotation=45)
 	plt.savefig(combined_plot_file)
 
 def get_args():
