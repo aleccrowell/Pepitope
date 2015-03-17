@@ -452,7 +452,7 @@ We took the peptides from IEDB, and subdivided them according to allele type. We
 We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
 
 \subsection{Encoding Peptides}
-Peptides were encoded using the built in multilabel binarizer included in scikit learns preprocessing library.  Initially each amino acid is mapped to an integer.  The resulting lists of integers are then passed to the multilabel binarizer, producing a binarized list which can be passed to the SVM.
+Peptides were encoded using the built in multilabel binarizer included in scikit-learn preprocessing library.  Initially each amino acid is mapped to an integer.  The resulting lists of integers are then passed to the multilabel binarizer, producing a binarized list which can be passed to the SVM.
 
 
 \subsection{AUC as a Comparison Metric} 
