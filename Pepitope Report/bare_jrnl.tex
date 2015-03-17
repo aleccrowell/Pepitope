@@ -61,6 +61,7 @@
 
 % *** GRAPHICS RELATED PACKAGES ***
 %
+\usepackage[justification=centering]{caption}
 \ifCLASSINFOpdf
   \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
@@ -462,7 +463,8 @@ Peptides were encoded using the built in multilabel binarizer included in scikit
 \section{Results}
 
 \subsection{Individual Alleles}
-\begin{figure}[ht!]
+
+\begin{figure}[!t]
 \centering
 \includegraphics[width=2.5in]{individual}
 \caption{Individual Alleles}
@@ -471,7 +473,7 @@ Peptides were encoded using the built in multilabel binarizer included in scikit
 
 
 \subsection{Combined Alleles}
-\begin{figure}[ht!]
+\begin{figure}[!t]
 \centering
 \includegraphics[width=2.5in]{combined}
 \caption{Combined Alleles}
