@@ -5,3 +5,4 @@ job-*
 *peptide_data.tab
 *.aux
 *.log
+*.pdf
