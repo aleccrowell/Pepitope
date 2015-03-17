@@ -1,24 +1,3 @@
--bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
--bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
--bash: error importing function definition for `BASH_FUNC_module'
-992 390 255 91 0.69429316048
-992 390 255 91 0.780622473187
-992 390 255 91 0.778592669317
-997 385 250 96 0.6890139998
-997 385 250 96 0.759313709112
-997 385 250 96 0.765344649003
-981 401 266 80 0.763607203715
-981 401 266 80 0.779628454008
-981 401 266 80 0.7817417889
-1015 367 232 114 0.659794847806
-1015 367 232 114 0.681153730496
-1015 367 232 114 0.678906745965
-1009 373 238 108 0.706522102309
-1009 373 238 108 0.711993384343
-1009 373 238 108 0.716203347923
--bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
--bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
--bash: error importing function definition for `BASH_FUNC_module'
 1001 381 246 100 0.683425774333
 1001 381 246 100 0.730821277022
 1001 381 246 100 0.734120752447
