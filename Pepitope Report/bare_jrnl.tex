@@ -464,19 +464,21 @@ Peptides were encoded using the built in multilabel binarizer included in scikit
 \section{Results}
 
 \subsection{Individual Alleles}
+Results across alleles for the allele specific methods are relatively consistent with the exception of HLA-DRA*01:01 for which more data exists than the other alleles.  SMM-align and the neural net based methods show considerable relative improvement for this allele suggesting they are gaining more information from the increased amount of data.
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=3.7in]{individual}
+\includegraphics[width=2.5in]{individual}
 \caption{AUC as a Function of Prediction Method and Allele}
 \label{fig_sim}
 \end{figure}
 
 
 \subsection{Combined Alleles}
+Pooled results for each of the allele-specific methods suggest the superiority of neural net based approaches with intermediate success being achieved by our method and SMM-align and Tepitope providing the worst results.
 \begin{figure}[!t]
 \centering
-\includegraphics[width=3.8in]{combined}
+\includegraphics[width=2.5in]{combined}
 \caption{AUC as a Function of Prediction Method}
 \label{fig_sim}
 \end{figure}
