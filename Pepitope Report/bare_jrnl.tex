@@ -62,7 +62,7 @@
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
-  % \usepackage[pdftex]{graphicx}
+  \usepackage[pdftex]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../pdf/}{../jpeg/}}
   % and their extensions so you won't have to specify these with
@@ -72,7 +72,7 @@
   % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
   % will default to the driver specified in the system graphics.cfg if no
   % driver is specified.
-  % \usepackage[dvips]{graphicx}
+  \usepackage[dvips]{graphicx}
   % declare the path(s) where your graphic files are
   % \graphicspath{{../eps/}}
   % and their extensions so you won't have to specify these with
@@ -355,9 +355,9 @@ T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural N
 
 \IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC). There are two types of MHC proteins, MHC I, which is present on all cells, and MHC II, which is only present on antigen-presenting cells. Due to differences in the structure of their binding pockets, T~cell peptides bound by MHC class I molecules are between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
 
-The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matrix \cite{PSSM} such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
+The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matrix such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
 
-In this project, we use the machine learning technique of Support Vector Machines to predict T~cell epitopes, and compare the performance of our approach to allele-specific and pan-specific approaches like NetMHC, NetMHCIIpan, and MultiRTA \cite{MultiRTA}. The results show that <insert something about our performance>
+In this project, we use the machine learning technique of Support Vector Machines to predict T~cell epitopes, and compare the performance of our approach to allele-specific and pan-specific approaches like NetMHC, NetMHCIIpan, TEPITOPE \cite{TEPITOPE}, and MultiRTA \cite{MultiRTA}. The results show that <insert something about our performance>
 
 
 \section{NetMHCII}
@@ -460,9 +460,26 @@ Peptides were encoded using the built in multilabel binarizer included in scikit
 
 
 \section{Results}
+
 \subsection{Individual Alleles}
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=2.5in]{individual}
+\caption{Individual Alleles}
+\label{fig_sim}
+\end{figure}
+
+
 \subsection{Combined Alleles}
-\subsection{Results Compared to RTA}
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=2.5in]{combined}
+\caption{Combined Alleles}
+\label{fig_sim}
+\end{figure}
+
+
+\subsection{Results Compared to MultiRTA}
 \subsection{Results Compared to NetMHCII}
 \subsection{Results Compared to NetMHCIIpan}
 Can describe what results we got in cross validaton, what we compared to, how it scaled up etc.
@@ -620,9 +637,6 @@ Nielsen~M, Lund~O, \emph{NN-align. An artificial neural network-based alignment 
 Nielsen~M, Lundegaard~C, Blicher~T, Peters~B, Sette~A, Justesen~S, Buus~S, Lund~O, \emph{Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan}, \hskip 1em plus
   0.5em minus 0.4em\relax PLoS Comput Biol. 2008.
   
-\bibitem{PSSM}
-Sturniolo~T, Bono~E, Ding~J, Raddrizzani~L, Tuereci~O,~et al. \emph{Generation of tissue-specific and promiscuous HLA ligand database using DNA microarrays and virtual HLA class II matrices}, 7th~ed. \hskip 1em plus
-  0.5em minus 0.4em\relax In proc. Nat Biotechnol, 1999, pp.555–561.
   
 \bibitem{TEPITOPEpan}
 Zhang~L, Chen~Y, Wong~H-S, Zhou~S, Mamitsuka~H, et~al., \emph{TEPITOPEpan: Extending TEPITOPE for Peptide Binding Prediction Covering over 700 HLA-DR Molecules}, \hskip 1em plus
@@ -631,6 +645,10 @@ Zhang~L, Chen~Y, Wong~H-S, Zhou~S, Mamitsuka~H, et~al., \emph{TEPITOPEpan: Exten
 \bibitem{PREDIVAC}
 Oyarz\'{u}n, Patricio, et~al. \emph{PREDIVAC: CD4+ T-cell epitope prediction for vaccine design that covers 95\% of HLA class II DR protein diversity}, \hskip 1em plus
   0.5em minus 0.4em\relax In proc. BMC bioinformatics 14.1, 2013, pp.52.
+
+\bibitem{TEPITOPE}
+Sturniolo~T, Bono~E, Ding~J, Raddrizzani~L, Tuereci~O, et~al, \emph{Generation of tissue-specific and promiscuous HLA ligand database using DNA microarrays and virtual HLA class II matrices}, 17th~ed \hskip 1em plus
+  0.5em minus 0.4em\relax Nat Biotechnol., 1999, pp.555\textendash561. 
 
 \bibitem{MultiRTA}
 Bordner~AJ, Mittelmann~HD, \emph{MultiRTA: A simple yet reliable method for predicting peptide binding affinities for multiple class II MHC allotypes}, \hskip 1em plus
