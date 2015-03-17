@@ -378,10 +378,11 @@ The implementation of NN-align was done as an artificial neural network. It was 
 
 
 \subsection{NetMHCII Performance, and Metrics Used}
-In NetMHCII, all statistical comparisons were made using one-tailed binomial tests. For each comparison, it was calculated how often one method outperforms the other (excluding ties). One-tailed p-values were calculated based on these numbers. P-values \textless \enspace 0.05 were taken to be significant. Performance across different methods was calculated using AUC.
+In NetMHCII, all statistical comparisons were made using one-tailed binomial tests. For each comparison, it was calculated how often one method outperforms the other (excluding ties). One-tailed p-values were calculated based on these numbers. P-values < 0.05 were taken to be significant. Performance across different methods was calculated using AUC.
 
-\subsection{Inferences from NetMHCII}
-Our critique goes here. I'll update once we discuss what we wanna say about it. Maybe something like it is comprehensive, and tested for all these things x y z, which is why we think it is a good method for MHCII binding predictions despite <cite limitations>, so we want to compare ours to this etc.? 
+\subsection{NetMHCII in Context}
+NetMHCII provided both a new perspective on and one of the best examples of the application of machine learning to T~cell epitope prediction.  As a result it was a natural choice as a comparison point for our study.  Since SVMs and Neural Networks are such distinct approaches we also hoped that our approach might capture some independent insight.
+
 
 \section{Support Vector Machines}
 Support Vector Machine is a supervised learning algorithm used for classification and regression analysis - they identify patterns in the data. Once we train the SVM on some data (called the training data set), it classifies new examples into one of two classes, thereby making it a non-probablistic binary linear classifier. An SVM can also perform non-linear classification using \textit{kernel trick}, which just means that it doesn't need to compute the coordinates of data in a high-dimensional space, but rather just the inner products between images of all pairs of data, thereby making it computationally cheaper. 
@@ -452,7 +453,7 @@ We took the peptides from IEDB, and subdivided them according to allele type. We
 We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
 
 \subsection{Encoding Peptides}
-Peptides were encoded using the built in multilabel binarizer included in scikit-learn preprocessing library.  Initially each amino acid is mapped to an integer.  The resulting lists of integers are then passed to the multilabel binarizer, producing a binarized list which can be passed to the SVM.
+Peptides were encoded using the built in multilabel binarizer included in scikit learn preprocessing library.  Initially each amino acid is mapped to an integer.  The resulting lists of integers are then passed to the multilabel binarizer, producing a binarized list which can be passed to the SVM.
 
 
 \subsection{AUC as a Comparison Metric} 
@@ -469,7 +470,7 @@ Can describe what results we got in cross validaton, what we compared to, how it
 
 
 \section{Conclusion}
-Our inferences in how this performed and what it means etc.
+There were no significant differences - assuming a normal distribution - between our method and any of the others.  This result was clearly due to the breadth of our results distribution.  When simply considering the means, our method  performed similarly to SMM-align, and was superior to Tepitope but inferior to NetMHCII.  It is important to observe that for our binary classifier based method, we employed qualitative binding data directly from the IEDB rather than the published NetMHCII and MultiRTA datasets.  We performed a parameter search of kd thresholds for the NetMHCII and MultiRTA datasets but found that the AUC was heavily influenced by the degree of uneveness in the data distribution.  Similarly, when we plotted AUC for each allele against the ratio of binding to non-binding peptides, we found a strong correlation.  These two results in combination raised some concern on our part not only for the validity of our predictions but also for what portion of the other methods effectiviness was simply a result of the data's distribution.  Overall our method did not improve on the state of the art.  Our analysis does suggest however that the AUC absent any information about the data distribution is not informative and that consequently, unevenly distributed data may be more problematic than previously appreciated.
 
 
 
