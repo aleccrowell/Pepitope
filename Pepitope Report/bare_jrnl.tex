@@ -378,7 +378,7 @@ The implementation of NN-align was done as an artificial neural network. It was 
 
 
 \subsection{NetMHCII Performance, and Metrics Used}
-In NetMHCII, all statistical comparisons were made using one-tailed binomial tests. For each comparison, it was calculated how often one method outperforms the other (excluding ties). One-tailed p-values were calculated based on these numbers. P-values < 0.05 were taken to be significant. Performance across different methods was calculated using AUC.
+In NetMHCII, all statistical comparisons were made using one-tailed binomial tests. For each comparison, it was calculated how often one method outperforms the other (excluding ties). One-tailed p-values were calculated based on these numbers. P-values \textless \enspace 0.05 were taken to be significant. Performance across different methods was calculated using AUC.
 
 \subsection{Inferences from NetMHCII}
 Our critique goes here. I'll update once we discuss what we wanna say about it. Maybe something like it is comprehensive, and tested for all these things x y z, which is why we think it is a good method for MHCII binding predictions despite <cite limitations>, so we want to compare ours to this etc.? 
@@ -449,8 +449,10 @@ This section provides a brief overview of how we implemented our algorithm and h
 We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the MultiRTA \cite{MultiRTA} dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
 
 \subsection{Implementation of the SVM and Metrics}
-We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as roc\_auc\_score etc. for metrics.
+We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
+
 \subsection{Encoding Peptides}
+Peptides were encoded using the built in multilabel binarizer included in scikit-learn preprocessing library.  Initially each amino acid is mapped to an integer.  The resulting lists of integers are then passed to the multilabel binarizer, producing a binarized list which can be passed to the SVM.
 
 
 \subsection{AUC as a Comparison Metric} 
