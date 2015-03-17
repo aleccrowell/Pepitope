@@ -449,7 +449,7 @@ This section provides a brief overview of how we implemented our algorithm and h
 We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the MultiRTA \cite{MultiRTA} dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
 
 \subsection{Implementation of the SVM and Metrics}
-We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as roc\_auc\_score etc. for metrics.
+We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
 \subsection{Encoding Peptides}
 
 
