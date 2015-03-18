@@ -339,13 +339,13 @@
 
 \begin{abstract}
 %\boldmath
-Successful prediction of T~cell epitopes is very useful in vaccine design and immunotherapy. Computational prediction is a lot cheaper than experimental validation for T~cell epitope prediction. Researchers have previously predicted T~cell epitopes in both a pan specific and allele specific fashion with varying degrees of success. In this paper, we apply machine learning, specifically Support Vector Machines, to predict T~cell epitopes, and compare our results to the leading approaches: NetMHCII, NetMHCIIpan, and the MultiRTA methods. Our Area Under the Curve (AUC) results match those of the leading methods, but are highly dependent on the input data, suggesting that more work needs to be done to compete with these methods in novel prediction.
+Successful prediction of T~cell epitopes is very useful in vaccine design and immunotherapy. Computational prediction is a lot cheaper than experimental validation for T~cell epitope prediction. Researchers have previously predicted T~cell epitopes in both a pan specific and allele specific fashion with varying degrees of success. In this paper, we apply machine learning, specifically Support Vector Machines, to predict T~cell epitopes, and compare our results to a leading approache, NetMHCII. Our Area Under the Curve (AUC) results match those of the leading methods, but are highly dependent on the input data, suggesting that more work needs to be done to compete with these methods in novel prediction.
 \end{abstract}
 
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural Networks, Support Vector Machines, Machine Learning.
+T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, Neural Networks, Support Vector Machines, Machine Learning.
 \end{IEEEkeywords}
 
 
@@ -356,9 +356,9 @@ T~Cell Epitopes, Epitope Mapping, Epitope Prediction, NetMHC, MultiRTA, Neural N
 
 \IEEEPARstart{T}{cell} epitopes are the part of an antigen, usually a specific peptide sequence, which is bound by the Major Histocompatibility Complex (MHC). There are two types of MHC proteins, MHC I, which is present on all cells, and MHC II, which is only present on antigen-presenting cells. Due to differences in the structure of their binding pockets, T~cell peptides bound by MHC class I molecules are between 8 and 11 amino acids in length, whereas those presented by MHC class II are 13-17 amino acids in length. 
 
-The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII} and NetMHCIIpan \cite{NetMHCIIpan}, or Position Specific Scoring Matrix such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
+The high degree of polymorphism exhibited by MHC II alleles means that experimental validation of epitope regions is cost intensive. Hence, the computational methods for accurate prediction of binding peptides to class II molecules is a topic of interest. Researchers have previously tried to computationally predict T~cell epitopes, with various degrees of success, using Artificial Neural Networks, such as in NetMHCII \cite{NetMHCII}, or Position Specific Scoring Matrix such as in TEPITOPEpan \cite{TEPITOPEpan}, or Position Weight Matrix, such as in PREDIVAC \cite{PREDIVAC}. 
 
-In this project, we use the machine learning technique of Support Vector Machines to predict T~cell epitopes, and compare the performance of our approach to allele-specific and pan-specific approaches like NetMHC, NetMHCIIpan, TEPITOPE \cite{TEPITOPE}, and MultiRTA \cite{MultiRTA}. The results show that <insert something about our performance>
+In this project, we use the machine learning technique of Support Vector Machines to predict T~cell epitopes, and compare the performance of our approach to allele-specific and pan-specific approaches like NetMHC and TEPITOPE \cite{TEPITOPE}. 
 
 
 \section{NetMHCII}
@@ -448,7 +448,7 @@ The optimization problem presented above can be converted into a quadratic progr
 This section provides a brief overview of how we implemented our algorithm and how we validated it.
 
 \subsection{Datasets}
-We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the MultiRTA \cite{MultiRTA} dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
+We took the peptides from IEDB, and subdivided them according to allele type. We also tried out other data repositories, like the Dana-Farber \cite{DanaFarber} repository, but since all entries in it have a positive binding value, we didn't find it suitable for our problem. We also ran our algorithm on the dataset. Data selection and sanitization is a crucial step here, because any irregularities in data can affect the learning of the SVM in unpredictable ways.
 
 \subsection{Implementation of the SVM and Metrics}
 We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
@@ -486,8 +486,7 @@ Pooled results for each of the allele-specific methods suggest the superiority o
 \subsection{Results Compared to NetMHCII}
 While the AUC distributions for our method and NetMHCII overlap, it seems clear that NetMHCII does offer some advantage over an SVM based approach.  Further analysis is necessary, however, to assess whether the SVM and neural net based methods are effective for distinct types of epitope, making them in some way complementary to one another.
 
-\subsection{Results Compared to MultiRTA}
-\subsection{Results Compared to NetMHCIIpan}
+
 Can describe what results we got in cross validaton, what we compared to, how it scaled up etc.
 
 Also figures ``iterations.pdf" and ``skew\_v\_auc" are just floating around so once we put in text I'll look for optimal placement of those. For now just including the code. 
@@ -672,7 +671,8 @@ Sturniolo~T, Bono~E, Ding~J, Raddrizzani~L, Tuereci~O, et~al, \emph{Generation o
   0.5em minus 0.4em\relax Nat Biotechnol., 1999, pp.555\textendash561. 
 
 \bibitem{MultiRTA}
-Bordner~AJ, Mittelmann~HD, \emph{MultiRTA: A simple yet reliable method for predicting peptide binding affinities for multiple class II MHC allotypes}, \hskip 1em plus
+Bordner~AJ, Mittelmann~HD, \emph{
+RTA: A simple yet reliable method for predicting peptide binding affinities for multiple class II MHC allotypes}, \hskip 1em plus
   0.5em minus 0.4em\relax In proc. BMC Bioinformatics. 2010.
   
 \bibitem{WikipediaSVM}
