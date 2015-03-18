@@ -454,7 +454,7 @@ We took the peptides from IEDB, and subdivided them according to allele type. We
 We implemented SVM in python using scikit-learn \cite{ScikitLearn}, and used scikit-learn functions such as \textit{roc\_auc\_score} etc. for metrics.
 
 \subsection{Encoding Peptides}
-Peptides were encoded using a simple mapping to the index of characters in a string listing all amino acid abreviations.  This produces a list for each feature containing integers with values corresponding to each amino acid.  
+Peptides were encoded using a simple mapping to the index of characters in a string listing all amino acid abreviations.  This produces a list for each feature containing integers with values corresponding to each amino acid. Since many MHCII peptides include additional residues beyond that nine that bind, we picked a random nonamer from each peptide, fitting the SVM to these random selections. We then predicted which new nonamer to pick based on what the SVM predicted. We iteratively fit the SVM in this fashion, using each previous result to guide the new result. We found that the iterations did not significantly improve the results, but we did not find a more optimal method for choosing the correct nonamer. Other methods, such as MultiRTA, use energy functions to predict the nonamer.
 
 
 \subsection{AUC as a Comparison Metric} 
