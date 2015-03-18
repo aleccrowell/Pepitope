@@ -49,7 +49,7 @@ def main():
 		patches.append(mpatches.Patch(color=COLORS[i], label=headers[i]))
 		i += 1
 	ax.set_title('AUC Comparisons')
-	ax.set_xlabel('Method')
+	ax.set_xlabel('Allele')
 	ax.set_ylabel('AUC score')
 	ax.set_yticks(np.arange(0.0, 1.1, 0.1))
 	plt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
