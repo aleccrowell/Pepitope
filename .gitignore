@@ -6,3 +6,5 @@ job-*
 *.aux
 *.log
 *.gz
+*.out
+*bare_jrnl.pdf
