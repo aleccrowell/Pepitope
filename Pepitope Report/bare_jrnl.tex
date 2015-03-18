@@ -496,21 +496,21 @@ Also figures ``iterations.pdf" and ``skew\_v\_auc" are just floating around so o
 \begin{figure}[!h]
 \centering
 \includegraphics[width=3.8in]{iterations}
-\caption{iterations.pdf}
+\caption{No improvement in SVM Performance with iterative Retraining Based on Previous Results}
 \label{fig_sim}
 \end{figure}
 
 \begin{figure}[!h]
 \centering
 \includegraphics[width=3.8in]{skew_v_auc}
-\caption{skew\_v\_auc.pdf}
+\caption{Linear Correlation of AUC Scores with Positive vs. Negative Assays}
 \label{fig_sim}
 \end{figure}
 
 
 
 \section{Conclusion}
-There were no significant differences - assuming a normal distribution - between our method and any of the others.  This result was clearly due to the breadth of our results distribution.  When simply considering the means, our method  performed similarly to SMM-align, and was superior to Tepitope but inferior to NetMHCII.  It is important to observe that for our binary classifier based method, we employed qualitative binding data directly from the IEDB rather than the published NetMHCII and MultiRTA datasets.  We performed a parameter search of kd thresholds for the NetMHCII and MultiRTA datasets but found that the AUC was heavily influenced by the degree of uneveness in the data distribution.  Similarly, when we plotted AUC for each allele against the ratio of binding to non-binding peptides, we found a strong correlation.  These two results in combination raised some concern on our part not only for the validity of our predictions but also for what portion of the other methods effectiviness was simply a result of the data's distribution.  Overall our method did not improve on the state of the art.  Our analysis does suggest however that the AUC absent any information about the data distribution is not informative and that consequently, unevenly distributed data may be more problematic than previously appreciated.
+There were no clear differences between our method and any of the others based on comparing the AUC scores. Plotting a box-and-whisker plot based on a normal distribution, the mean AUC for each tested allele is similar to those of the other methods. In particular, our method  performed similarly to SMM-align, and was superior to Tepitope but inferior to NetMHCII. This similarity may be due to the breadth of our result's distribution, which is greater than those of the other methods. It is important to observe that for our binary classifier based method, we employed qualitative binding data directly from the IEDB rather than the published NetMHCII and MultiRTA datasets.  We performed a parameter search of kd thresholds for the NetMHCII and MultiRTA datasets but found that the AUC was heavily influenced by the degree of uneveness in the data distribution - that is, if the data contains a high ratio of positive assays to total assays, then the AUC score matches this ratio, indicating that the SVM may not be able to predict novel assays accurately. This raises some concern on our part not only for the validity of our predictions but also for what portion of the other methods effectiviness was simply a result of the data's distribution.  Overall our method did not improve on the state of the art.  Our analysis does suggest however that the AUC absent any information about the data distribution is not informative and that consequently, unevenly distributed data may be more problematic than previously appreciated.
 
 
 
@@ -609,7 +609,7 @@ There were no significant differences - assuming a normal distribution - between
 
 \section{Division of Work}
 The work was divided fairly evenly between all of us. Alexander performed much of the data preparation, analysis, and design.
-Jack provided the majority of the SVM and plotting code. Vineetha wrote most of the report. However, everyone worked on each part to some degree.
+Jack provided the majority of the SVM and plotting code. Vineetha wrote most of the report, and tried out some kernel tricks. However, everyone worked on each part to some degree.
 
 %% you can choose not to have a title for an appendix
 %% if you want by leaving the argument blank
